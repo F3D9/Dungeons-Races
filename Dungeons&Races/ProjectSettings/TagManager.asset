@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - apariencia
+  - Enemigo
+  - Mapa
+  - Wall
+  - Floor
+  - Obstaculo
+  - Bullet
+  - Vida
+  - Admin
+  - BotonMapa
+  - seguidor
+  - Victoria
+  - joystickDisparar
+  - joystickMover
+  - vacio
+  - Dron
+  - Boss
+  - Nav
+  - ItemCanva
+  - Carga
+  - Generador
+  - manchas
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Collider2
+  - Collider3
+  - 
+  - 
+  - Background
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - MiniMapa
+  m_SortingLayers:
+  - name: fondo
+    uniqueID: 1552372507
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: borde
+    uniqueID: 3456586653
+    locked: 0
+  - name: manchas
+    uniqueID: 367972741
+    locked: 0
+  - name: obstaculos
+    uniqueID: 3831123119
+    locked: 0
+  - name: Todo
+    uniqueID: 4292991673
+    locked: 0
