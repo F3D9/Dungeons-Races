@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5182197199820062657}
   - component: {fileID: 5182197199820062658}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -97,7 +97,7 @@ GameObject:
   - component: {fileID: 5182197201485573535}
   - component: {fileID: 5182197201485573534}
   - component: {fileID: 5182197201485573531}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: pinchos
   m_TagString: Bullet
   m_Icon: {fileID: 0}
@@ -138,6 +138,7 @@ MonoBehaviour:
   "da\xF1o": 50
   rango: 0.5
   choque_con_objetivos: 3
+  vfx: {fileID: 7743153933322328945, guid: 3837cf4ffa9409343a4f3d5d8e0b9d96, type: 3}
 --- !u!50 &5182197201485573535
 Rigidbody2D:
   serializedVersion: 4

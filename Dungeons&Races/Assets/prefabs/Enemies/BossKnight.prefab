@@ -70,8 +70,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -537174465
-  m_SortingLayer: 0
+  m_SortingLayerID: -1975623
+  m_SortingLayer: 4
   m_SortingOrder: 10
   m_Sprite: {fileID: -1230776660, guid: 4c7be5a1128d56a4e96729a21762b7bf, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -420,7 +420,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vida: 4000
-  vidaTotal: 0
+  vidaTotal: 4000
   "da\xF1o": 0.5
   distancia: 0
   cadaver: {fileID: 2035531338671263516, guid: 6182d11f52723924e9992bc591a8dd63, type: 3}

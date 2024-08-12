@@ -39,16 +39,16 @@ public class MenuInicio : MonoBehaviour
     [SerializeField] Image panel1;
 
     [Header("Canva Carga")]
-    [SerializeField] GameObject carga;
+    public GameObject carga;
 
     // Start is called before the first frame update
     void Start()
     {
         Time.timeScale = 1;
-        
+        carga = GameObject.FindGameObjectWithTag("Carga").gameObject;
         OpcionesControles.gameObject.SetActive(false);
         volume.gameObject.SetActive(false);
-        carga.SetActive(false);
+        carga.transform.GetChild(0).gameObject.SetActive(false);
 
         //CARGA EL VOLUMEN 
         controlVolumen.SetFloat("VolMusic", PlayerPrefs.GetFloat("Music"));
@@ -92,6 +92,7 @@ public class MenuInicio : MonoBehaviour
         moverse = GameObject.FindGameObjectWithTag("joystickMover").GetComponent<RectTransform>();
         disparar = GameObject.FindGameObjectWithTag("joystickDisparar").GetComponent<RectTransform>();
 
+
     }
 
     // JOYSTICK OPCIONES
@@ -101,19 +102,24 @@ public class MenuInicio : MonoBehaviour
         PlayerPrefs.SetFloat("TamañoJoysticks", numero);
         move.localScale = new Vector3(0.36f, 0.36f, 0.36f) * valor;
         shoot.localScale = new Vector3(0.36f, 0.36f, 0.36f) * valor;
+        moverse.localScale = new Vector3(0.36f, 0.36f, 0.36f) * valor;
+        disparar.localScale = new Vector3(0.36f, 0.36f, 0.36f) * valor;
     }
     public void mostrarTamañoJoystick()
     {
         OpcionesControles.gameObject.SetActive(true);
         LeanTween.moveY(OpcionesControles.GetComponent<RectTransform>(),0,velocidad).setEase(LeanTweenType.easeOutQuad);
-        move.localScale = new Vector3(0.36f, 0.36f, 0.36f) * slide.value;
-        shoot.localScale = new Vector3(0.36f, 0.36f, 0.36f) * slide.value;
+        move.localScale = new Vector3(0.36f, 0.36f, 0.36f) * PlayerPrefs.GetFloat("TamañoJoysticks");
+        shoot.localScale = new Vector3(0.36f, 0.36f, 0.36f) * PlayerPrefs.GetFloat("TamañoJoysticks");
+        moverse.localScale = new Vector3(0.36f, 0.36f, 0.36f) * PlayerPrefs.GetFloat("TamañoJoysticks");
+        disparar.localScale = new Vector3(0.36f, 0.36f, 0.36f) * PlayerPrefs.GetFloat("TamañoJoysticks");
     }
 
     public void esconderTamañoJoystick()
     {
         LeanTween.moveY(OpcionesControles.GetComponent<RectTransform>(), 105, velocidad).setEase(LeanTweenType.easeOutQuad);
         Invoke("esconder", 0.6f);
+        
     }
 
     //VOLUMEN OPCIONES
@@ -186,7 +192,7 @@ public class MenuInicio : MonoBehaviour
 
     public void Play()
     {
-        carga.SetActive(true);
+        carga.transform.GetChild(0).gameObject.SetActive(true);
         SceneManager.LoadSceneAsync(1);
     }
 
@@ -224,6 +230,7 @@ public class MenuInicio : MonoBehaviour
         Destroy(GameObject.FindGameObjectWithTag("Player").gameObject);
         Instantiate(Personaje, new Vector3(0, 0, 0), Quaternion.Euler(0, 0, 0));
         GameObject.FindGameObjectWithTag("Player").GetComponent<GuardarGameObjects>().guardarObjecto();
+        
 
     }
     

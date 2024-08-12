@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Fuego : MonoBehaviour
@@ -25,27 +26,36 @@ public class Fuego : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        switch (modo)
+        if(transform.parent.parent.parent.parent.GetChild(0).GetChild(0).GetComponentInChildren<colliderPiso>().estaElJugador == true)
         {
-            case 1:
-                ani.runtimeAnimatorController = modo1;
-                break;
-            case 2:
-                ani.runtimeAnimatorController = modo2;
-                break;
-            case 3:
-                ani.runtimeAnimatorController = modo3;
-                break;
-            case 4:
-                ani.enabled = false;
-                ani.runtimeAnimatorController = null;
-                GetComponentInChildren<SpriteRenderer>().sprite = piedras;
-                transform.GetChild(1).gameObject.SetActive(false);
-                GetComponent<BoxCollider2D>().enabled = false;
-                GameObject.FindGameObjectWithTag("Admin").transform.GetComponent<soltarObjetos>().soltarObjeto(transform.position);
-                modo++;
-                break;
+            ani.enabled = true;
+            switch (modo)
+            {
+                case 1:
+                    ani.runtimeAnimatorController = modo1;
+                    break;
+                case 2:
+                    ani.runtimeAnimatorController = modo2;
+                    break;
+                case 3:
+                    ani.runtimeAnimatorController = modo3;
+                    break;
+                case 4:
+                    ani.enabled = false;
+                    ani.runtimeAnimatorController = null;
+                    GetComponentInChildren<SpriteRenderer>().sprite = piedras;
+                    transform.GetChild(1).gameObject.SetActive(false);
+                    GetComponent<BoxCollider2D>().enabled = false;
+                    GameObject.FindGameObjectWithTag("Admin").transform.GetComponent<soltarObjetos>().soltarObjeto(transform.position);
+                    modo++;
+                    break;
+            }
         }
+        else
+        {
+            ani.enabled=false;
+        }
+        
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

@@ -73,7 +73,7 @@ public class vecinos : MonoBehaviour
         
         for (int i = 0; i < habitaciones; i++)
         {
-            if (new Vector2(transform.parent.GetComponentInParent<generadorMapa>().habitacionesCreadas[i].transform.position.x, transform.GetComponentInParent<generadorMapa>().habitacionesCreadas[i].transform.position.y) == new Vector2(transform.position.x + 20f, transform.position.y))
+            if (new Vector2(transform.parent.GetComponentInParent<generadorMapa>().habitacionesCreadas[i].transform.position.x, transform.parent.GetComponentInParent<generadorMapa>().habitacionesCreadas[i].transform.position.y) == new Vector2(transform.position.x + 20f, transform.position.y))
             {
                 vecino_derecha = transform.parent.GetComponentInParent<generadorMapa>().habitacionesCreadas[i].gameObject;
                 transform.GetChild(0).GetChild(1).GetChild(2).GetComponent<puertaLibre>().puerta_conectada = vecino_derecha.transform.GetChild(0).GetChild(1).GetChild(1).gameObject;
@@ -81,21 +81,21 @@ public class vecinos : MonoBehaviour
                 
             }
 
-            if (new Vector2(transform.parent.GetComponentInParent<generadorMapa>().habitacionesCreadas[i].transform.position.x, transform.GetComponentInParent<generadorMapa>().habitacionesCreadas[i].transform.position.y) == new Vector2(transform.position.x - 20f, transform.position.y))
+            if (new Vector2(transform.parent.GetComponentInParent<generadorMapa>().habitacionesCreadas[i].transform.position.x, transform.parent.GetComponentInParent<generadorMapa>().habitacionesCreadas[i].transform.position.y) == new Vector2(transform.position.x - 20f, transform.position.y))
             {
                 vecino_izquierda = transform.parent.GetComponentInParent<generadorMapa>().habitacionesCreadas[i].gameObject;
                 transform.GetChild(0).GetChild(1).GetChild(1).GetComponent<puertaLibre>().puerta_conectada = vecino_izquierda.transform.GetChild(0).GetChild(1).GetChild(2).gameObject;
                 transform.GetChild(0).GetChild(1).GetChild(1).GetComponent<puertaLibre>().libre = false;
             }
 
-            if (new Vector2(transform.parent.GetComponentInParent<generadorMapa>().habitacionesCreadas[i].transform.position.x, transform.GetComponentInParent<generadorMapa>().habitacionesCreadas[i].transform.position.y) == new Vector2(transform.position.x, transform.position.y + 10f))
+            if (new Vector2(transform.parent.GetComponentInParent<generadorMapa>().habitacionesCreadas[i].transform.position.x, transform.parent.GetComponentInParent<generadorMapa>().habitacionesCreadas[i].transform.position.y) == new Vector2(transform.position.x, transform.position.y + 10f))
             {
                 vecino_arriba = transform.parent.GetComponentInParent<generadorMapa>().habitacionesCreadas[i].gameObject;
                 transform.GetChild(0).GetChild(1).GetChild(0).GetComponent<puertaLibre>().puerta_conectada = vecino_arriba.transform.GetChild(0).GetChild(1).GetChild(3).gameObject;
                 transform.GetChild(0).GetChild(1).GetChild(0).GetComponent<puertaLibre>().libre = false;
             }
 
-            if (new Vector2(transform.parent.GetComponentInParent<generadorMapa>().habitacionesCreadas[i].transform.position.x, transform.GetComponentInParent<generadorMapa>().habitacionesCreadas[i].transform.position.y) == new Vector2(transform.position.x, transform.position.y - 10f))
+            if (new Vector2(transform.parent.GetComponentInParent<generadorMapa>().habitacionesCreadas[i].transform.position.x, transform.parent.GetComponentInParent<generadorMapa>().habitacionesCreadas[i].transform.position.y) == new Vector2(transform.position.x, transform.position.y - 10f))
             {
                 vecino_abajo = transform.parent.GetComponentInParent<generadorMapa>().habitacionesCreadas[i].gameObject;
                 transform.GetChild(0).GetChild(1).GetChild(3).GetComponent<puertaLibre>().puerta_conectada = vecino_abajo.transform.GetChild(0).GetChild(1).GetChild(0).gameObject;

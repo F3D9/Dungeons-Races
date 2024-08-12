@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5732717147182768139}
   - component: {fileID: 284556459415162577}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -97,7 +97,7 @@ GameObject:
   - component: {fileID: 1041692344371746705}
   - component: {fileID: 1926835978}
   - component: {fileID: 158582238553778904}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: bulletYellow
   m_TagString: Bullet
   m_Icon: {fileID: 0}
@@ -138,6 +138,7 @@ MonoBehaviour:
   "da\xF1o": 35
   rango: 0.25
   choque_con_objetivos: 1
+  vfx: {fileID: 2501345069284278283, guid: e5f76ca235a0dfd4fac0e57c89d82f4d, type: 3}
 --- !u!61 &1041692344371746705
 BoxCollider2D:
   m_ObjectHideFlags: 0

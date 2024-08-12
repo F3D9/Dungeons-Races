@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6683076962006426058}
   - component: {fileID: 6683076962006426059}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -97,7 +97,7 @@ GameObject:
   - component: {fileID: 6683076963349830340}
   - component: {fileID: 6683076963349830343}
   - component: {fileID: 6683076963349830342}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: RectanguloNaranja
   m_TagString: Bullet
   m_Icon: {fileID: 0}
@@ -138,6 +138,7 @@ MonoBehaviour:
   "da\xF1o": 25
   rango: 0.25
   choque_con_objetivos: 1
+  vfx: {fileID: 255336025151715813, guid: 753f324b8cd700b44ac5daa3f6f6b937, type: 3}
 --- !u!61 &6683076963349830340
 BoxCollider2D:
   m_ObjectHideFlags: 0

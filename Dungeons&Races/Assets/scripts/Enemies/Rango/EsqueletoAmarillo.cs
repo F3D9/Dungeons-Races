@@ -34,8 +34,8 @@ public class EsqueletoAmarillo : MonoBehaviour
         if(transform.parent.parent.parent.parent.parent.GetChild(0).GetChild(0).GetComponentInChildren<colliderPiso>().estaElJugador == true)
         {
             timer += Time.deltaTime;
-            
-            if(timer >= 4f)
+            GetComponent<Animator>().enabled = true;
+            if (timer >= 4f)
             {
                 dirreccion = Random.Range(0, 4);
                 timer = 0;
@@ -83,6 +83,10 @@ public class EsqueletoAmarillo : MonoBehaviour
             }
 
 
+        }
+        else
+        {
+            GetComponent<Animator>().enabled = false;
         }
         
     }

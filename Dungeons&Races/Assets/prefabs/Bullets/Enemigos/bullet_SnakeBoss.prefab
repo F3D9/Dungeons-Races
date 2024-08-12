@@ -178,6 +178,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88f030f3adfa9d84ea212e67a2a8eb8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  vfx: {fileID: 8266121572987206978, guid: fa33b0cbd574e9546a3ed29f1f871a8a, type: 3}
   velocidad: 6
   "da\xF1o": 1.5
   rango: 5

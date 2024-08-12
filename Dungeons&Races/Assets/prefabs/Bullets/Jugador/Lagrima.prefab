@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4462192981552296713}
   - component: {fileID: 4462192981552296718}
   - component: {fileID: 4462192981552296719}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Lagrima
   m_TagString: Bullet
   m_Icon: {fileID: 0}
@@ -54,6 +54,7 @@ MonoBehaviour:
   "da\xF1o": 30
   rango: 0.25
   choque_con_objetivos: 1
+  vfx: {fileID: 1433821992389596006, guid: 4235d69fd0b900347a815f0ea77b6bfa, type: 3}
 --- !u!50 &4462192981552296713
 Rigidbody2D:
   serializedVersion: 4
@@ -147,7 +148,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4462192982465593148}
   - component: {fileID: 4462192982465593151}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}

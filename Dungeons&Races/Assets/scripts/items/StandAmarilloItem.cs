@@ -14,9 +14,4 @@ public class StandAmarilloItem : MonoBehaviour
         Instantiate(items[numero], transform.position, Quaternion.Euler(0, 0, 0), transform);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

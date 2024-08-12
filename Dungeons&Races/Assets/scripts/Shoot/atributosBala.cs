@@ -18,6 +18,9 @@ public class atributosBala : MonoBehaviour
     int colisiones;
     float timer;
 
+    [Header("VFX")]
+    [SerializeField] GameObject vfx;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -53,6 +56,7 @@ public class atributosBala : MonoBehaviour
         {
             if(collision.tag == "Wall")
             {
+                Instantiate(vfx, transform.position, transform.rotation);
                 destruir();
                 
             }
@@ -61,7 +65,7 @@ public class atributosBala : MonoBehaviour
         if(collision.tag == "Enemigo")
         {
             collision.GetComponent<atributosEnemigos>().tomarDaño(daño,transform.position);
-
+            Instantiate(vfx, transform.position, transform.rotation);
             collisionesContador();
         }
 
@@ -74,6 +78,7 @@ public class atributosBala : MonoBehaviour
         
         if (collision.tag == "Obstaculo")
         {
+            Instantiate(vfx, transform.position, transform.rotation);
             destruir();
         }
     }
@@ -82,6 +87,7 @@ public class atributosBala : MonoBehaviour
     {
         if(colisiones == choque_con_objetivos)
         {
+            Instantiate(vfx, transform.position, transform.rotation);
             Destroy(gameObject);
         }
         else

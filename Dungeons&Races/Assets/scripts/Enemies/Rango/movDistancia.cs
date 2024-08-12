@@ -37,6 +37,7 @@ public class movDistancia : MonoBehaviour
         {
             if (transform.parent.parent.parent.parent.parent.GetChild(0).GetChild(0).GetComponentInChildren<colliderPiso>().estaElJugador == true)
             {
+                
                 RaycastHit2D hitArriba = Physics2D.Raycast(new Vector2(transform.position.x,transform.position.y + distancia), jugador.position - transform.position,rango);
                 RaycastHit2D hitAbajo = Physics2D.Raycast(new Vector2(transform.position.x, transform.position.y - distancia), jugador.position - transform.position, rango);
                 
@@ -48,9 +49,17 @@ public class movDistancia : MonoBehaviour
                         Debug.DrawRay(new Vector2(transform.position.x, transform.position.y - distancia), jugador.position - transform.position, Color.red);
                         GetComponent<Animator>().enabled = true;
                         enemigo.enabled = false;
-                        GetComponent<Animator>().SetFloat("horizontal", 0);
-                        
-                        
+                        if (jugador.position.x < transform.position.x)
+                        {
+                            GetComponent<Animator>().SetFloat("horizontal", 0.5f);
+
+                        }
+                        else
+                        {
+                            GetComponent<Animator>().SetFloat("horizontal", 0);
+                        }
+
+
                     }
                     else
                     {

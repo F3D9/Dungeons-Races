@@ -47,6 +47,7 @@ public class snakeMoves : MonoBehaviour
     {
         if (transform.parent.parent.parent.parent.GetChild(0).GetChild(0).GetComponentInChildren<colliderPisoJefe>().estaElJugador == true)
         {
+            ani.enabled = true;
             barra_vida.gameObject.SetActive(true);
             transform.position = new Vector3(transform.position.x,transform.position.y,0);
             switch (nro)
@@ -125,6 +126,10 @@ public class snakeMoves : MonoBehaviour
                 Physics2D.IgnoreCollision(GetComponent<BoxCollider2D>(), listaEnemigos[i].GetComponent<BoxCollider2D>());
             }
 
+        }
+        else
+        {
+            ani.enabled = false;
         }
     }
 

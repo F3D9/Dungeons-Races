@@ -9,12 +9,6 @@ public class cambiarPrefabPlayer : MonoBehaviour
     [SerializeField] GameObject robot;
     [SerializeField] GameObject humano;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
     // Update is called once per frame
     void Awake()
     {

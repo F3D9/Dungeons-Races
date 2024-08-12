@@ -43,6 +43,7 @@ public class DatosMuerte : MonoBehaviour
         int segundos = Mathf.FloorToInt(timer % 60);
 
         tiempo.text = string.Format("{0:00}:{1:00}", minutos, segundos);
+        tiempoVictoria.text = string.Format("{0:00}:{1:00}", minutos, segundos);
 
         
 
@@ -83,4 +84,6 @@ public class DatosMuerte : MonoBehaviour
         
 
     }
+
+
 }

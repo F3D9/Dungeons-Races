@@ -30,11 +30,6 @@ public class CorazonBlanco : MonoBehaviour
         rellenar = false;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -64,7 +59,7 @@ public class CorazonBlanco : MonoBehaviour
                 if (rellenar)
                 {
                     lista.GetChild(lista.childCount - 1).GetComponent<Image>().fillAmount = 1;
-                    Instantiate(imagen, lista.GetChild(lista.childCount - 1).position + new Vector3(69f, 0, 0), Quaternion.Euler(0, 0, 0), GameObject.FindGameObjectWithTag("Vida").transform);
+                    Instantiate(imagen, lista.GetChild(lista.childCount - 1).position + new Vector3(20f, 0, 0), Quaternion.Euler(0, 0, 0), GameObject.FindGameObjectWithTag("Vida").transform);
                     lista.GetChild(lista.childCount - 1).GetComponent<Image>().fillAmount = 0.5f;
                     collision.GetComponent<playerAtributtes>().vida.Add(lista.transform.GetChild(lista.childCount - 1).GetComponent<Image>());
                     collision.GetComponent<playerAtributtes>().vidaTotal += agregaVida;
@@ -74,7 +69,7 @@ public class CorazonBlanco : MonoBehaviour
                 {
 
 
-                    Instantiate(imagen, lista.GetChild(lista.childCount - 1).position + new Vector3(69f, 0, 0), Quaternion.Euler(0,0,0), GameObject.FindGameObjectWithTag("Vida").transform);
+                    Instantiate(imagen, lista.GetChild(lista.childCount - 1).position + new Vector3(20f, 0, 0), Quaternion.Euler(0,0,0), GameObject.FindGameObjectWithTag("Vida").transform);
                     collision.GetComponent<playerAtributtes>().vida.Add(lista.transform.GetChild(lista.transform.childCount - 1).GetComponent<Image>());
                     collision.GetComponent<playerAtributtes>().vidaTotal += agregaVida;
 
@@ -110,7 +105,7 @@ public class CorazonBlanco : MonoBehaviour
             if (rellenar)
             {
                 lista.GetChild(lista.childCount - 1).GetComponent<Image>().fillAmount = 1;
-                Instantiate(imagen, lista.GetChild(lista.childCount - 1).position + new Vector3(69f, 0, 0), Quaternion.Euler(0, 0, 0), GameObject.FindGameObjectWithTag("Vida").transform);
+                Instantiate(imagen, lista.GetChild(lista.childCount - 1).position + new Vector3(20f, 0, 0), Quaternion.Euler(0, 0, 0), GameObject.FindGameObjectWithTag("Vida").transform);
                 lista.GetChild(lista.childCount - 1).GetComponent<Image>().fillAmount = 0.5f;
                 GameObject.FindGameObjectWithTag("Player").transform.GetComponent<playerAtributtes>().vida.Add(lista.transform.GetChild(lista.childCount - 1).GetComponent<Image>());
                 GameObject.FindGameObjectWithTag("Player").transform.GetComponent<playerAtributtes>().vidaTotal += agregaVida;
@@ -120,7 +115,7 @@ public class CorazonBlanco : MonoBehaviour
             {
 
 
-                Instantiate(imagen, lista.GetChild(lista.childCount - 1).position + new Vector3(69f, 0, 0), Quaternion.Euler(0, 0, 0), GameObject.FindGameObjectWithTag("Vida").transform);
+                Instantiate(imagen, lista.GetChild(lista.childCount - 1).position + new Vector3(20f, 0, 0), Quaternion.Euler(0, 0, 0), GameObject.FindGameObjectWithTag("Vida").transform);
                 GameObject.FindGameObjectWithTag("Player").transform.GetComponent<playerAtributtes>().vida.Add(lista.transform.GetChild(lista.transform.childCount - 1).GetComponent<Image>());
                 GameObject.FindGameObjectWithTag("Player").transform.GetComponent<playerAtributtes>().vidaTotal += agregaVida;
 

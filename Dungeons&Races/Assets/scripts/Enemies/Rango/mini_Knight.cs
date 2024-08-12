@@ -38,8 +38,8 @@ public class mini_Knight : MonoBehaviour
         {
             if (transform.parent.parent.parent.parent.parent.GetChild(0).GetChild(0).GetComponentInChildren<colliderPiso>().estaElJugador == true)
             {
-                
 
+                GetComponent<Animator>().enabled = true;
                 RaycastHit2D hitArriba = Physics2D.Raycast(new Vector2(transform.position.x, transform.position.y + distancia), jugador.position - transform.position, rango);
                 RaycastHit2D hitAbajo = Physics2D.Raycast(new Vector2(transform.position.x, transform.position.y - distancia), jugador.position - transform.position, rango);
 

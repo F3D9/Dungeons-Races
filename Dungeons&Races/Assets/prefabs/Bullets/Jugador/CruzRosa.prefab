@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 913129439756085932}
   - component: {fileID: 913129439756085935}
   - component: {fileID: 913129439756085934}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: CruzRosa
   m_TagString: Bullet
   m_Icon: {fileID: 0}
@@ -54,6 +54,7 @@ MonoBehaviour:
   "da\xF1o": 40
   rango: 0.75
   choque_con_objetivos: 1
+  vfx: {fileID: 4334770115062427771, guid: 5c06e82cb04939e44aa47b22e2777528, type: 3}
 --- !u!50 &913129439756085932
 Rigidbody2D:
   serializedVersion: 4
@@ -147,7 +148,7 @@ GameObject:
   m_Component:
   - component: {fileID: 913129440714881435}
   - component: {fileID: 913129440714881432}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}

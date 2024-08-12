@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class misilEnemigo : MonoBehaviour
 {
+    [Header("VFX")]
+    [SerializeField] GameObject vfx;
+
     [Header("Parametros")]
     public float velocidad;
     public float daño;
@@ -45,24 +48,26 @@ public class misilEnemigo : MonoBehaviour
         {
             if(id == 2 && collision.GetComponent<Sistema>().apariencia == 2 || id==1 && collision.GetComponent<Sistema>().apariencia == 4 || id==5 && collision.GetComponent<Sistema>().apariencia == 3)
             {
-                
+                Instantiate(vfx, transform.position, Quaternion.Euler(0, 0, 0));
             }
             else
             {
                 collision.GetComponent<playerAtributtes>().tomarDaño(daño);
             }
-            
 
+            Instantiate(vfx, transform.position, transform.rotation);
             Destroy(gameObject);
         }
 
         if (collision.tag == "Wall")
         {
+            Instantiate(vfx, transform.position, transform.rotation);
             Destroy(gameObject);
         }
 
         if (collision.tag == "Obstaculo")
         {
+            Instantiate(vfx, transform.position, transform.rotation);
             Destroy(gameObject);
         }
 

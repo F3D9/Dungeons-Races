@@ -40,6 +40,7 @@ public class slimeMove : MonoBehaviour
     {
         if(transform.parent.parent.parent.parent.parent.GetChild(0).GetChild(0).GetComponentInChildren<colliderPiso>().estaElJugador == true)
         {
+            GetComponent<Animator>().enabled = true;
             rigid.velocity = new Vector2(horizontal,vertical);
 
             hitUp = CheckRaycastCollision(Vector2.up);
@@ -125,6 +126,10 @@ public class slimeMove : MonoBehaviour
                     GetComponent<Animator>().SetFloat("slime", 0);
                     break;
             }
+        }
+        else
+        {
+            GetComponent<Animator>().enabled = false;
         }
         
 

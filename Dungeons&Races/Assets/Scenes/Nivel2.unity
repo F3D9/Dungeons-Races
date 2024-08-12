@@ -459,8 +459,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: d9eca19b63be2c64ca339ad3d72dc26b, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -811,8 +811,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -34, y: 80}
-  m_SizeDelta: {x: 305.758, y: 50}
+  m_AnchoredPosition: {x: -17.575996, y: 80}
+  m_SizeDelta: {x: 379.5255, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &567377937
 CanvasRenderer:
@@ -1105,7 +1105,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 641317400}
   m_CullTransparentMesh: 1
---- !u!1 &898251032
+--- !u!1 &1367611802
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1113,37 +1113,34 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 898251034}
-  - component: {fileID: 898251033}
+  - component: {fileID: 1367611804}
+  - component: {fileID: 1367611803}
   m_Layer: 0
-  m_Name: Controlador de Anuncios
+  m_Name: AdsManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &898251033
+  m_IsActive: 0
+--- !u!114 &1367611803
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 898251032}
+  m_GameObject: {fileID: 1367611802}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cfde01d2200cb7d419b64355d24723bb, type: 3}
+  m_Script: {fileID: 11500000, guid: 7b6f0fcdb92b667478855edf1b81cd31, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  androidGameId: 5656185
-  idAnunciosAndroid: Interstitial_Android
-  modoDePrueba: 1
---- !u!4 &898251034
+--- !u!4 &1367611804
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 898251032}
+  m_GameObject: {fileID: 1367611802}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -1577,7 +1574,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_TargetDisplay: 0
 --- !u!224 &1703713686
 RectTransform:
@@ -1632,8 +1629,8 @@ MonoBehaviour:
   m_LightType: 4
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 0.99
+  m_Color: {r: 0.6745283, g: 0.7001127, b: 1, a: 1}
+  m_Intensity: 1
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
   m_ApplyToSortingLayers: 1b53875c000000009d5307ce85d1ee15af4c5ae4b9dae1ff
@@ -1837,6 +1834,7 @@ Transform:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
+  - {fileID: 370998370}
   - {fileID: 2055967407}
   - {fileID: 1544275365}
   - {fileID: 1838536823}
@@ -1845,7 +1843,6 @@ SceneRoots:
   - {fileID: 1662701195}
   - {fileID: 67400757}
   - {fileID: 585412993}
-  - {fileID: 370998370}
   - {fileID: 1703713686}
   - {fileID: 2124586881}
-  - {fileID: 898251034}
+  - {fileID: 1367611804}

@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3577813768339145422}
   - component: {fileID: 4860415896339868490}
   - component: {fileID: 2101659445567260021}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: bulletVerde
   m_TagString: Bullet
   m_Icon: {fileID: 0}
@@ -54,6 +54,7 @@ MonoBehaviour:
   "da\xF1o": 25
   rango: 0.25
   choque_con_objetivos: 1
+  vfx: {fileID: 1433821992389596006, guid: 1ab48ad09b9eed84d940019f7723b0fe, type: 3}
 --- !u!50 &3577813768339145422
 Rigidbody2D:
   serializedVersion: 4
@@ -157,7 +158,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5142286767668936726}
   - component: {fileID: 4165509721920591662}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}

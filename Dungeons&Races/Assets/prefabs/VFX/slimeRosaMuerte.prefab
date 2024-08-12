@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7545026619417817386}
   - component: {fileID: 3220032948034768357}
   - component: {fileID: 2472503670645356348}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: slimeRosaMuerte
   m_TagString: Untagged
   m_Icon: {fileID: 0}

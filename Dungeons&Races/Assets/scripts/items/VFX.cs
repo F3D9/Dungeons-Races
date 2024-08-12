@@ -6,18 +6,6 @@ public class VFX : MonoBehaviour
 {
     [SerializeField] AudioClip sonido;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     void destruir()
     {
         Destroy(gameObject);

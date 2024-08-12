@@ -45,6 +45,7 @@ public class bossKnight : MonoBehaviour
     {
         if (transform.parent.parent.parent.GetChild(0).GetChild(0).GetComponentInChildren<colliderPisoJefe>().estaElJugador == true)
         {
+            ani.enabled = true;
             if (GetComponent<vidaJefe>().vida >= 2000)
             {
                 barra_vida.gameObject.SetActive(true);
@@ -196,6 +197,7 @@ public class bossKnight : MonoBehaviour
         }
         else
         {
+            ani.enabled = false;
             barra_vida.gameObject.SetActive(false);
             nro = 0;
             timer2 = 0;

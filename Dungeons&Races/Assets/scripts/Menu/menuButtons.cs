@@ -42,16 +42,17 @@ public class menuButtons : MonoBehaviour
         pausa.gameObject.SetActive(false);
         atributos.gameObject.SetActive(false);
         joysticks.gameObject.SetActive(false);
-        Destroy(GameObject.FindGameObjectWithTag("Player"));
         GameObject.FindGameObjectWithTag("Carga").transform.GetChild(0).gameObject.SetActive(true);
+        Destroy(GameObject.FindGameObjectWithTag("Player"));
         SceneManager.LoadScene(1);
         
     }
 
     public void Menu()
     {
-        Destroy(GameObject.FindGameObjectWithTag("Player"));
+        
         GameObject.FindGameObjectWithTag("Carga").transform.GetChild(0).gameObject.SetActive(true);
+        Destroy(GameObject.FindGameObjectWithTag("Player"));
         SceneManager.LoadScene(0);
         
     }

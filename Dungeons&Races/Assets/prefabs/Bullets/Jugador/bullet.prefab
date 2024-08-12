@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 98024980}
   - component: {fileID: 98024981}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -97,7 +97,7 @@ GameObject:
   - component: {fileID: 7719352920407218591}
   - component: {fileID: 6460543968439619986}
   - component: {fileID: 1633792669}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: bullet
   m_TagString: Bullet
   m_Icon: {fileID: 0}
@@ -138,6 +138,7 @@ MonoBehaviour:
   "da\xF1o": 20
   rango: 0.25
   choque_con_objetivos: 1
+  vfx: {fileID: 1446067445775924864, guid: f8eaefc5fdb195149a8a1d5551c97968, type: 3}
 --- !u!50 &7719352920407218591
 Rigidbody2D:
   serializedVersion: 4

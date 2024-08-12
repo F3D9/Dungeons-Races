@@ -9,12 +9,13 @@ public class playerAtributtes : MonoBehaviour
 {
     [Header("Canva Vida")]
     public Canvas canva;
-    public Canvas menu_de_muerte;
+    public Canvas menu_de_muerte,controles;
     public List<Image> vida = new List<Image>();
     public AudioClip recibirdaño;
     float timer;
     bool inmunidad = false;
     float tiempo_inmune;
+    bool cargarAnuncio = false;
 
     public float vidaTotal = 3f;
 
@@ -22,8 +23,9 @@ public class playerAtributtes : MonoBehaviour
     void Start()
     {
         Time.timeScale = 1f;
+        controles.gameObject.SetActive(true);
         menu_de_muerte.gameObject.SetActive(false);
-
+        cargarAnuncio = true;
     }
 
     // Update is called once per frame
@@ -53,7 +55,13 @@ public class playerAtributtes : MonoBehaviour
         }
         else
         {
-           
+            if (cargarAnuncio)
+            {
+                //ControladorAnuncios.Instance.ShowInterstitialAd();
+                cargarAnuncio = false;
+            }
+            controles.gameObject.SetActive(false);
+
             Time.timeScale = 0f;
             menu_de_muerte.gameObject.SetActive(true);
             

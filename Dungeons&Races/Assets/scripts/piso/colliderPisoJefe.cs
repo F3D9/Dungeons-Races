@@ -55,19 +55,12 @@ public class colliderPisoJefe : MonoBehaviour
             estaElJugador = true;
         }
 
-        if (collision.tag == "Enemigo")
-        {
-            hayEnemigos = true;
-        }
+        
 
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.tag == "Enemigo")
-        {
-            hayEnemigos = false;
-        }
 
         if (collision.tag == "Player")
         {

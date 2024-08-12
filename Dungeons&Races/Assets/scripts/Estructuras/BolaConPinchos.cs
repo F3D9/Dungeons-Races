@@ -16,16 +16,26 @@ public class BolaConPinchos : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        switch (nro)
+        if(transform.parent.parent.parent.parent.GetChild(0).GetChild(0).GetComponentInChildren<colliderPiso>().estaElJugador == true)
         {
-            case 0:
-                GetComponent<Rigidbody2D>().velocity = new Vector2(velocidad, 0);
-                break;
+            GetComponent<Animator>().enabled = true;
+            switch (nro)
+            {
+                case 0:
+                    GetComponent<Rigidbody2D>().velocity = new Vector2(velocidad, 0);
+                    break;
 
-            case 1:
-                GetComponent<Rigidbody2D>().velocity = new Vector2(0, velocidad);
-                break;
+                case 1:
+                    GetComponent<Rigidbody2D>().velocity = new Vector2(0, velocidad);
+                    break;
+            }
         }
+        else
+        {
+            GetComponent<Animator>().enabled = false;
+            GetComponent<Rigidbody2D>().velocity = new Vector2(0, 0);
+        }
+        
 
     }
 

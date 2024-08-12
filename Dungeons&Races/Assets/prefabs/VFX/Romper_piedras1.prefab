@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 733794622160181374}
   - component: {fileID: 8719219034852268618}
   - component: {fileID: 8719219034852268619}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Romper_piedras1
   m_TagString: Untagged
   m_Icon: {fileID: 0}

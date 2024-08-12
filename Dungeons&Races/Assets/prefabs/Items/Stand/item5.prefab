@@ -144,7 +144,7 @@ MonoBehaviour:
   multiplicador: 0
   slimePiso: {fileID: 0}
   pickup: {fileID: 8300000, guid: 94f45b3cb8d5c294faff6e32360ff619, type: 3}
-  Nombre: 
+  Nombre: Yellow
   info_mejora: + Velocity
 --- !u!61 &5960891907028187795
 BoxCollider2D:

@@ -162,14 +162,14 @@ public class Items : MonoBehaviour
             if (rellenar)
             {
                 lista.GetChild(lista.childCount - 1).GetComponent<Image>().fillAmount = 1;
-                Instantiate(imagen, lista.GetChild(lista.childCount - 1).position + new Vector3(69f, 0, 0), Quaternion.Euler(0, 0, 0), GameObject.FindGameObjectWithTag("Vida").transform);
+                Instantiate(imagen, lista.GetChild(lista.childCount - 1).position + new Vector3(45f, 0, 0), Quaternion.Euler(0, 0, 0), GameObject.FindGameObjectWithTag("Vida").transform);
                 lista.GetChild(lista.childCount - 1).GetComponent<Image>().fillAmount = 0.5f;
                 GameObject.FindGameObjectWithTag("Player").transform.GetComponent<playerAtributtes>().vida.Add(lista.transform.GetChild(lista.childCount - 1).GetComponent<Image>());
                 GameObject.FindGameObjectWithTag("Player").transform.GetComponent<playerAtributtes>().vidaTotal += agregaVida;
             }
             else
             {
-                Instantiate(imagen, lista.GetChild(lista.childCount - 1).position + new Vector3(69f, 0, 0), Quaternion.Euler(0, 0, 0), GameObject.FindGameObjectWithTag("Vida").transform);
+                Instantiate(imagen, lista.GetChild(lista.childCount - 1).position + new Vector3(45f, 0, 0), Quaternion.Euler(0, 0, 0), GameObject.FindGameObjectWithTag("Vida").transform);
                 GameObject.FindGameObjectWithTag("Player").transform.GetComponent<playerAtributtes>().vida.Add(lista.transform.GetChild(lista.transform.childCount - 1).GetComponent<Image>());
                 GameObject.FindGameObjectWithTag("Player").transform.GetComponent<playerAtributtes>().vidaTotal += agregaVida;
 

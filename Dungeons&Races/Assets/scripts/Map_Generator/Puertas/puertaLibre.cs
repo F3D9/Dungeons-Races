@@ -17,24 +17,18 @@ public class puertaLibre : MonoBehaviour
     public List<Sprite> puertaAzul = new List<Sprite>();
     public List<Sprite> puertaVioleta = new List<Sprite>();
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-       
-    }
 
     // Update is called once per frame
     void FixedUpdate()
     {
-        Invoke("analizarHabitaciones", 0.5f);
-        
+        //Invoke("analizarHabitaciones", 1);
+
     }
 
 
-    void analizarHabitaciones()
+    public void analizarHabitaciones()
     {
-        if(libre == false && transform.parent.parent.parent.gameObject != GameObject.FindGameObjectWithTag("Generador").GetComponent<generadorMapa>().habitaciones_Especiales[0].gameObject)
+        if(!libre)
         {
             if(puerta_conectada.transform.parent.parent.parent.gameObject == GameObject.FindGameObjectWithTag("Generador").GetComponent<generadorMapa>().habitaciones_Especiales[0].gameObject)
             {

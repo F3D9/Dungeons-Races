@@ -49,6 +49,8 @@ public class generadorMapa : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
+        
+
         switch (nivel)
         {
             case 1:
@@ -63,14 +65,17 @@ public class generadorMapa : MonoBehaviour
                 break;
         }
 
+        GameObject.FindGameObjectWithTag("Carga").transform.GetChild(0).gameObject.SetActive(true);
+
         GenerarMapa();
         
-        Invoke("seleccionar_habitaciones_sin_salida", 0.11f);
-        Invoke("elegir_ubicacion_habitaciones_especiales", 0.12f);
-        Invoke("reemplazar_habitaciones_especiales", 0.13f);
-        Invoke("borrarPuertas", 0.15f);
-        Invoke("generarObstaculos", 0.17f);
-        Invoke("generar_enemigos", 0.19f);
+        Invoke("seleccionar_habitaciones_sin_salida", 0.12f);
+        Invoke("seleccionarHabitacionesEspeciales", 0.15f);
+        Invoke("reemplazar_habitaciones_especiales", 0.17f);
+        Invoke("borrarPuertas", 0.2f);
+        Invoke("generarObstaculos", 0.22f);
+        Invoke("generar_enemigos", 0.24f);
+        Invoke("sacarPantalladeCarga", 0.3f);
         
     }
 
@@ -248,8 +253,8 @@ public class generadorMapa : MonoBehaviour
 
     void seleccionar_habitaciones_sin_salida()
     {
-        int x = 2;
-        for (int i = 2; i < cantidad_habitaciones; i++)
+        int x = 1;
+        for (int i = 1; i < cantidad_habitaciones; i++)
         {
             if (habitacionesCreadas[i].GetComponent<vecinos>().cantidad_de_vecinos == 1)
             {
@@ -267,9 +272,9 @@ public class generadorMapa : MonoBehaviour
             x++;
         }
 
-        if (x == cantidad_habitaciones && habitaciones_Especiales.Count < 5)
+        if (x >= cantidad_habitaciones && habitaciones_Especiales.Count < 5)
         {
-            for (int i = 2; i < cantidad_habitaciones; i++)
+            for (int i = 1; i < cantidad_habitaciones; i++)
             {
                 if (habitacionesCreadas[i].GetComponent<vecinos>().cantidad_de_vecinos == 2)
                 {
@@ -287,20 +292,17 @@ public class generadorMapa : MonoBehaviour
             }
         }
 
-
-
+        
 
     }
 
-    void elegir_ubicacion_habitaciones_especiales()
+    void seleccionarHabitacionesEspeciales()
     {
-
         habitacion_Jefe = habitaciones_Especiales[0].transform.parent.gameObject;
         habitacion_SubJefe = habitaciones_Especiales[1].transform.parent.gameObject;
         habitacion_mejora = habitaciones_Especiales[2].transform.parent.gameObject;
         habitacion_probabilidad = habitaciones_Especiales[3].transform.parent.gameObject;
         habitacion_violeta = habitaciones_Especiales[4].transform.parent.gameObject;
-
     }
 
     void reemplazar_habitaciones_especiales()
@@ -327,6 +329,8 @@ public class generadorMapa : MonoBehaviour
         Destroy(habitacion_Jefe.transform.GetChild(0).gameObject);
         habitaciones_Especiales[0].GetComponent<vecinos>().buscar_vecinos();
 
+        
+
         //SubJefe
         Instantiate(habitacionVerde, habitacion_SubJefe.transform.GetChild(0).position, Quaternion.Euler(0, 0, 0), habitacion_SubJefe.transform);
         habitaciones_Especiales[1] = habitacion_SubJefe.transform.GetChild(1).gameObject;
@@ -336,6 +340,7 @@ public class generadorMapa : MonoBehaviour
         habitaciones_Especiales[1].GetComponent<vecinos>().vecino_izquierda = habitacion_SubJefe.transform.GetChild(0).GetComponent<vecinos>().vecino_izquierda;
         habitaciones_Especiales[1].GetComponent<vecinos>().vecino_derecha = habitacion_SubJefe.transform.GetChild(0).GetComponent<vecinos>().vecino_derecha;
         habitaciones_Especiales[1].GetComponent<vecinos>().vecino_abajo = habitacion_SubJefe.transform.GetChild(0).GetComponent<vecinos>().vecino_abajo;
+
         for (int i = 0; i < habitacionesCreadas.Count; i++)
         {
             if (habitacionesCreadas[i].gameObject == habitacion_SubJefe.transform.GetChild(0).gameObject)
@@ -346,6 +351,8 @@ public class generadorMapa : MonoBehaviour
             }
         }
         Destroy(habitacion_SubJefe.transform.GetChild(0).gameObject);
+
+        
 
         //Mejora
         Instantiate(habitacionAmarilla, habitacion_mejora.transform.GetChild(0).position, Quaternion.Euler(0, 0, 0), habitacion_mejora.transform);
@@ -367,6 +374,8 @@ public class generadorMapa : MonoBehaviour
         }
         Destroy(habitacion_mejora.transform.GetChild(0).gameObject);
 
+        
+
         //Probabilidad
         Instantiate(habitacionAzul, habitacion_probabilidad.transform.GetChild(0).position, Quaternion.Euler(0, 0, 0), habitacion_probabilidad.transform);
         habitaciones_Especiales[3] = habitacion_probabilidad.transform.GetChild(1).gameObject;
@@ -386,6 +395,8 @@ public class generadorMapa : MonoBehaviour
             }
         }
         Destroy(habitacion_probabilidad.transform.GetChild(0).gameObject);
+
+        
 
         //Violeta
         Instantiate(habitacionVioleta, habitacion_violeta.transform.GetChild(0).position, Quaternion.Euler(0, 0, 0), habitacion_violeta.transform);
@@ -412,8 +423,8 @@ public class generadorMapa : MonoBehaviour
         {
             habitacionesCreadas[i].GetComponent<vecinos>().buscar_vecinos();
         }
-        
 
+        
 
     }
 
@@ -431,13 +442,19 @@ public class generadorMapa : MonoBehaviour
 
         for (int e = 0; e < listapuertas.Count; e++)
         {
-            if (listapuertas[e].GetComponent<puertaLibre>().libre == true)
+            if (listapuertas[e].GetComponent<puertaLibre>().libre)
             {
                 listapuertas[e].transform.GetChild(0).gameObject.SetActive(false);
                 listapuertas[e].transform.GetChild(1).gameObject.SetActive(false);
                 listapuertas[e].transform.GetChild(2).gameObject.SetActive(true);
             }
+            else
+            {
+                listapuertas[e].GetComponent<puertaLibre>().analizarHabitaciones();
+            }
         }
+
+
     }
     
     void generarObstaculos()
@@ -542,5 +559,12 @@ public class generadorMapa : MonoBehaviour
             
         }
     }
+
+    void sacarPantalladeCarga()
+    {
+        GameObject.FindGameObjectWithTag("Carga").transform.GetChild(0).gameObject.SetActive(false);
+        GameObject.FindGameObjectWithTag("Player").transform.position = new Vector3(0, 0, 0);
+    }
+
 
 }

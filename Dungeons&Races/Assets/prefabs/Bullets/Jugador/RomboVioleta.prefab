@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4462192981552296713}
   - component: {fileID: 4462192981552296718}
   - component: {fileID: 4462192981552296719}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: RomboVioleta
   m_TagString: Bullet
   m_Icon: {fileID: 0}
@@ -54,6 +54,7 @@ MonoBehaviour:
   "da\xF1o": 40
   rango: 0.25
   choque_con_objetivos: 2
+  vfx: {fileID: 491243006661528942, guid: ba6c182520a87e94aaf7ae87ea464970, type: 3}
 --- !u!50 &4462192981552296713
 Rigidbody2D:
   serializedVersion: 4
@@ -147,7 +148,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4462192982465593148}
   - component: {fileID: 4462192982465593151}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}

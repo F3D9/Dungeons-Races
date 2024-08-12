@@ -8,17 +8,6 @@ public class soltarObjetos : MonoBehaviour
     public List<GameObject> lista = new List<GameObject>();
     public float probabilidad = 0.2f;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
     
     public void soltarObjeto(Vector3 posicion)
     {
