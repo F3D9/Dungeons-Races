@@ -5,6 +5,9 @@ using UnityEngine.AI;
 
 public class EsqueletoGris : MonoBehaviour
 {
+
+    [SerializeField] int aparenciaFreeze;
+
     NavMeshAgent enemigo;
     Transform jugador;
 
@@ -22,7 +25,7 @@ public class EsqueletoGris : MonoBehaviour
     {
         if(GameObject.FindGameObjectWithTag("Player").gameObject.activeInHierarchy == true)
         {
-            if (transform.parent.parent.parent.parent.parent.GetChild(0).GetChild(0).GetComponentInChildren<colliderPiso>().estaElJugador == true && jugador.GetComponent<Sistema>().apariencia != 1)
+            if (transform.parent.parent.parent.parent.parent.GetChild(0).GetChild(0).GetComponentInChildren<colliderPiso>().estaElJugador == true && jugador.GetComponent<Sistema>().apariencia != aparenciaFreeze)
             {
                 GameObject[] listaEnemigos = GameObject.FindGameObjectsWithTag("Enemigo");
 

@@ -9,9 +9,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 179549650465869550}
-  - component: {fileID: 2898158803562209762}
   - component: {fileID: 5292873373771022516}
   - component: {fileID: 1030366624267458790}
+  - component: {fileID: 2898158803562209762}
   - component: {fileID: 4251086406095939611}
   - component: {fileID: 6259482110727833824}
   - component: {fileID: 7769357235267626844}
@@ -40,6 +40,42 @@ Transform:
   - {fileID: 3252153387110442833}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5292873373771022516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5866739712996229981}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2646567ab9477f8469ae1ed42be3bbe5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rango: 10
+  tiempo_para_disparar: 1.25
+  distancia: 0.4
+  aparenciaFreeze: -1
+  misil: {fileID: 1114920761993747323, guid: 036e2dd867802aa4da9102b1e67df663, type: 3}
+--- !u!114 &1030366624267458790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5866739712996229981}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ca39a8363ff3e7499631a52b395b496, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vida: 125
+  "da\xF1o": 0.5
+  distancia: 2
+  spriteR: {fileID: 2898158803562209762}
+  score: 10
+  cadaver: {fileID: 1223099810973200809, guid: fb25d87919d4b7d4ab3f25c3a058a31a, type: 3}
+  sonidoMuerte: {fileID: 0}
 --- !u!212 &2898158803562209762
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -92,41 +128,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &5292873373771022516
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5866739712996229981}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2646567ab9477f8469ae1ed42be3bbe5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rango: 10
-  tiempo_para_disparar: 1.25
-  distancia: 0.4
-  misil: {fileID: 1114920761993747323, guid: 036e2dd867802aa4da9102b1e67df663, type: 3}
---- !u!114 &1030366624267458790
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5866739712996229981}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7ca39a8363ff3e7499631a52b395b496, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  vida: 125
-  "da\xF1o": 0.5
-  distancia: 2
-  spriteR: {fileID: 2898158803562209762}
-  score: 10
-  cadaver: {fileID: 1223099810973200809, guid: fb25d87919d4b7d4ab3f25c3a058a31a, type: 3}
-  sonidoMuerte: {fileID: 0}
 --- !u!195 &4251086406095939611
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -135,7 +136,7 @@ NavMeshAgent:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5866739712996229981}
   m_Enabled: 1
-  m_AgentTypeID: 0
+  m_AgentTypeID: -1372625422
   m_Radius: 0.23
   m_Speed: 0.5
   m_Acceleration: 8
@@ -146,7 +147,7 @@ NavMeshAgent:
   m_AutoBraking: 1
   m_AutoRepath: 1
   m_Height: 0.44
-  m_BaseOffset: 0.31
+  m_BaseOffset: 0.4
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
 --- !u!95 &6259482110727833824

@@ -124,8 +124,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4106901010583598558}
-  - component: {fileID: 6149124087774793471}
   - component: {fileID: 7845423782525346040}
+  - component: {fileID: 6149124087774793471}
   - component: {fileID: 3005831172670858815}
   - component: {fileID: 7548425762687583295}
   - component: {fileID: 4381101102030097219}
@@ -156,6 +156,22 @@ Transform:
   - {fileID: 6152594860378827682}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7845423782525346040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4563324545053840778}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3c31790d292f67428d3f68b57ea22ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rango: 8
+  tiempo_para_disparar: 1.5
+  distancia: 0.4
+  misil: {fileID: 2482989053829026482, guid: ed08416f3062f4b4087887ca534eddf7, type: 3}
 --- !u!114 &6149124087774793471
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -175,22 +191,6 @@ MonoBehaviour:
   score: 10
   cadaver: {fileID: 7477428089612540241, guid: 8a2ed731450739047a874c289e808938, type: 3}
   sonidoMuerte: {fileID: 8300000, guid: e92057889f5525c41ad73839cd6deeac, type: 3}
---- !u!114 &7845423782525346040
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4563324545053840778}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b3c31790d292f67428d3f68b57ea22ae, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rango: 8
-  tiempo_para_disparar: 1.5
-  distancia: 0.4
-  misil: {fileID: 2482989053829026482, guid: ed08416f3062f4b4087887ca534eddf7, type: 3}
 --- !u!212 &3005831172670858815
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -323,7 +323,7 @@ NavMeshAgent:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4563324545053840778}
   m_Enabled: 1
-  m_AgentTypeID: 0
+  m_AgentTypeID: -1372625422
   m_Radius: 0.28
   m_Speed: 1
   m_Acceleration: 8
@@ -334,7 +334,7 @@ NavMeshAgent:
   m_AutoBraking: 1
   m_AutoRepath: 1
   m_Height: 0.57
-  m_BaseOffset: 0.48333332
+  m_BaseOffset: 0.5
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
 --- !u!95 &3984956275887398938

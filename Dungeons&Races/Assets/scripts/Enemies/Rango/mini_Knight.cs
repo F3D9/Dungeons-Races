@@ -15,6 +15,7 @@ public class mini_Knight : MonoBehaviour
     [SerializeField] float rango = 5f;
     [SerializeField] float tiempo_para_disparar = 1.5f;
     [SerializeField] float distancia = 0.4f;
+    [SerializeField] int aparenciaFreeze;
 
     [Header("Atacar")]
     [SerializeField] GameObject misil;
@@ -36,7 +37,7 @@ public class mini_Knight : MonoBehaviour
     {
         if (GameObject.FindGameObjectWithTag("Player").gameObject.activeInHierarchy == true)
         {
-            if (transform.parent.parent.parent.parent.parent.GetChild(0).GetChild(0).GetComponentInChildren<colliderPiso>().estaElJugador == true)
+            if (transform.parent.parent.parent.parent.parent.GetChild(0).GetChild(0).GetComponentInChildren<colliderPiso>().estaElJugador == true && jugador.GetComponent<Sistema>().apariencia != aparenciaFreeze)
             {
 
                 GetComponent<Animator>().enabled = true;

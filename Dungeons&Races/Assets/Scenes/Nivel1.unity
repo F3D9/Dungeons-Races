@@ -584,7 +584,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_OverrideByGrid: 0
   m_UseMeshPrefab: {fileID: 0}
-  m_CompressBounds: 0
+  m_CompressBounds: 1
   m_OverrideVector: {x: 1, y: 1, z: 1}
 --- !u!114 &446251946
 MonoBehaviour:
@@ -598,14 +598,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e04976799df50f54ba128eff723155a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_AgentTypeID: 0
+  m_AgentTypeID: -1372625422
   m_CollectObjects: 0
   m_Size: {x: 10, y: 10, z: 10}
   m_Center: {x: 0, y: 2, z: 0}
   m_LayerMask:
     serializedVersion: 2
-    m_Bits: 2147483647
-  m_UseGeometry: 0
+    m_Bits: 4294967295
+  m_UseGeometry: 1
   m_DefaultArea: 0
   m_IgnoreNavMeshAgent: 1
   m_IgnoreNavMeshObstacle: 1
@@ -615,7 +615,7 @@ MonoBehaviour:
   m_VoxelSize: 0.14
   m_BuildHeightMesh: 0
   m_HideEditorLogs: 0
-  m_NavMeshData: {fileID: 23800000, guid: a85a6313ed7628945ba5a5704b3dee1f, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: 1619a1f4ed2a43f42bde5b79876501af, type: 2}
 --- !u!4 &446251947
 Transform:
   m_ObjectHideFlags: 0

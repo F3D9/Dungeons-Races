@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4432552712388417090}
   - component: {fileID: 4432552712388417089}
   - component: {fileID: 4432552712388417103}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: PinkAcid
   m_TagString: Untagged
   m_Icon: {fileID: 0}

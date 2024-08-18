@@ -4363,6 +4363,18 @@ PrefabInstance:
       propertyPath: piso
       value: 
       objectReference: {fileID: 1075969184852159438}
+    - target: {fileID: 3612586563213269218, guid: effa6e65f735b3a43968c969e929933c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4452919451650459637, guid: effa6e65f735b3a43968c969e929933c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7789906706131211131, guid: effa6e65f735b3a43968c969e929933c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 8011626696692613366, guid: effa6e65f735b3a43968c969e929933c, type: 3}
       propertyPath: m_RootOrder
       value: 0

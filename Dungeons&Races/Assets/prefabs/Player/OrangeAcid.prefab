@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 7734262024138234446}
   - component: {fileID: 7734262024138234440}
   - component: {fileID: 7734262024138234443}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: OrangeAcid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -139,7 +139,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.0666667, y: 1.0666667}
+    oldSize: {x: 0.9, y: 0.4}
     newSize: {x: 1.0666667, y: 1.0666667}
     adaptiveTilingThreshold: 0.5
     drawMode: 0

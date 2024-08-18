@@ -172,6 +172,7 @@ MonoBehaviour:
   rango: 6
   tiempo_para_disparar: 1
   distancia: 0.4
+  aparenciaFreeze: 8
   misil: {fileID: 7247360157472441654, guid: 912546f119bb0e248ace7d0c8c6492c3, type: 3}
 --- !u!114 &9196361233350561384
 MonoBehaviour:
@@ -324,7 +325,7 @@ NavMeshAgent:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9196361233350561395}
   m_Enabled: 1
-  m_AgentTypeID: 0
+  m_AgentTypeID: -1372625422
   m_Radius: 0.13
   m_Speed: 2
   m_Acceleration: 8
@@ -335,7 +336,7 @@ NavMeshAgent:
   m_AutoBraking: 1
   m_AutoRepath: 1
   m_Height: 0.23
-  m_BaseOffset: 0.42
+  m_BaseOffset: 0.5
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
 --- !u!60 &9196361233350561394

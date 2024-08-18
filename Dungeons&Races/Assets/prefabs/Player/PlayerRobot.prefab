@@ -3344,7 +3344,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canva: {fileID: 1136465295699183564}
   menu_de_muerte: {fileID: 3815217124729920558}
-  controles: {fileID: 0}
+  controles: {fileID: 5651832252281689503}
   vida:
   - {fileID: 2484518091217920228}
   - {fileID: 4442909313968778973}

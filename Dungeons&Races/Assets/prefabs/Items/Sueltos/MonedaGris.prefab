@@ -50,7 +50,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   oro: {fileID: 2710120527601848573, guid: aeaaf609d01e61740800df3ab4d8ac26, type: 3}
   cantidad_de_oro: 5
-  sonido: {fileID: 8300000, guid: eb0c309a4832162498bb692f82965963, type: 3}
+  sonido: {fileID: 8300000, guid: 80174151628faa543853c08299e2f1ab, type: 3}
 --- !u!61 &616672671832293753
 BoxCollider2D:
   m_ObjectHideFlags: 0

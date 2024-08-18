@@ -15,7 +15,7 @@ F:/Github/Dungeons-Races/Dungeons&Races
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55885
+50776
 Successfully changed project path to: F:/Github/Dungeons-Races/Dungeons&Races
 F:/Github/Dungeons-Races/Dungeons&Races
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,14 +49,14 @@ F:/Github/Dungeons-Races/Dungeons&Races
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [9460]  Target information:
+Player connection [5964]  Target information:
 
-Player connection [9460]  * "[IP] 10.10.100.95 [Port] 0 [Flags] 2 [Guid] 1268451600 [EditorId] 1268451600 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-KSFICS1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [5964]  * "[IP] 10.10.100.95 [Port] 0 [Flags] 2 [Guid] 2379661742 [EditorId] 2379661742 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-KSFICS1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [9460] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [9460] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [5964] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [5964] Host joined alternative multi-casting on [225.0.0.222:34997]...
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-Refreshing native plugins compatible for Editor in 148.17 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 34.83 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.40f1 (cbdda657d2f0)
 [Subsystems] Discovering subsystems at path F:/Unity/archivos/2022.3.40f1/Editor/Data/Resources/UnitySubsystems
@@ -67,53 +67,53 @@ Direct3D:
     Renderer: Radeon RX 580 Series (ID=0x67df)
     Vendor:   ATI
     VRAM:     8170 MB
-    Driver:   31.0.21912.14
+    Driver:   31.0.21916.2
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
 Initialize mono
 Mono path[0] = 'F:/Unity/archivos/2022.3.40f1/Editor/Data/Managed'
 Mono path[1] = 'F:/Unity/archivos/2022.3.40f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'F:/Unity/archivos/2022.3.40f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56776
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56732
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: F:/Unity/archivos/2022.3.40f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: F:/Unity/archivos/2022.3.40f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.009291 seconds.
-- Loaded All Assemblies, in  0.544 seconds
+Registered in 0.007453 seconds.
+- Loaded All Assemblies, in  0.492 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 478 ms
+Android Extension - Scanning For ADB Devices 382 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.992 seconds
-Domain Reload Profiling: 1536ms
-	BeginReloadAssembly (189ms)
+- Finished resetting the current domain, in  0.822 seconds
+Domain Reload Profiling: 1314ms
+	BeginReloadAssembly (177ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (47ms)
-	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (74ms)
-	LoadAllAssembliesAndSetupDomain (216ms)
-		LoadAssemblies (190ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (64ms)
+	LoadAllAssembliesAndSetupDomain (185ms)
+		LoadAssemblies (177ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (212ms)
-			TypeCache.Refresh (210ms)
-				TypeCache.ScanAssembly (193ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
+		AnalyzeDomain (181ms)
+			TypeCache.Refresh (180ms)
+				TypeCache.ScanAssembly (164ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (992ms)
+	FinalizeReload (823ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (928ms)
+		SetupLoadedEditorAssemblies (760ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (672ms)
+			InitializePlatformSupportModulesInManaged (520ms)
 			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (4ms)
-			ProcessInitializeOnLoadAttributes (168ms)
-			ProcessInitializeOnLoadMethodAttributes (77ms)
+			ProcessInitializeOnLoadAttributes (167ms)
+			ProcessInitializeOnLoadMethodAttributes (61ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -126,7 +126,7 @@ Symbol file LoadedFromMemory is not a mono symbol file
 Assembly 'Assets/ExternalDependencyManager/Editor/1.2.181/Google.IOSResolver.dll' will not be loaded due to errors:
 Unable to resolve reference 'UnityEditor.iOS.Extensions.Xcode'. Is the assembly missing or incompatible with the current platform?
 Reference validation can be disabled in the Plugin Inspector.
-- Loaded All Assemblies, in  1.520 seconds
+- Loaded All Assemblies, in  1.252 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Package Manager log level set to [2]
@@ -134,204 +134,49 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.392 seconds
-Domain Reload Profiling: 2912ms
-	BeginReloadAssembly (247ms)
+- Finished resetting the current domain, in  1.315 seconds
+Domain Reload Profiling: 2566ms
+	BeginReloadAssembly (234ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (8ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (28ms)
-	RebuildCommonClasses (52ms)
-	RebuildNativeTypeToScriptingClass (17ms)
-	initialDomainReloadingComplete (63ms)
-	LoadAllAssembliesAndSetupDomain (1139ms)
-		LoadAssemblies (783ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (890ms)
+		LoadAssemblies (663ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (517ms)
-			TypeCache.Refresh (432ms)
-				TypeCache.ScanAssembly (397ms)
-			ScanForSourceGeneratedMonoScriptInfo (60ms)
-			ResolveRequiredComponents (23ms)
-	FinalizeReload (1393ms)
+		AnalyzeDomain (374ms)
+			TypeCache.Refresh (291ms)
+				TypeCache.ScanAssembly (260ms)
+			ScanForSourceGeneratedMonoScriptInfo (62ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (1316ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1116ms)
+		SetupLoadedEditorAssemblies (1064ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (36ms)
+			InitializePlatformSupportModulesInManaged (39ms)
 			SetLoadedEditorAssemblies (9ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (256ms)
-			ProcessInitializeOnLoadAttributes (657ms)
-			ProcessInitializeOnLoadMethodAttributes (153ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
-Switching render pipeline e23abffd4ca40a840b370f99035147df -> 681886c5eb7344803b6206f758bf0b1c
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.27 seconds
-Refreshing native plugins compatible for Editor in 18.59 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6813 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 60 unused Assets / (0.9 MB). Loaded Objects now: 7302.
-Memory consumption went from 272.6 MB to 271.7 MB.
-Total: 10.700300 ms (FindLiveObjects: 1.414400 ms CreateObjectMapping: 1.108800 ms MarkObjects: 7.307200 ms  DeleteObjects: 0.867800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:srp/default-pipeline: 8681685cbe374408b326607f85fbb0c1 -> 2ea3fbdfc44aa048b073f099301574fd
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Prepare
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 17.90 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 16 unused Assets / (0.9 MB). Loaded Objects now: 7302.
-Memory consumption went from 142.3 MB to 141.5 MB.
-Total: 4.746700 ms (FindLiveObjects: 0.612800 ms CreateObjectMapping: 0.209200 ms MarkObjects: 3.478800 ms  DeleteObjects: 0.444900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 17129.841322 seconds.
-  path: Assets/prefabs/Rooms/HabitacionVerde.prefab
-  artifactKey: Guid(708718d3d646cb246a99707cf514e49f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefabs/Rooms/HabitacionVerde.prefab using Guid(708718d3d646cb246a99707cf514e49f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-Sprite menu_de_carga3 matches more than one built-in atlases. Default to use the first available atlas.
-Sprite menu_de_carga1 matches more than one built-in atlases. Default to use the first available atlas.
-Sprite menu_de_carga2 matches more than one built-in atlases. Default to use the first available atlas.
-Sprite menu_de_carga4 matches more than one built-in atlases. Default to use the first available atlas.
- -> (artifact id: '7f9092dc2cb6b854eba765388c34f8c3') in 5.118247 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2293
-========================================================================
-Received Import Request.
-  Time since last request: 0.000069 seconds.
-  path: Assets/prefabs/Rooms/HabitacionRoja.prefab
-  artifactKey: Guid(5ae74830a9f4536408ddd9dfc690ecee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefabs/Rooms/HabitacionRoja.prefab using Guid(5ae74830a9f4536408ddd9dfc690ecee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-Sprite menu_de_carga3 matches more than one built-in atlases. Default to use the first available atlas.
-Sprite menu_de_carga1 matches more than one built-in atlases. Default to use the first available atlas.
-Sprite menu_de_carga2 matches more than one built-in atlases. Default to use the first available atlas.
-Sprite menu_de_carga4 matches more than one built-in atlases. Default to use the first available atlas.
-Refreshing native plugins compatible for Editor in 16.52 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
- -> (artifact id: 'b85e8c619570f7542202294822e21eac') in 0.744134 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2416
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/prefabs/Rooms/habitacion2_padre.prefab
-  artifactKey: Guid(59db9a28a7f3d394e89df524d1a165bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefabs/Rooms/habitacion2_padre.prefab using Guid(59db9a28a7f3d394e89df524d1a165bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-Sprite menu_de_carga3 matches more than one built-in atlases. Default to use the first available atlas.
-Sprite menu_de_carga1 matches more than one built-in atlases. Default to use the first available atlas.
-Sprite menu_de_carga2 matches more than one built-in atlases. Default to use the first available atlas.
-Sprite menu_de_carga4 matches more than one built-in atlases. Default to use the first available atlas.
- -> (artifact id: 'c500cd6f0f22cb874afd214f7e143e7d') in 0.708701 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1506
-========================================================================
-Received Import Request.
-  Time since last request: 0.000066 seconds.
-  path: Assets/prefabs/Rooms/habitacionIncial_padre.prefab
-  artifactKey: Guid(676893457838e3640b5aa1c342aa21c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefabs/Rooms/habitacionIncial_padre.prefab using Guid(676893457838e3640b5aa1c342aa21c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-Sprite menu_de_carga3 matches more than one built-in atlases. Default to use the first available atlas.
-Sprite menu_de_carga1 matches more than one built-in atlases. Default to use the first available atlas.
-Sprite menu_de_carga2 matches more than one built-in atlases. Default to use the first available atlas.
-Sprite menu_de_carga4 matches more than one built-in atlases. Default to use the first available atlas.
- -> (artifact id: '60ce3bef2901de0f45f6352ab74fdac0') in 0.334954 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1653
-========================================================================
-Received Prepare
-Caller must complete domain reload
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-Assembly 'Assets/ExternalDependencyManager/Editor/1.2.181/Google.IOSResolver.dll' will not be loaded due to errors:
-Unable to resolve reference 'UnityEditor.iOS.Extensions.Xcode'. Is the assembly missing or incompatible with the current platform?
-Reference validation can be disabled in the Plugin Inspector.
-- Loaded All Assemblies, in  1.912 seconds
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.294 seconds
-Domain Reload Profiling: 3207ms
-	BeginReloadAssembly (1250ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (1015ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (58ms)
-	RebuildCommonClasses (41ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (42ms)
-	LoadAllAssembliesAndSetupDomain (563ms)
-		LoadAssemblies (625ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (74ms)
-			TypeCache.Refresh (17ms)
-				TypeCache.ScanAssembly (3ms)
-			ScanForSourceGeneratedMonoScriptInfo (38ms)
-			ResolveRequiredComponents (17ms)
-	FinalizeReload (1295ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (970ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (37ms)
-			SetLoadedEditorAssemblies (9ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (241ms)
-			ProcessInitializeOnLoadAttributes (539ms)
-			ProcessInitializeOnLoadMethodAttributes (140ms)
+			BeforeProcessingInitializeOnLoad (264ms)
+			ProcessInitializeOnLoadAttributes (605ms)
+			ProcessInitializeOnLoadMethodAttributes (142ms)
 			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (31ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 18.83 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 15.50 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6659 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 47 unused Assets / (0.9 MB). Loaded Objects now: 7354.
-Memory consumption went from 245.2 MB to 244.3 MB.
-Total: 6.952300 ms (FindLiveObjects: 0.698800 ms CreateObjectMapping: 0.211600 ms MarkObjects: 5.544200 ms  DeleteObjects: 0.496100 ms)
+Unloading 6855 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 60 unused Assets / (0.9 MB). Loaded Objects now: 7344.
+Memory consumption went from 273.3 MB to 272.4 MB.
+Total: 5.313000 ms (FindLiveObjects: 0.647500 ms CreateObjectMapping: 0.258700 ms MarkObjects: 3.854300 ms  DeleteObjects: 0.551400 ms)
 
-Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -346,132 +191,131 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
 ========================================================================
-Received Prepare
-Caller must complete domain reload
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-Assembly 'Assets/ExternalDependencyManager/Editor/1.2.181/Google.IOSResolver.dll' will not be loaded due to errors:
-Unable to resolve reference 'UnityEditor.iOS.Extensions.Xcode'. Is the assembly missing or incompatible with the current platform?
-Reference validation can be disabled in the Plugin Inspector.
-- Loaded All Assemblies, in  0.865 seconds
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.446 seconds
-Domain Reload Profiling: 3310ms
-	BeginReloadAssembly (255ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (16ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (56ms)
-	RebuildCommonClasses (45ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (39ms)
-	LoadAllAssembliesAndSetupDomain (508ms)
-		LoadAssemblies (626ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (30ms)
-			TypeCache.Refresh (10ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (19ms)
-	FinalizeReload (2447ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1042ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (38ms)
-			SetLoadedEditorAssemblies (10ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (266ms)
-			ProcessInitializeOnLoadAttributes (583ms)
-			ProcessInitializeOnLoadMethodAttributes (139ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (28ms)
-Switching render pipeline e23abffd4ca40a840b370f99035147df -> 681886c5eb7344803b6206f758bf0b1c
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 19.14 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6659 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 47 unused Assets / (0.9 MB). Loaded Objects now: 7359.
-Memory consumption went from 245.1 MB to 244.2 MB.
-Total: 4.907500 ms (FindLiveObjects: 0.662500 ms CreateObjectMapping: 0.249400 ms MarkObjects: 3.496200 ms  DeleteObjects: 0.497900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:srp/default-pipeline: 8681685cbe374408b326607f85fbb0c1 -> 2ea3fbdfc44aa048b073f099301574fd
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+Received Import Request.
+  Time since last request: 93187.266406 seconds.
+  path: Assets/prefabs/Items/Sueltos/Moneda.prefab
+  artifactKey: Guid(605ed84dd39627e478eef211d2df13ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Items/Sueltos/Moneda.prefab using Guid(605ed84dd39627e478eef211d2df13ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Sprite menu_de_carga3 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga1 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga2 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga4 matches more than one built-in atlases. Default to use the first available atlas.
+ -> (artifact id: 'fdc4f6173938299b65f371c3d7eb58e0') in 3.757850 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1394
 ========================================================================
 Received Import Request.
-  Time since last request: 112.341170 seconds.
-  path: Assets/prefabs/Rooms/HabitacionAmarilla.prefab
-  artifactKey: Guid(4e177b92c51a1af48b9e8c18afa89a90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefabs/Rooms/HabitacionAmarilla.prefab using Guid(4e177b92c51a1af48b9e8c18afa89a90) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '9530f12df629ef94ba9bb2ecaa8f1d2a') in 0.002145 seconds
+  Time since last request: 0.000041 seconds.
+  path: Assets/prefabs/Items/Sueltos/MonedaVerde.prefab
+  artifactKey: Guid(c4bc156379ad2184881742bee41be0b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Items/Sueltos/MonedaVerde.prefab using Guid(c4bc156379ad2184881742bee41be0b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Sprite menu_de_carga3 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga1 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga2 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga4 matches more than one built-in atlases. Default to use the first available atlas.
+ -> (artifact id: '31003deaad8e4dd76248545a308636af') in 0.227708 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 1376
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/prefabs/Rooms/HabitacionAzul.prefab
-  artifactKey: Guid(e0af8eec041d6b8479cc6a490a3db5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefabs/Rooms/HabitacionAzul.prefab using Guid(e0af8eec041d6b8479cc6a490a3db5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'c7727d0d9531322c8e1434f77cc157f0') in 0.000669 seconds
+  Time since last request: 1.870389 seconds.
+  path: Assets/prefabs/Items/Sueltos/Moneda.prefab
+  artifactKey: Guid(605ed84dd39627e478eef211d2df13ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Items/Sueltos/Moneda.prefab using Guid(605ed84dd39627e478eef211d2df13ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Sprite menu_de_carga3 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga1 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga2 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga4 matches more than one built-in atlases. Default to use the first available atlas.
+ -> (artifact id: 'be71dd21de2102d139df49118136a382') in 0.205193 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 1377
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/prefabs/Rooms/habitacion2_Jefe.prefab
-  artifactKey: Guid(9eb1d96d5e248714e894ae6607328362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefabs/Rooms/habitacion2_Jefe.prefab using Guid(9eb1d96d5e248714e894ae6607328362) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'd694ecbfce40d121f5fee432e09fe9ca') in 0.000489 seconds
+  Time since last request: 0.924652 seconds.
+  path: Assets/prefabs/Items/Stand/Item33.prefab
+  artifactKey: Guid(6f01cb8f886c4eb4a9cd89a9c187d54c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Items/Stand/Item33.prefab using Guid(6f01cb8f886c4eb4a9cd89a9c187d54c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Sprite menu_de_carga3 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga1 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga2 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga4 matches more than one built-in atlases. Default to use the first available atlas.
+ -> (artifact id: '9a71ec562f9942903ae005f275f38278') in 0.200385 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 1376
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/prefabs/Rooms/habitacion2_SubJefe.prefab
-  artifactKey: Guid(14762e151fb893b4cb153f560467c5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefabs/Rooms/habitacion2_SubJefe.prefab using Guid(14762e151fb893b4cb153f560467c5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '338a7fe68ca05924e0e80a6dea959a32') in 0.000565 seconds
+  Time since last request: 5.055827 seconds.
+  path: Assets/prefabs/Items/Stand/Item33.prefab
+  artifactKey: Guid(6f01cb8f886c4eb4a9cd89a9c187d54c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Items/Stand/Item33.prefab using Guid(6f01cb8f886c4eb4a9cd89a9c187d54c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Sprite menu_de_carga3 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga1 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga2 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga4 matches more than one built-in atlases. Default to use the first available atlas.
+ -> (artifact id: 'ee364adf71988fa0bc73e1052c4210f0') in 0.202325 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 1377
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/prefabs/Rooms/habitacion2_padre.prefab
-  artifactKey: Guid(59db9a28a7f3d394e89df524d1a165bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefabs/Rooms/habitacion2_padre.prefab using Guid(59db9a28a7f3d394e89df524d1a165bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '1acac4d2517a1a0e5bed4f0df27cb6f1') in 0.000577 seconds
+  Time since last request: 2124.389073 seconds.
+  path: Assets/prefabs/Enemies/eyelessDog_Cadaver.prefab
+  artifactKey: Guid(74330a53729b3ba4ab7456221cfd6633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Enemies/eyelessDog_Cadaver.prefab using Guid(74330a53729b3ba4ab7456221cfd6633) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Sprite menu_de_carga3 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga1 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga2 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga4 matches more than one built-in atlases. Default to use the first available atlas.
+ -> (artifact id: 'c6eac1e8afd2771f5addbeccab888552') in 0.477849 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 1361
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/prefabs/Rooms/habitacion1_padre.prefab
-  artifactKey: Guid(d9b1784a68847e546ab7115e7c2dde8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefabs/Rooms/habitacion1_padre.prefab using Guid(d9b1784a68847e546ab7115e7c2dde8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'a1d9475c09a03f843c4ac1eccc0707d0') in 0.000552 seconds
+  Time since last request: 0.000036 seconds.
+  path: Assets/prefabs/Enemies/PerroRobot.prefab
+  artifactKey: Guid(3495cadcac0bb4b4b813710217acdca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Enemies/PerroRobot.prefab using Guid(3495cadcac0bb4b4b813710217acdca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Sprite menu_de_carga3 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga1 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga2 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga4 matches more than one built-in atlases. Default to use the first available atlas.
+ -> (artifact id: '7ade7beb9f04ff05d8887af7c12df007') in 0.305192 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 1394
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/prefabs/Enemies/robot_inofensivo_azul_Cadaver.prefab
+  artifactKey: Guid(e5cb218cdfbad744c8d540f081afe404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Enemies/robot_inofensivo_azul_Cadaver.prefab using Guid(e5cb218cdfbad744c8d540f081afe404) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Sprite menu_de_carga3 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga1 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga2 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga4 matches more than one built-in atlases. Default to use the first available atlas.
+ -> (artifact id: '02da909b534d9923236a5f9b0498e2b1') in 0.252374 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1361
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/prefabs/Enemies/red_Dron_Cadaver.prefab
+  artifactKey: Guid(fb25d87919d4b7d4ab3f25c3a058a31a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Enemies/red_Dron_Cadaver.prefab using Guid(fb25d87919d4b7d4ab3f25c3a058a31a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Sprite menu_de_carga3 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga1 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga2 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga4 matches more than one built-in atlases. Default to use the first available atlas.
+ -> (artifact id: 'c06742ee1fd6b3777a32908fe31281ce') in 0.248335 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1361
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: La operación de E/S se anuló por una salida de subproceso o por una solicitud de aplicación.
 AssetImportWorker is now disconnected from the server

@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6767318825085174584}
   - component: {fileID: 6767318825085174591}
   - component: {fileID: 6767318825085174587}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: GreenAcid
   m_TagString: Untagged
   m_Icon: {fileID: 0}

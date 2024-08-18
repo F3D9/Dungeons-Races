@@ -24,13 +24,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8003765655973159564}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0.7, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5441552867875502696}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &5640452944626459991
 MonoBehaviour:
@@ -68,6 +68,17 @@ MonoBehaviour:
   - {fileID: 90944577266163381, guid: 9c16aebd3488efd469431d80277a18d4, type: 3}
   - {fileID: 2036734075205050599, guid: fa1cd11966b88c94e9c5be7d972cb7a4, type: 3}
   - {fileID: 3492045949280381610, guid: b431ccf6a0a8d8a45b77a18120de25eb, type: 3}
+  - {fileID: 5312081639949963480, guid: ff8069382d1519a498e1e5306e8902ce, type: 3}
+  - {fileID: 5312081639949963480, guid: 34c4400c85cd74c42913585092822128, type: 3}
+  - {fileID: 5312081639949963480, guid: 42ee425c0fc2a7c4eb0b608d7d36abba, type: 3}
+  - {fileID: 5312081639949963480, guid: 2d4dff9062e4f004681031efd5b9a446, type: 3}
+  - {fileID: 5312081639949963480, guid: 68d8013c2729cd54187c10eac049c1af, type: 3}
+  - {fileID: 5312081639949963480, guid: b16f825618b7aee419befc83cfff7a10, type: 3}
+  - {fileID: 5312081639949963480, guid: 54d4f284a11f0b640b47e3711806eaf4, type: 3}
+  - {fileID: 5685545569154938799, guid: d63e512c807702c448a4c74084486fa5, type: 3}
+  - {fileID: 5685545569154938799, guid: 087434539941aeb47969fe5d3434d8a0, type: 3}
+  - {fileID: 5312081639949963480, guid: 2f6d7aebc8b351243b301053236aa213, type: 3}
+  - {fileID: 5416071623730509380, guid: 6f01cb8f886c4eb4a9cd89a9c187d54c, type: 3}
 --- !u!1 &9091634107310772220
 GameObject:
   m_ObjectHideFlags: 0
@@ -93,6 +104,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9091634107310772220}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -100,7 +112,6 @@ Transform:
   m_Children:
   - {fileID: 4655971502344233960}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1583119117759301983
 SpriteRenderer:
@@ -164,6 +175,25 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0

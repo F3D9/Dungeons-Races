@@ -9,11 +9,11 @@ public class navMesh : MonoBehaviour
     NavMeshSurface nav;
 
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         enabled = true; 
         nav = GetComponent<NavMeshSurface>();
-        Invoke("desactivar_script", 3f);
+        Invoke("desactivar_script", 2f);
     }
 
     // Update is called once per frame

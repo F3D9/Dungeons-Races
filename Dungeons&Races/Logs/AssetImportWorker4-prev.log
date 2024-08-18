@@ -15,7 +15,7 @@ F:/Github/Dungeons-Races/Dungeons&Races
 -logFile
 Logs/AssetImportWorker4.log
 -srvPort
-55885
+50776
 Successfully changed project path to: F:/Github/Dungeons-Races/Dungeons&Races
 F:/Github/Dungeons-Races/Dungeons&Races
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,14 +49,14 @@ F:/Github/Dungeons-Races/Dungeons&Races
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [22744]  Target information:
+Player connection [6912]  Target information:
 
-Player connection [22744]  * "[IP] 10.10.100.95 [Port] 0 [Flags] 2 [Guid] 2888636249 [EditorId] 2888636249 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-KSFICS1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [6912]  * "[IP] 10.10.100.95 [Port] 0 [Flags] 2 [Guid] 786660672 [EditorId] 786660672 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-KSFICS1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [22744] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [22744] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [6912] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [6912] Host joined alternative multi-casting on [225.0.0.222:34997]...
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-Refreshing native plugins compatible for Editor in 37.02 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 38.94 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.40f1 (cbdda657d2f0)
 [Subsystems] Discovering subsystems at path F:/Unity/archivos/2022.3.40f1/Editor/Data/Resources/UnitySubsystems
@@ -67,53 +67,53 @@ Direct3D:
     Renderer: Radeon RX 580 Series (ID=0x67df)
     Vendor:   ATI
     VRAM:     8170 MB
-    Driver:   31.0.21912.14
+    Driver:   31.0.21916.2
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
 Initialize mono
 Mono path[0] = 'F:/Unity/archivos/2022.3.40f1/Editor/Data/Managed'
 Mono path[1] = 'F:/Unity/archivos/2022.3.40f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'F:/Unity/archivos/2022.3.40f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56196
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56108
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: F:/Unity/archivos/2022.3.40f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: F:/Unity/archivos/2022.3.40f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.008944 seconds.
-- Loaded All Assemblies, in  0.528 seconds
+Registered in 0.007504 seconds.
+- Loaded All Assemblies, in  0.514 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 320 ms
+Android Extension - Scanning For ADB Devices 333 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.764 seconds
-Domain Reload Profiling: 1292ms
-	BeginReloadAssembly (170ms)
+- Finished resetting the current domain, in  0.762 seconds
+Domain Reload Profiling: 1276ms
+	BeginReloadAssembly (165ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (56ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (70ms)
-	LoadAllAssembliesAndSetupDomain (215ms)
-		LoadAssemblies (171ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (65ms)
+	LoadAllAssembliesAndSetupDomain (221ms)
+		LoadAssemblies (166ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (212ms)
-			TypeCache.Refresh (210ms)
-				TypeCache.ScanAssembly (193ms)
+		AnalyzeDomain (216ms)
+			TypeCache.Refresh (214ms)
+				TypeCache.ScanAssembly (197ms)
 			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (765ms)
+	FinalizeReload (763ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (698ms)
+		SetupLoadedEditorAssemblies (700ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (463ms)
+			InitializePlatformSupportModulesInManaged (465ms)
 			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (163ms)
-			ProcessInitializeOnLoadMethodAttributes (62ms)
+			ProcessInitializeOnLoadAttributes (166ms)
+			ProcessInitializeOnLoadMethodAttributes (60ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -126,7 +126,7 @@ Symbol file LoadedFromMemory is not a mono symbol file
 Assembly 'Assets/ExternalDependencyManager/Editor/1.2.181/Google.IOSResolver.dll' will not be loaded due to errors:
 Unable to resolve reference 'UnityEditor.iOS.Extensions.Xcode'. Is the assembly missing or incompatible with the current platform?
 Reference validation can be disabled in the Plugin Inspector.
-- Loaded All Assemblies, in  1.130 seconds
+- Loaded All Assemblies, in  1.187 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Package Manager log level set to [2]
@@ -134,49 +134,998 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.247 seconds
-Domain Reload Profiling: 2376ms
-	BeginReloadAssembly (211ms)
+- Finished resetting the current domain, in  1.230 seconds
+Domain Reload Profiling: 2416ms
+	BeginReloadAssembly (218ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
+		DisableScriptedObjects (8ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (24ms)
-	RebuildCommonClasses (48ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (53ms)
-	LoadAllAssembliesAndSetupDomain (802ms)
-		LoadAssemblies (599ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (845ms)
+		LoadAssemblies (633ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (332ms)
-			TypeCache.Refresh (269ms)
-				TypeCache.ScanAssembly (242ms)
-			ScanForSourceGeneratedMonoScriptInfo (45ms)
+		AnalyzeDomain (349ms)
+			TypeCache.Refresh (279ms)
+				TypeCache.ScanAssembly (252ms)
+			ScanForSourceGeneratedMonoScriptInfo (52ms)
 			ResolveRequiredComponents (16ms)
-	FinalizeReload (1248ms)
+	FinalizeReload (1231ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1016ms)
+		SetupLoadedEditorAssemblies (989ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (33ms)
-			SetLoadedEditorAssemblies (8ms)
+			InitializePlatformSupportModulesInManaged (32ms)
+			SetLoadedEditorAssemblies (9ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (261ms)
-			ProcessInitializeOnLoadAttributes (589ms)
-			ProcessInitializeOnLoadMethodAttributes (121ms)
+			BeforeProcessingInitializeOnLoad (243ms)
+			ProcessInitializeOnLoadAttributes (576ms)
+			ProcessInitializeOnLoadMethodAttributes (125ms)
 			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 17.84 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6855 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 60 unused Assets / (0.9 MB). Loaded Objects now: 7344.
+Memory consumption went from 273.4 MB to 272.5 MB.
+Total: 6.173300 ms (FindLiveObjects: 0.670900 ms CreateObjectMapping: 0.347700 ms MarkObjects: 4.573100 ms  DeleteObjects: 0.580200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 95950.871647 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/2D/VFXSpriteLit.shadergraph
+  artifactKey: Guid(24a73dccd7b6fad4798be282f96a21f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/2D/VFXSpriteLit.shadergraph using Guid(24a73dccd7b6fad4798be282f96a21f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c485cb197ca0c5a4a92ac8fb6ad33b2b') in 0.431888 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 6.494324 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Drop Shadow.mat
+  artifactKey: Guid(f2dcf029949142e28b974630369c8b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Drop Shadow.mat using Guid(f2dcf029949142e28b974630369c8b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e2509d22d7e3cdbaa04a959e10b8dfec') in 0.031498 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset
+  artifactKey: Guid(125cb55b44b24c4393181402bc6200e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset using Guid(125cb55b44b24c4393181402bc6200e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2ec6dfc11efbbdb8280facc5a5fff9ac') in 0.136841 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 5.299322 seconds.
+  path: Assets/LeanTween/Examples/Material/Futoro_SineWave.mat
+  artifactKey: Guid(d2eed51ebc4ee4089986bb1639255f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTween/Examples/Material/Futoro_SineWave.mat using Guid(d2eed51ebc4ee4089986bb1639255f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '093c724aab47fee5b7e11d1ed8ef9d37') in 0.067185 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '809cf6d0de0c32f475dfb87492f0588d') in 0.079771 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.761925 seconds.
+  path: Assets/LeanTween/Examples/Material/Graph.mat
+  artifactKey: Guid(a8a5e544bfa0d416892e87b12e93911b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTween/Examples/Material/Graph.mat using Guid(a8a5e544bfa0d416892e87b12e93911b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ba450c9e6de24d09569095f428893b4f') in 0.011275 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.009239 seconds.
+  path: Assets/Joystick Pack/Examples/Ground.mat
+  artifactKey: Guid(c569c280f0eb52a49a7b2a6b8b0cbcf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Joystick Pack/Examples/Ground.mat using Guid(c569c280f0eb52a49a7b2a6b8b0cbcf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5adbac3e91db6468fd3fb8161b7774a8') in 0.013790 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f214ae2a475db11a05ae1a5b355ae7c9') in 0.070913 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Drop Shadow.mat
+  artifactKey: Guid(b246c4190f4e46ec9352fe15a7b09ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Drop Shadow.mat using Guid(b246c4190f4e46ec9352fe15a7b09ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0c03f6a87341dc32bd11269686b5f19f') in 0.154974 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/LeanTween/Examples/Material/PointMark.mat
+  artifactKey: Guid(e77db49bc9fb6499290655245ce9bc95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTween/Examples/Material/PointMark.mat using Guid(e77db49bc9fb6499290655245ce9bc95) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '450952c6f364c4ddcc3f332a9ee5384a') in 0.008740 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/LeanTween/Examples/Material/Mock2d.mat
+  artifactKey: Guid(ab11516f0780f4d438844432fc7e8070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeanTween/Examples/Material/Mock2d.mat using Guid(ab11516f0780f4d438844432fc7e8070) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '98d5001a1fe06eaf48f17b7933d5cc67') in 0.068301 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 3.259505 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Surface.mat
+  artifactKey: Guid(e6b276ec991f467aa14ef1f3cc665993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Surface.mat using Guid(e6b276ec991f467aa14ef1f3cc665993) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8383298708095daf50b1514ee5a8ec82') in 0.023456 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 31.160525 seconds.
+  path: Assets/prefabs/Rooms/habitacion1_padre.prefab
+  artifactKey: Guid(d9b1784a68847e546ab7115e7c2dde8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Rooms/habitacion1_padre.prefab using Guid(d9b1784a68847e546ab7115e7c2dde8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Sprite menu_de_carga3 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga1 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga2 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga4 matches more than one built-in atlases. Default to use the first available atlas.
+ -> (artifact id: 'f801c0868a545ba27cb0f977fe641ddb') in 0.290171 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1506
+========================================================================
+Received Import Request.
+  Time since last request: 1.085594 seconds.
+  path: Assets/prefabs/Rooms/habitacion2_Jefe.prefab
+  artifactKey: Guid(9eb1d96d5e248714e894ae6607328362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Rooms/habitacion2_Jefe.prefab using Guid(9eb1d96d5e248714e894ae6607328362) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Sprite menu_de_carga3 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga1 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga2 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga4 matches more than one built-in atlases. Default to use the first available atlas.
+Refreshing native plugins compatible for Editor in 16.02 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+ -> (artifact id: 'fb3f3b3c165fcd0357fb0c9d11e13754') in 2.084988 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2645
+========================================================================
+Received Import Request.
+  Time since last request: 6.937230 seconds.
+  path: Assets/prefabs/Rooms/habitacion2_padre.prefab
+  artifactKey: Guid(59db9a28a7f3d394e89df524d1a165bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Rooms/habitacion2_padre.prefab using Guid(59db9a28a7f3d394e89df524d1a165bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Sprite menu_de_carga3 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga1 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga2 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga4 matches more than one built-in atlases. Default to use the first available atlas.
+ -> (artifact id: '052419d1a89ef589c3b28775cbff0bb1') in 0.240370 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1506
+========================================================================
+Received Import Request.
+  Time since last request: 1.734236 seconds.
+  path: Assets/prefabs/Rooms/habitacion2_SubJefe.prefab
+  artifactKey: Guid(14762e151fb893b4cb153f560467c5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Rooms/habitacion2_SubJefe.prefab using Guid(14762e151fb893b4cb153f560467c5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Sprite menu_de_carga3 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga1 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga2 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga4 matches more than one built-in atlases. Default to use the first available atlas.
+ -> (artifact id: '64d51b9f53d67896f8e8d6b19d3031b2') in 0.494534 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2523
+========================================================================
+Received Import Request.
+  Time since last request: 5.223173 seconds.
+  path: Assets/prefabs/Rooms/HabitacionAmarilla.prefab
+  artifactKey: Guid(4e177b92c51a1af48b9e8c18afa89a90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Rooms/HabitacionAmarilla.prefab using Guid(4e177b92c51a1af48b9e8c18afa89a90) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Sprite menu_de_carga3 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga1 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga2 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga4 matches more than one built-in atlases. Default to use the first available atlas.
+ -> (artifact id: '77db3618ca7b7506ff2da7c8693a6354') in 0.338869 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2450
+========================================================================
+Received Import Request.
+  Time since last request: 8.192541 seconds.
+  path: Assets/prefabs/Rooms/HabitacionAzul.prefab
+  artifactKey: Guid(e0af8eec041d6b8479cc6a490a3db5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Rooms/HabitacionAzul.prefab using Guid(e0af8eec041d6b8479cc6a490a3db5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Sprite menu_de_carga3 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga1 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga2 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga4 matches more than one built-in atlases. Default to use the first available atlas.
+ -> (artifact id: '42cabde5fe6e3eb5dba162035b8597ef') in 0.353790 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2464
+========================================================================
+Received Import Request.
+  Time since last request: 4.898935 seconds.
+  path: Assets/prefabs/Rooms/habitacionIncial_padre.prefab
+  artifactKey: Guid(676893457838e3640b5aa1c342aa21c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Rooms/habitacionIncial_padre.prefab using Guid(676893457838e3640b5aa1c342aa21c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Sprite menu_de_carga3 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga1 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga2 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga4 matches more than one built-in atlases. Default to use the first available atlas.
+ -> (artifact id: '9466b034b9f8f7afd6adc75504db1e75') in 0.314707 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1653
+========================================================================
+Received Import Request.
+  Time since last request: 0.264455 seconds.
+  path: Assets/prefabs/Rooms/habitacionInicio2.prefab
+  artifactKey: Guid(2d6019a324ce97a49ad06ee17679504b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Rooms/habitacionInicio2.prefab using Guid(2d6019a324ce97a49ad06ee17679504b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Sprite menu_de_carga3 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga1 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga2 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga4 matches more than one built-in atlases. Default to use the first available atlas.
+ -> (artifact id: '7ddf580209617d7c0307928c432e4c7d') in 0.328387 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1673
+========================================================================
+Received Import Request.
+  Time since last request: 5.057319 seconds.
+  path: Assets/prefabs/Rooms/HabitacionRoja.prefab
+  artifactKey: Guid(5ae74830a9f4536408ddd9dfc690ecee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Rooms/HabitacionRoja.prefab using Guid(5ae74830a9f4536408ddd9dfc690ecee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Sprite menu_de_carga3 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga1 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga2 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga4 matches more than one built-in atlases. Default to use the first available atlas.
+Refreshing native plugins compatible for Editor in 15.54 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+ -> (artifact id: '1cfe9554812f8dd96e1fc24c5cd037ab') in 0.610554 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2671
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/prefabs/Rooms/HabitacionVioleta.prefab
+  artifactKey: Guid(691b0dd054aa2754f99189341e0184c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Rooms/HabitacionVioleta.prefab using Guid(691b0dd054aa2754f99189341e0184c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Sprite menu_de_carga3 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga1 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga2 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga4 matches more than one built-in atlases. Default to use the first available atlas.
+ -> (artifact id: '89bbe16349a298d48da46b753171840f') in 0.402607 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2632
+========================================================================
+Received Import Request.
+  Time since last request: 0.092541 seconds.
+  path: Assets/prefabs/Rooms/HabitacionVerde.prefab
+  artifactKey: Guid(708718d3d646cb246a99707cf514e49f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Rooms/HabitacionVerde.prefab using Guid(708718d3d646cb246a99707cf514e49f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Sprite menu_de_carga3 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga1 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga2 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga4 matches more than one built-in atlases. Default to use the first available atlas.
+ -> (artifact id: '3f9024d84a549b5d9bacc4030a13d204') in 0.348820 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2523
+========================================================================
+Received Import Request.
+  Time since last request: 0.021235 seconds.
+  path: Assets/prefabs/Rooms/HabitacionVerde.prefab
+  artifactKey: Guid(708718d3d646cb246a99707cf514e49f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Rooms/HabitacionVerde.prefab using Guid(708718d3d646cb246a99707cf514e49f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Sprite menu_de_carga3 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga1 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga2 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga4 matches more than one built-in atlases. Default to use the first available atlas.
+ -> (artifact id: '3f9024d84a549b5d9bacc4030a13d204') in 0.340239 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2523
+========================================================================
+Received Import Request.
+  Time since last request: 0.086844 seconds.
+  path: Assets/prefabs/Rooms/HabitacionVioleta.prefab
+  artifactKey: Guid(691b0dd054aa2754f99189341e0184c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Rooms/HabitacionVioleta.prefab using Guid(691b0dd054aa2754f99189341e0184c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Sprite menu_de_carga3 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga1 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga2 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga4 matches more than one built-in atlases. Default to use the first available atlas.
+ -> (artifact id: 'f17a0bbc69822c61c4a1dc30ffd82390') in 0.352507 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2632
+========================================================================
+Received Import Request.
+  Time since last request: 0.017538 seconds.
+  path: Assets/prefabs/Rooms/HabitacionVioleta.prefab
+  artifactKey: Guid(691b0dd054aa2754f99189341e0184c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Rooms/HabitacionVioleta.prefab using Guid(691b0dd054aa2754f99189341e0184c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Sprite menu_de_carga3 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga1 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga2 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga4 matches more than one built-in atlases. Default to use the first available atlas.
+ -> (artifact id: 'a67762e1268fd21edb8d5cb57d2f96c7') in 0.347840 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2632
+========================================================================
+Received Import Request.
+  Time since last request: 0.028946 seconds.
+  path: Assets/prefabs/Rooms/HabitacionVioleta.prefab
+  artifactKey: Guid(691b0dd054aa2754f99189341e0184c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Rooms/HabitacionVioleta.prefab using Guid(691b0dd054aa2754f99189341e0184c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Sprite menu_de_carga3 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga1 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga2 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga4 matches more than one built-in atlases. Default to use the first available atlas.
+ -> (artifact id: '91fc9570a591c502597cc1a1eba64903') in 0.335632 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2632
+========================================================================
+Received Import Request.
+  Time since last request: 0.173185 seconds.
+  path: Assets/prefabs/Rooms/HabitacionVioleta.prefab
+  artifactKey: Guid(691b0dd054aa2754f99189341e0184c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Rooms/HabitacionVioleta.prefab using Guid(691b0dd054aa2754f99189341e0184c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Sprite menu_de_carga3 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga1 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga2 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga4 matches more than one built-in atlases. Default to use the first available atlas.
+ -> (artifact id: '164deea1c5a4f9c709803191f74dd97b') in 0.407338 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2632
+========================================================================
+Received Import Request.
+  Time since last request: 0.001544 seconds.
+  path: Assets/prefabs/Rooms/HabitacionVioleta.prefab
+  artifactKey: Guid(691b0dd054aa2754f99189341e0184c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Rooms/HabitacionVioleta.prefab using Guid(691b0dd054aa2754f99189341e0184c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Sprite menu_de_carga3 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga1 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga2 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga4 matches more than one built-in atlases. Default to use the first available atlas.
+ -> (artifact id: '7ce9350b6767f95ca26669645bac5842') in 0.349346 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2632
+========================================================================
+Received Import Request.
+  Time since last request: 0.439400 seconds.
+  path: Assets/prefabs/Rooms/HabitacionVioleta.prefab
+  artifactKey: Guid(691b0dd054aa2754f99189341e0184c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Rooms/HabitacionVioleta.prefab using Guid(691b0dd054aa2754f99189341e0184c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Sprite menu_de_carga3 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga1 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga2 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga4 matches more than one built-in atlases. Default to use the first available atlas.
+ -> (artifact id: 'aedbbfe31336441ea1fba79b902477d0') in 0.346881 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2632
+========================================================================
+Received Import Request.
+  Time since last request: 0.867819 seconds.
+  path: Assets/prefabs/Rooms/HabitacionVioleta.prefab
+  artifactKey: Guid(691b0dd054aa2754f99189341e0184c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Rooms/HabitacionVioleta.prefab using Guid(691b0dd054aa2754f99189341e0184c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Sprite menu_de_carga3 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga1 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga2 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga4 matches more than one built-in atlases. Default to use the first available atlas.
+ -> (artifact id: '4bcf5e50de8084f9e845ab50ab4e8410') in 0.366038 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2634
+========================================================================
+Received Import Request.
+  Time since last request: 0.044917 seconds.
+  path: Assets/prefabs/Rooms/HabitacionVioleta.prefab
+  artifactKey: Guid(691b0dd054aa2754f99189341e0184c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Rooms/HabitacionVioleta.prefab using Guid(691b0dd054aa2754f99189341e0184c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Sprite menu_de_carga3 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga1 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga2 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga4 matches more than one built-in atlases. Default to use the first available atlas.
+ -> (artifact id: '838a02873bbea95dc25546b4eb93f65d') in 0.344657 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2634
+========================================================================
+Received Import Request.
+  Time since last request: 0.456843 seconds.
+  path: Assets/prefabs/Rooms/HabitacionVioleta.prefab
+  artifactKey: Guid(691b0dd054aa2754f99189341e0184c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Rooms/HabitacionVioleta.prefab using Guid(691b0dd054aa2754f99189341e0184c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Sprite menu_de_carga3 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga1 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga2 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga4 matches more than one built-in atlases. Default to use the first available atlas.
+ -> (artifact id: '6db36398fb0ff093a41b937697ca2708') in 0.372599 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2635
+========================================================================
+Received Import Request.
+  Time since last request: 0.023753 seconds.
+  path: Assets/prefabs/Rooms/HabitacionVioleta.prefab
+  artifactKey: Guid(691b0dd054aa2754f99189341e0184c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Rooms/HabitacionVioleta.prefab using Guid(691b0dd054aa2754f99189341e0184c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Sprite menu_de_carga3 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga1 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga2 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga4 matches more than one built-in atlases. Default to use the first available atlas.
+ -> (artifact id: 'f8c108f46d403795317593c58c58aefa') in 0.330925 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2634
+========================================================================
+Received Import Request.
+  Time since last request: 0.234048 seconds.
+  path: Assets/prefabs/Rooms/HabitacionVioleta.prefab
+  artifactKey: Guid(691b0dd054aa2754f99189341e0184c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Rooms/HabitacionVioleta.prefab using Guid(691b0dd054aa2754f99189341e0184c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Sprite menu_de_carga3 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga1 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga2 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga4 matches more than one built-in atlases. Default to use the first available atlas.
+ -> (artifact id: '7d25d8d4e5e3618590e473d7e876c5b9') in 0.354592 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2633
+========================================================================
+Received Import Request.
+  Time since last request: 0.026672 seconds.
+  path: Assets/prefabs/Rooms/HabitacionVioleta.prefab
+  artifactKey: Guid(691b0dd054aa2754f99189341e0184c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Rooms/HabitacionVioleta.prefab using Guid(691b0dd054aa2754f99189341e0184c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Sprite menu_de_carga3 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga1 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga2 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga4 matches more than one built-in atlases. Default to use the first available atlas.
+ -> (artifact id: '350cabdbd3fb2124d4bbcc6335c659b9') in 0.340849 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2634
+========================================================================
+Received Import Request.
+  Time since last request: 0.025012 seconds.
+  path: Assets/prefabs/Rooms/HabitacionVioleta.prefab
+  artifactKey: Guid(691b0dd054aa2754f99189341e0184c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Rooms/HabitacionVioleta.prefab using Guid(691b0dd054aa2754f99189341e0184c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Sprite menu_de_carga3 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga1 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga2 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga4 matches more than one built-in atlases. Default to use the first available atlas.
+ -> (artifact id: '7f9409e111515d78af68e9ca50fa7686') in 0.334621 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2633
+========================================================================
+Received Import Request.
+  Time since last request: 0.076812 seconds.
+  path: Assets/prefabs/Rooms/HabitacionVioleta.prefab
+  artifactKey: Guid(691b0dd054aa2754f99189341e0184c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Rooms/HabitacionVioleta.prefab using Guid(691b0dd054aa2754f99189341e0184c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Sprite menu_de_carga3 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga1 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga2 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga4 matches more than one built-in atlases. Default to use the first available atlas.
+ -> (artifact id: 'a8c6ab355a6dac0c1d1e796dcdf810ed') in 0.455039 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2633
+========================================================================
+Received Import Request.
+  Time since last request: 0.315702 seconds.
+  path: Assets/prefabs/Rooms/HabitacionVioleta.prefab
+  artifactKey: Guid(691b0dd054aa2754f99189341e0184c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Rooms/HabitacionVioleta.prefab using Guid(691b0dd054aa2754f99189341e0184c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Sprite menu_de_carga3 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga1 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga2 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga4 matches more than one built-in atlases. Default to use the first available atlas.
+ -> (artifact id: '4edf34a7ac14cbd2e66eb999c0bc2c24') in 0.359747 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2634
+========================================================================
+Received Import Request.
+  Time since last request: 0.017102 seconds.
+  path: Assets/prefabs/Rooms/HabitacionVioleta.prefab
+  artifactKey: Guid(691b0dd054aa2754f99189341e0184c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Rooms/HabitacionVioleta.prefab using Guid(691b0dd054aa2754f99189341e0184c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Sprite menu_de_carga3 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga1 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga2 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga4 matches more than one built-in atlases. Default to use the first available atlas.
+ -> (artifact id: 'eb8bc8fd673f8143aa3f15ce51f76bc6') in 0.366679 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2634
+========================================================================
+Received Import Request.
+  Time since last request: 0.019533 seconds.
+  path: Assets/prefabs/Rooms/HabitacionVioleta.prefab
+  artifactKey: Guid(691b0dd054aa2754f99189341e0184c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Rooms/HabitacionVioleta.prefab using Guid(691b0dd054aa2754f99189341e0184c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Sprite menu_de_carga3 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga1 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga2 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga4 matches more than one built-in atlases. Default to use the first available atlas.
+ -> (artifact id: '09174158a7f3230301195b39d0f215ac') in 0.350917 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2634
+========================================================================
+Received Import Request.
+  Time since last request: 0.226472 seconds.
+  path: Assets/prefabs/Rooms/HabitacionVioleta.prefab
+  artifactKey: Guid(691b0dd054aa2754f99189341e0184c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Rooms/HabitacionVioleta.prefab using Guid(691b0dd054aa2754f99189341e0184c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Sprite menu_de_carga3 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga1 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga2 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga4 matches more than one built-in atlases. Default to use the first available atlas.
+ -> (artifact id: '9ff960c42df8c11d4cb6a982003b1e99') in 0.331277 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2632
+========================================================================
+Received Import Request.
+  Time since last request: 0.635748 seconds.
+  path: Assets/prefabs/Rooms/HabitacionVioleta.prefab
+  artifactKey: Guid(691b0dd054aa2754f99189341e0184c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Rooms/HabitacionVioleta.prefab using Guid(691b0dd054aa2754f99189341e0184c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Sprite menu_de_carga3 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga1 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga2 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga4 matches more than one built-in atlases. Default to use the first available atlas.
+ -> (artifact id: 'c98d4bde563e0290042c474f30102d73') in 0.358901 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2634
+========================================================================
+Received Import Request.
+  Time since last request: 0.011603 seconds.
+  path: Assets/prefabs/Rooms/HabitacionVioleta.prefab
+  artifactKey: Guid(691b0dd054aa2754f99189341e0184c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Rooms/HabitacionVioleta.prefab using Guid(691b0dd054aa2754f99189341e0184c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Sprite menu_de_carga3 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga1 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga2 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga4 matches more than one built-in atlases. Default to use the first available atlas.
+ -> (artifact id: 'c807fd7cf412e70fdfe831add40cfb56') in 0.350185 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2634
+========================================================================
+Received Import Request.
+  Time since last request: 0.865665 seconds.
+  path: Assets/prefabs/Rooms/HabitacionVioleta.prefab
+  artifactKey: Guid(691b0dd054aa2754f99189341e0184c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Rooms/HabitacionVioleta.prefab using Guid(691b0dd054aa2754f99189341e0184c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Sprite menu_de_carga3 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga1 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga2 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga4 matches more than one built-in atlases. Default to use the first available atlas.
+ -> (artifact id: '6800639fac1fbe690853eaf674202819') in 0.364312 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2634
+========================================================================
+Received Import Request.
+  Time since last request: 0.022563 seconds.
+  path: Assets/prefabs/Rooms/HabitacionVioleta.prefab
+  artifactKey: Guid(691b0dd054aa2754f99189341e0184c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Rooms/HabitacionVioleta.prefab using Guid(691b0dd054aa2754f99189341e0184c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Sprite menu_de_carga3 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga1 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga2 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga4 matches more than one built-in atlases. Default to use the first available atlas.
+ -> (artifact id: 'c118ab3d50ba539e7e8a1509fbc6903f') in 0.331989 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2634
+========================================================================
+Received Import Request.
+  Time since last request: 0.065286 seconds.
+  path: Assets/prefabs/Rooms/HabitacionVioleta.prefab
+  artifactKey: Guid(691b0dd054aa2754f99189341e0184c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Rooms/HabitacionVioleta.prefab using Guid(691b0dd054aa2754f99189341e0184c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Sprite menu_de_carga3 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga1 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga2 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga4 matches more than one built-in atlases. Default to use the first available atlas.
+ -> (artifact id: '0f76cc7957d4a6fbdf01966761ba2af7') in 0.352759 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2634
+========================================================================
+Received Import Request.
+  Time since last request: 0.466806 seconds.
+  path: Assets/prefabs/Rooms/HabitacionVioleta.prefab
+  artifactKey: Guid(691b0dd054aa2754f99189341e0184c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Rooms/HabitacionVioleta.prefab using Guid(691b0dd054aa2754f99189341e0184c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Sprite menu_de_carga3 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga1 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga2 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga4 matches more than one built-in atlases. Default to use the first available atlas.
+ -> (artifact id: 'c1f97c4f9880ebad3e91f28310c67224') in 0.383337 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2634
+========================================================================
+Received Import Request.
+  Time since last request: 0.003252 seconds.
+  path: Assets/prefabs/Rooms/HabitacionVioleta.prefab
+  artifactKey: Guid(691b0dd054aa2754f99189341e0184c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Rooms/HabitacionVioleta.prefab using Guid(691b0dd054aa2754f99189341e0184c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Sprite menu_de_carga3 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga1 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga2 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga4 matches more than one built-in atlases. Default to use the first available atlas.
+ -> (artifact id: '1cfc55b94e50b7c1f02ac682ef31081e') in 0.340759 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2634
+========================================================================
+Received Import Request.
+  Time since last request: 1.304711 seconds.
+  path: Assets/prefabs/Rooms/HabitacionVioleta.prefab
+  artifactKey: Guid(691b0dd054aa2754f99189341e0184c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Rooms/HabitacionVioleta.prefab using Guid(691b0dd054aa2754f99189341e0184c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Sprite menu_de_carga3 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga1 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga2 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga4 matches more than one built-in atlases. Default to use the first available atlas.
+ -> (artifact id: '2aa4a02b146d027fb3900d3db0802691') in 0.358430 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2633
+========================================================================
+Received Import Request.
+  Time since last request: 0.070833 seconds.
+  path: Assets/prefabs/Rooms/HabitacionVioleta.prefab
+  artifactKey: Guid(691b0dd054aa2754f99189341e0184c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Rooms/HabitacionVioleta.prefab using Guid(691b0dd054aa2754f99189341e0184c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Sprite menu_de_carga3 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga1 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga2 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga4 matches more than one built-in atlases. Default to use the first available atlas.
+ -> (artifact id: 'cbfc58b8a52c490d2ef4dc83a3f8d807') in 0.333113 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2633
+========================================================================
+Received Import Request.
+  Time since last request: 1.406902 seconds.
+  path: Assets/prefabs/Rooms/HabitacionVioleta.prefab
+  artifactKey: Guid(691b0dd054aa2754f99189341e0184c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Rooms/HabitacionVioleta.prefab using Guid(691b0dd054aa2754f99189341e0184c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Sprite menu_de_carga3 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga1 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga2 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga4 matches more than one built-in atlases. Default to use the first available atlas.
+ -> (artifact id: '1de8524fcdabe59963ea957959f0328f') in 0.351164 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2632
+========================================================================
+Received Import Request.
+  Time since last request: 5.548132 seconds.
+  path: Assets/prefabs/Rooms/HabitacionVioleta.prefab
+  artifactKey: Guid(691b0dd054aa2754f99189341e0184c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Rooms/HabitacionVioleta.prefab using Guid(691b0dd054aa2754f99189341e0184c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Sprite menu_de_carga3 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga1 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga2 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga4 matches more than one built-in atlases. Default to use the first available atlas.
+ -> (artifact id: '4f83a739852488792f328f74c72992a5') in 0.375543 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2632
+========================================================================
+Received Import Request.
+  Time since last request: 1.646339 seconds.
+  path: Assets/prefabs/Rooms/HabitacionVioleta.prefab
+  artifactKey: Guid(691b0dd054aa2754f99189341e0184c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Rooms/HabitacionVioleta.prefab using Guid(691b0dd054aa2754f99189341e0184c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Sprite menu_de_carga3 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga1 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga2 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga4 matches more than one built-in atlases. Default to use the first available atlas.
+ -> (artifact id: '610fa740516521b8d3c76ec9504430a5') in 0.343895 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2632
+========================================================================
+Received Import Request.
+  Time since last request: 30.714416 seconds.
+  path: Assets/prefabs/Rooms/HabitacionVioleta.prefab
+  artifactKey: Guid(691b0dd054aa2754f99189341e0184c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Rooms/HabitacionVioleta.prefab using Guid(691b0dd054aa2754f99189341e0184c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Sprite menu_de_carga3 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga1 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga2 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga4 matches more than one built-in atlases. Default to use the first available atlas.
+ -> (artifact id: '4a712583a1f8a500eca35a07f2540778') in 0.358921 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2632
+========================================================================
+Received Import Request.
+  Time since last request: 1.047865 seconds.
+  path: Assets/prefabs/Rooms/HabitacionVioleta.prefab
+  artifactKey: Guid(691b0dd054aa2754f99189341e0184c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Rooms/HabitacionVioleta.prefab using Guid(691b0dd054aa2754f99189341e0184c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Sprite menu_de_carga3 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga1 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga2 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga4 matches more than one built-in atlases. Default to use the first available atlas.
+ -> (artifact id: '223fcc282eeed8e5cb91fdb6559a85e4') in 0.338865 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2632
+========================================================================
+Received Import Request.
+  Time since last request: 0.097644 seconds.
+  path: Assets/prefabs/Rooms/HabitacionVioleta.prefab
+  artifactKey: Guid(691b0dd054aa2754f99189341e0184c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Rooms/HabitacionVioleta.prefab using Guid(691b0dd054aa2754f99189341e0184c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Sprite menu_de_carga3 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga1 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga2 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga4 matches more than one built-in atlases. Default to use the first available atlas.
+ -> (artifact id: 'e2194122479fb488755dda1df96b9448') in 0.343295 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2632
+========================================================================
+Received Import Request.
+  Time since last request: 0.151935 seconds.
+  path: Assets/prefabs/Rooms/HabitacionVioleta.prefab
+  artifactKey: Guid(691b0dd054aa2754f99189341e0184c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Rooms/HabitacionVioleta.prefab using Guid(691b0dd054aa2754f99189341e0184c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Sprite menu_de_carga3 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga1 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga2 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga4 matches more than one built-in atlases. Default to use the first available atlas.
+ -> (artifact id: 'e78a9c00e856266dce7096d587fb2cd6') in 0.354199 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2632
+========================================================================
+Received Import Request.
+  Time since last request: 37.634551 seconds.
+  path: Assets/prefabs/Rooms/HabitacionVioleta.prefab
+  artifactKey: Guid(691b0dd054aa2754f99189341e0184c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Rooms/HabitacionVioleta.prefab using Guid(691b0dd054aa2754f99189341e0184c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Sprite menu_de_carga3 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga1 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga2 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga4 matches more than one built-in atlases. Default to use the first available atlas.
+ -> (artifact id: 'ec77f3bed7a74c95248d31337dbc9159') in 0.345575 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2632
+========================================================================
+Received Import Request.
+  Time since last request: 2.567919 seconds.
+  path: Assets/prefabs/Rooms/HabitacionVioleta.prefab
+  artifactKey: Guid(691b0dd054aa2754f99189341e0184c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Rooms/HabitacionVioleta.prefab using Guid(691b0dd054aa2754f99189341e0184c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Sprite menu_de_carga3 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga1 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga2 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga4 matches more than one built-in atlases. Default to use the first available atlas.
+ -> (artifact id: '2fea24a3d4a826bd120221178c8bfa52') in 0.328039 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2632
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Assembly 'Assets/ExternalDependencyManager/Editor/1.2.181/Google.IOSResolver.dll' will not be loaded due to errors:
+Unable to resolve reference 'UnityEditor.iOS.Extensions.Xcode'. Is the assembly missing or incompatible with the current platform?
+Reference validation can be disabled in the Plugin Inspector.
+- Loaded All Assemblies, in  2.146 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.518 seconds
+Domain Reload Profiling: 3670ms
+	BeginReloadAssembly (1355ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (1076ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (73ms)
+	RebuildCommonClasses (56ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (53ms)
+	LoadAllAssembliesAndSetupDomain (661ms)
+		LoadAssemblies (773ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (38ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (24ms)
+	FinalizeReload (1519ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1104ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (38ms)
+			SetLoadedEditorAssemblies (13ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (297ms)
+			ProcessInitializeOnLoadAttributes (613ms)
+			ProcessInitializeOnLoadMethodAttributes (138ms)
+			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
+		AwakeInstancesAfterBackupRestoration (29ms)
+Switching render pipeline e23abffd4ca40a840b370f99035147df -> 681886c5eb7344803b6206f758bf0b1c
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 16.94 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 20.49 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6813 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 60 unused Assets / (0.9 MB). Loaded Objects now: 7302.
-Memory consumption went from 272.5 MB to 271.6 MB.
-Total: 6.042800 ms (FindLiveObjects: 0.632900 ms CreateObjectMapping: 0.236200 ms MarkObjects: 4.660300 ms  DeleteObjects: 0.511800 ms)
+Unloading 6702 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 57 unused Assets / (0.9 MB). Loaded Objects now: 7445.
+Memory consumption went from 248.9 MB to 248.0 MB.
+Total: 7.043800 ms (FindLiveObjects: 0.802500 ms CreateObjectMapping: 0.940600 ms MarkObjects: 4.454900 ms  DeleteObjects: 0.843900 ms)
 
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:srp/default-pipeline: 8681685cbe374408b326607f85fbb0c1 -> 2ea3fbdfc44aa048b073f099301574fd
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 190.129890 seconds.
+  path: Assets/prefabs/Rooms/habitacion1_padre.prefab
+  artifactKey: Guid(d9b1784a68847e546ab7115e7c2dde8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Rooms/habitacion1_padre.prefab using Guid(d9b1784a68847e546ab7115e7c2dde8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '95185b8b20d196b8c61705f83d49843c') in 0.002706 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/prefabs/Rooms/HabitacionAmarilla.prefab
+  artifactKey: Guid(4e177b92c51a1af48b9e8c18afa89a90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Rooms/HabitacionAmarilla.prefab using Guid(4e177b92c51a1af48b9e8c18afa89a90) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '00546f048d0a8cf335f6e09f94b0da2d') in 0.000623 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/prefabs/Rooms/HabitacionAzul.prefab
+  artifactKey: Guid(e0af8eec041d6b8479cc6a490a3db5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Rooms/HabitacionAzul.prefab using Guid(e0af8eec041d6b8479cc6a490a3db5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'fe279bd598e58238abe6fcf72816ba7b') in 0.000666 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/prefabs/Rooms/habitacion2_SubJefe.prefab
+  artifactKey: Guid(14762e151fb893b4cb153f560467c5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Rooms/habitacion2_SubJefe.prefab using Guid(14762e151fb893b4cb153f560467c5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '338a7fe68ca05924e0e80a6dea959a32') in 0.000554 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/prefabs/Rooms/habitacion2_padre.prefab
+  artifactKey: Guid(59db9a28a7f3d394e89df524d1a165bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Rooms/habitacion2_padre.prefab using Guid(59db9a28a7f3d394e89df524d1a165bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2285e86a188e15afb6ac7e190f486a3c') in 0.000779 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/prefabs/Rooms/habitacionIncial_padre.prefab
+  artifactKey: Guid(676893457838e3640b5aa1c342aa21c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Rooms/habitacionIncial_padre.prefab using Guid(676893457838e3640b5aa1c342aa21c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b437b9811a5eb2321690449372d7b306') in 0.000608 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 18.93 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (0.9 MB). Loaded Objects now: 7445.
+Memory consumption went from 144.2 MB to 143.4 MB.
+Total: 6.749400 ms (FindLiveObjects: 0.840000 ms CreateObjectMapping: 0.593600 ms MarkObjects: 4.591800 ms  DeleteObjects: 0.722300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -198,55 +1147,55 @@ Symbol file LoadedFromMemory is not a mono symbol file
 Assembly 'Assets/ExternalDependencyManager/Editor/1.2.181/Google.IOSResolver.dll' will not be loaded due to errors:
 Unable to resolve reference 'UnityEditor.iOS.Extensions.Xcode'. Is the assembly missing or incompatible with the current platform?
 Reference validation can be disabled in the Plugin Inspector.
-- Loaded All Assemblies, in  2.007 seconds
+- Loaded All Assemblies, in  0.971 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.364 seconds
-Domain Reload Profiling: 3372ms
-	BeginReloadAssembly (1311ms)
+- Finished resetting the current domain, in 41.882 seconds
+Domain Reload Profiling: 42851ms
+	BeginReloadAssembly (298ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (1065ms)
+		DisableScriptedObjects (20ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (54ms)
-	RebuildCommonClasses (68ms)
-	RebuildNativeTypeToScriptingClass (26ms)
-	initialDomainReloadingComplete (66ms)
-	LoadAllAssembliesAndSetupDomain (536ms)
-		LoadAssemblies (653ms)
+		CreateAndSetChildDomain (60ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (544ms)
+		LoadAssemblies (687ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (31ms)
-			TypeCache.Refresh (8ms)
+		AnalyzeDomain (30ms)
+			TypeCache.Refresh (10ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (21ms)
-	FinalizeReload (1365ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (41883ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1035ms)
+		SetupLoadedEditorAssemblies (1182ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (48ms)
+			InitializePlatformSupportModulesInManaged (45ms)
 			SetLoadedEditorAssemblies (13ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (279ms)
-			ProcessInitializeOnLoadAttributes (564ms)
-			ProcessInitializeOnLoadMethodAttributes (126ms)
+			BeforeProcessingInitializeOnLoad (295ms)
+			ProcessInitializeOnLoadAttributes (668ms)
+			ProcessInitializeOnLoadMethodAttributes (156ms)
 			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (25ms)
+		AwakeInstancesAfterBackupRestoration (31ms)
 Switching render pipeline e23abffd4ca40a840b370f99035147df -> 681886c5eb7344803b6206f758bf0b1c
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 17.89 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 18.40 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6659 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 47 unused Assets / (0.9 MB). Loaded Objects now: 7308.
-Memory consumption went from 244.9 MB to 244.0 MB.
-Total: 5.477300 ms (FindLiveObjects: 0.768800 ms CreateObjectMapping: 0.263600 ms MarkObjects: 3.887100 ms  DeleteObjects: 0.556400 ms)
+Unloading 6701 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 47 unused Assets / (0.9 MB). Loaded Objects now: 7450.
+Memory consumption went from 248.5 MB to 247.7 MB.
+Total: 8.803900 ms (FindLiveObjects: 1.002700 ms CreateObjectMapping: 0.484700 ms MarkObjects: 6.659600 ms  DeleteObjects: 0.655300 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -265,38 +1214,296 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 17345.243715 seconds.
-  path: Assets/prefabs/Rooms/HabitacionVerde.prefab
-  artifactKey: Guid(708718d3d646cb246a99707cf514e49f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefabs/Rooms/HabitacionVerde.prefab using Guid(708718d3d646cb246a99707cf514e49f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '90b63715ebd17d3312fe5693f29461c9') in 0.002705 seconds
+  Time since last request: 1133.990778 seconds.
+  path: Assets/prefabs/Rooms/habitacion1_padre.prefab
+  artifactKey: Guid(d9b1784a68847e546ab7115e7c2dde8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Rooms/habitacion1_padre.prefab using Guid(d9b1784a68847e546ab7115e7c2dde8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '95185b8b20d196b8c61705f83d49843c') in 0.002329 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/prefabs/Rooms/HabitacionRoja.prefab
-  artifactKey: Guid(5ae74830a9f4536408ddd9dfc690ecee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefabs/Rooms/HabitacionRoja.prefab using Guid(5ae74830a9f4536408ddd9dfc690ecee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '3ce8d1dd038238e0461ed88b87ef09b9') in 0.000583 seconds
+  Time since last request: 0.000031 seconds.
+  path: Assets/prefabs/Rooms/HabitacionAmarilla.prefab
+  artifactKey: Guid(4e177b92c51a1af48b9e8c18afa89a90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Rooms/HabitacionAmarilla.prefab using Guid(4e177b92c51a1af48b9e8c18afa89a90) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '00546f048d0a8cf335f6e09f94b0da2d') in 0.000579 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/prefabs/Rooms/HabitacionVioleta.prefab
-  artifactKey: Guid(691b0dd054aa2754f99189341e0184c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefabs/Rooms/HabitacionVioleta.prefab using Guid(691b0dd054aa2754f99189341e0184c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '524c8691b5cb7cbc257fa6ee01c0e3ee') in 0.000656 seconds
+  Time since last request: 0.000042 seconds.
+  path: Assets/prefabs/Rooms/HabitacionAzul.prefab
+  artifactKey: Guid(e0af8eec041d6b8479cc6a490a3db5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Rooms/HabitacionAzul.prefab using Guid(e0af8eec041d6b8479cc6a490a3db5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'fe279bd598e58238abe6fcf72816ba7b') in 0.000953 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
   Time since last request: 0.000025 seconds.
+  path: Assets/prefabs/Rooms/HabitacionRoja.prefab
+  artifactKey: Guid(5ae74830a9f4536408ddd9dfc690ecee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Rooms/HabitacionRoja.prefab using Guid(5ae74830a9f4536408ddd9dfc690ecee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1a15438c29556128af63d66d358fc713') in 0.000864 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/prefabs/Rooms/habitacion2_SubJefe.prefab
+  artifactKey: Guid(14762e151fb893b4cb153f560467c5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Rooms/habitacion2_SubJefe.prefab using Guid(14762e151fb893b4cb153f560467c5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '338a7fe68ca05924e0e80a6dea959a32') in 0.000916 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/prefabs/Rooms/habitacion2_padre.prefab
+  artifactKey: Guid(59db9a28a7f3d394e89df524d1a165bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Rooms/habitacion2_padre.prefab using Guid(59db9a28a7f3d394e89df524d1a165bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2285e86a188e15afb6ac7e190f486a3c') in 0.000808 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/prefabs/Rooms/habitacionIncial_padre.prefab
+  artifactKey: Guid(676893457838e3640b5aa1c342aa21c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Rooms/habitacionIncial_padre.prefab using Guid(676893457838e3640b5aa1c342aa21c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b437b9811a5eb2321690449372d7b306') in 0.001002 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 17.14 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (0.9 MB). Loaded Objects now: 7450.
+Memory consumption went from 144.2 MB to 143.4 MB.
+Total: 5.501800 ms (FindLiveObjects: 0.696500 ms CreateObjectMapping: 0.409700 ms MarkObjects: 3.936400 ms  DeleteObjects: 0.458000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 182.380702 seconds.
+  path: Assets/prefabs/Rooms/HabitacionAmarilla.prefab
+  artifactKey: Guid(4e177b92c51a1af48b9e8c18afa89a90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Rooms/HabitacionAmarilla.prefab using Guid(4e177b92c51a1af48b9e8c18afa89a90) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e8d6823921472f6ac36d5d79ed6a9cf6') in 0.000650 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/prefabs/Rooms/HabitacionAzul.prefab
+  artifactKey: Guid(e0af8eec041d6b8479cc6a490a3db5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Rooms/HabitacionAzul.prefab using Guid(e0af8eec041d6b8479cc6a490a3db5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5bc9c4a23f6d91ca121d2d531d47e9a0') in 0.000558 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/prefabs/Rooms/HabitacionRoja.prefab
+  artifactKey: Guid(5ae74830a9f4536408ddd9dfc690ecee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Rooms/HabitacionRoja.prefab using Guid(5ae74830a9f4536408ddd9dfc690ecee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '48466336ee9c18932841f7f4e00b4a25') in 0.000604 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/prefabs/Rooms/habitacion2_Jefe.prefab
+  artifactKey: Guid(9eb1d96d5e248714e894ae6607328362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Rooms/habitacion2_Jefe.prefab using Guid(9eb1d96d5e248714e894ae6607328362) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5e3d12a558b6adbcd885d368d194063d') in 0.000744 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/prefabs/Rooms/habitacion2_SubJefe.prefab
+  artifactKey: Guid(14762e151fb893b4cb153f560467c5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Rooms/habitacion2_SubJefe.prefab using Guid(14762e151fb893b4cb153f560467c5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '22883aeddb7d89cbaf60ea6564de858c') in 0.000642 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/prefabs/Rooms/HabitacionVioleta.prefab
+  artifactKey: Guid(691b0dd054aa2754f99189341e0184c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Rooms/HabitacionVioleta.prefab using Guid(691b0dd054aa2754f99189341e0184c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c53c9c3aff60d60a07b319e8d0c4f2fe') in 0.000730 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/prefabs/Rooms/habitacion2_padre.prefab
+  artifactKey: Guid(59db9a28a7f3d394e89df524d1a165bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Rooms/habitacion2_padre.prefab using Guid(59db9a28a7f3d394e89df524d1a165bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b93f6fe8f23b893187c524ce99a9b147') in 0.001395 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
   path: Assets/prefabs/Rooms/habitacionInicio2.prefab
   artifactKey: Guid(2d6019a324ce97a49ad06ee17679504b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/prefabs/Rooms/habitacionInicio2.prefab using Guid(2d6019a324ce97a49ad06ee17679504b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'f440eb8d8f1e58b896194888a433b5d4') in 0.000592 seconds
+ -> (artifact id: 'e79246e27882b2044c2464121d93532c') in 0.000589 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/prefabs/Rooms/habitacion1_padre.prefab
+  artifactKey: Guid(d9b1784a68847e546ab7115e7c2dde8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Rooms/habitacion1_padre.prefab using Guid(d9b1784a68847e546ab7115e7c2dde8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1c2c2795b1bef893f486e788751f8748') in 0.000646 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/prefabs/Rooms/habitacionIncial_padre.prefab
+  artifactKey: Guid(676893457838e3640b5aa1c342aa21c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Rooms/habitacionIncial_padre.prefab using Guid(676893457838e3640b5aa1c342aa21c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6d515e127d10a3022724f447af4e599c') in 0.000843 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 10.715734 seconds.
+  path: Assets/prefabs/Bullets/Jugador/bullet.prefab
+  artifactKey: Guid(842c9048a7dede949aaf88fcfee5e699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Bullets/Jugador/bullet.prefab using Guid(842c9048a7dede949aaf88fcfee5e699) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e2644b26190c1f0fbb429df773fc3d77') in 0.000575 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/prefabs/Bullets/Jugador/CruzRosa.prefab
+  artifactKey: Guid(71e27a7fe0dc1134692f6063fef75df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Bullets/Jugador/CruzRosa.prefab using Guid(71e27a7fe0dc1134692f6063fef75df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f2f7b8faeb2ccf7797d0b66d612febbf') in 0.000776 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/prefabs/Bullets/Jugador/CuadradoAzul.prefab
+  artifactKey: Guid(07628d61d15078543ab7acabb116a787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Bullets/Jugador/CuadradoAzul.prefab using Guid(07628d61d15078543ab7acabb116a787) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'df48a5a4eb9674c482579407cdca8d80') in 0.000727 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/prefabs/Bullets/Jugador/pinchos.prefab
+  artifactKey: Guid(3a14a64b0c7d03b428027dba0788b42a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Bullets/Jugador/pinchos.prefab using Guid(3a14a64b0c7d03b428027dba0788b42a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c0755aaf06c7780ad20d6c9c00e7e6a3') in 0.000565 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/prefabs/Bullets/Jugador/RobotCuadradoAzul.prefab
+  artifactKey: Guid(7ab879fd4f4ba3c4c96b4611227a829e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Bullets/Jugador/RobotCuadradoAzul.prefab using Guid(7ab879fd4f4ba3c4c96b4611227a829e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4597138e413b902bb99c7699e2d3aaab') in 0.000575 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/prefabs/Bullets/Jugador/RomboVioleta.prefab
+  artifactKey: Guid(3498b8dd5f74f4d4bab8aa0d083c32c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Bullets/Jugador/RomboVioleta.prefab using Guid(3498b8dd5f74f4d4bab8aa0d083c32c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '41e325b10df3ae0659230ab40ea44ae4') in 0.000743 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/prefabs/Bullets/Jugador/RectanguloNaranja.prefab
+  artifactKey: Guid(8d2d264b84b9a6745853188ec525a51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Bullets/Jugador/RectanguloNaranja.prefab using Guid(8d2d264b84b9a6745853188ec525a51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0caf55daf920681d85ad6a7eb48a36b9') in 0.000732 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/prefabs/Bullets/Jugador/Player_knightRed.prefab
+  artifactKey: Guid(f5926d4ad8c798b4caa88304aa2f6d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Bullets/Jugador/Player_knightRed.prefab using Guid(f5926d4ad8c798b4caa88304aa2f6d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1eba048b82c09a505cd5edb6a0ac063d') in 0.000563 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 9.073163 seconds.
+  path: Assets/prefabs/Player/PlayerHuman.prefab
+  artifactKey: Guid(3b40cfdff56f63e48b04be26112ab4ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Player/PlayerHuman.prefab using Guid(3b40cfdff56f63e48b04be26112ab4ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '736048628dad94a5bf3c5132be886b82') in 0.000635 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/prefabs/Player/PlayerSkeleton.prefab
+  artifactKey: Guid(bf2e6af0d8768484db10141f08c3e584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Player/PlayerSkeleton.prefab using Guid(bf2e6af0d8768484db10141f08c3e584) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ac0c9da3ba5a9dd993155d7daf43a204') in 0.000555 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.075298 seconds.
+  path: Assets/prefabs/Player/GreenAcid.prefab
+  artifactKey: Guid(17055eee10e52c14cb004f9527e43fe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Player/GreenAcid.prefab using Guid(17055eee10e52c14cb004f9527e43fe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a7355166e9eec2de2c0017901209df74') in 0.000771 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/prefabs/Player/PlayerSkeleton.prefab
+  artifactKey: Guid(bf2e6af0d8768484db10141f08c3e584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Player/PlayerSkeleton.prefab using Guid(bf2e6af0d8768484db10141f08c3e584) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ac0c9da3ba5a9dd993155d7daf43a204') in 0.000790 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/prefabs/Player/PlayerHuman.prefab
+  artifactKey: Guid(3b40cfdff56f63e48b04be26112ab4ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Player/PlayerHuman.prefab using Guid(3b40cfdff56f63e48b04be26112ab4ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '736048628dad94a5bf3c5132be886b82') in 0.000737 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
