@@ -3,7 +3,7 @@ guid: e02494a0e8508f84db57cb525d6d5b07
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -20,11 +20,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -63,6 +64,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -74,6 +77,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -86,6 +90,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -98,6 +103,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -110,6 +116,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -122,6 +129,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -1114,6 +1122,69 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: items_47
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b8d926f48b282443b844e528b30419e
+      internalID: 1033379878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ede418a0c8e122143b7027764a8ef6f3
+      internalID: -1277590759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_49
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92fb5d0550815be43810fa1e2432afde
+      internalID: 482387061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -1125,56 +1196,58 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      items_2: 1932663854
-      items_42: 660826931
-      items_26: 1205592503
-      items_39: -1187185781
-      items_15: 1759390751
-      items_23: -853205757
-      items_43: 1018276702
-      items_3: -723286516
-      items_27: 1645417338
-      items_22: 1720255303
-      items_33: 1154730718
+      items_0: 615633708
       items_1: 1171581018
-      items_16: -2135989718
-      items_40: 740075005
-      items_7: -2030063659
-      items_11: 1675709620
-      items_29: -344042292
-      items_46: -1196066628
-      items_6: -510510599
-      items_12: -1407495165
-      items_34: -836113899
-      items_9: -1576305686
-      items_21: 1644310040
-      items_30: -1420165035
       items_10: -861949191
-      items_41: 2020199259
-      items_8: 350199986
-      items_19: -343570173
-      items_4: 370991197
+      items_11: 1675709620
+      items_12: -1407495165
+      items_13: -1476255039
       items_14: 557048827
-      items_38: 32121836
+      items_15: 1759390751
+      items_16: -2135989718
+      items_17: 547362409
       items_18: -335364549
+      items_19: -343570173
+      items_2: 1932663854
       items_20: 787447314
+      items_21: 1644310040
+      items_22: 1720255303
+      items_23: -853205757
+      items_24: -2039724093
+      items_25: -375881375
+      items_26: 1205592503
+      items_27: 1645417338
+      items_28: 477149806
+      items_29: -344042292
+      items_3: -723286516
+      items_30: -1420165035
       items_31: 1817491983
       items_32: 1561586683
-      items_0: 615633708
-      items_5: 699222945
-      items_36: 2077912105
-      items_24: -2039724093
-      items_37: -2118492798
-      items_17: 547362409
-      items_28: 477149806
+      items_33: 1154730718
+      items_34: -836113899
       items_35: -952187415
-      items_13: -1476255039
-      items_25: -375881375
+      items_36: 2077912105
+      items_37: -2118492798
+      items_38: 32121836
+      items_39: -1187185781
+      items_4: 370991197
+      items_40: 740075005
+      items_41: 2020199259
+      items_42: 660826931
+      items_43: 1018276702
       items_44: 1963618668
       items_45: -1225395131
-  spritePackingTag: 
+      items_46: -1196066628
+      items_47: 1033379878
+      items_48: -1277590759
+      items_49: 482387061
+      items_5: 699222945
+      items_6: -510510599
+      items_7: -2030063659
+      items_8: 350199986
+      items_9: -1576305686
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

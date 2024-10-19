@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Drawing;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -16,7 +17,7 @@ public class Items : MonoBehaviour
         mapa,
         volar,
         slime,
-
+        tamaño,
     }
 
     [Header("Tipo de Item")]
@@ -49,6 +50,10 @@ public class Items : MonoBehaviour
 
     [Header("Slime")]
     [SerializeField] GameObject slimePiso;
+
+    [Header("Tamaño")]
+    [SerializeField] float size;
+    [SerializeField] bool randomSize = false;
 
     [Header("Sondio")]
     public AudioClip pickup;
@@ -114,6 +119,10 @@ public class Items : MonoBehaviour
 
             case tipo_de_item.slime:
                 aplicarSlime();
+                break;
+
+            case tipo_de_item.tamaño:
+                aplicarTamaño();
                 break;
 
         }
@@ -225,6 +234,19 @@ public class Items : MonoBehaviour
         canvaItem.GetComponent<ItemsCanva>().cargarCanvaItem(Nombre, info_mejora);
         GameObject.FindGameObjectWithTag("Player").gameObject.GetComponent<Sistema>().slime = slimePiso;
         GameObject.FindGameObjectWithTag("Player").gameObject.GetComponent<Sistema>().crearSlime = true;
+        Destroy(gameObject);
+    }
+
+    void aplicarTamaño()
+    {
+        if (randomSize)
+        {
+            size = Random.Range(0.6f, 1.4f);
+        }
+
+        canvaItem.GetComponent<ItemsCanva>().cargarCanvaItem(Nombre, info_mejora);
+        SonidoControler.Instance.ejecutarSonido(pickup);
+        GameObject.FindGameObjectWithTag("Player").transform.localScale = new Vector3(size, size, size);
         Destroy(gameObject);
     }
 

@@ -1,0 +1,709 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.40f1 (cbdda657d2f0) revision 13360550'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'es' Physical Memory: 16332 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+F:\Unity\archivos\2022.3.40f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+F:/Github/Dungeons-Races/Dungeons&Races
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+54087
+Successfully changed project path to: F:/Github/Dungeons-Races/Dungeons&Races
+F:/Github/Dungeons-Races/Dungeons&Races
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [9928]  Target information:
+
+Player connection [9928]  * "[IP] 10.10.100.95 [Port] 0 [Flags] 2 [Guid] 82607266 [EditorId] 82607266 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-KSFICS1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [9928] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [9928] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Refreshing native plugins compatible for Editor in 39.34 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.40f1 (cbdda657d2f0)
+[Subsystems] Discovering subsystems at path F:/Unity/archivos/2022.3.40f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/Github/Dungeons-Races/Dungeons&Races/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon RX 580 Series (ID=0x67df)
+    Vendor:   ATI
+    VRAM:     8170 MB
+    Driver:   31.0.21921.1000
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Initialize mono
+Mono path[0] = 'F:/Unity/archivos/2022.3.40f1/Editor/Data/Managed'
+Mono path[1] = 'F:/Unity/archivos/2022.3.40f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'F:/Unity/archivos/2022.3.40f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56996
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: F:/Unity/archivos/2022.3.40f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: F:/Unity/archivos/2022.3.40f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008599 seconds.
+- Loaded All Assemblies, in  0.462 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 327 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.762 seconds
+Domain Reload Profiling: 1224ms
+	BeginReloadAssembly (154ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (68ms)
+	LoadAllAssembliesAndSetupDomain (180ms)
+		LoadAssemblies (155ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (176ms)
+			TypeCache.Refresh (174ms)
+				TypeCache.ScanAssembly (159ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (763ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (703ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (456ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (174ms)
+			ProcessInitializeOnLoadMethodAttributes (65ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.116 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.452 seconds
+Domain Reload Profiling: 2566ms
+	BeginReloadAssembly (202ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (802ms)
+		LoadAssemblies (596ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (335ms)
+			TypeCache.Refresh (268ms)
+				TypeCache.ScanAssembly (241ms)
+			ScanForSourceGeneratedMonoScriptInfo (48ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1452ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1225ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (31ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (249ms)
+			ProcessInitializeOnLoadAttributes (811ms)
+			ProcessInitializeOnLoadMethodAttributes (121ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 16.97 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6862 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (350.3 KB). Loaded Objects now: 7341.
+Memory consumption went from 258.1 MB to 257.7 MB.
+Total: 6.954900 ms (FindLiveObjects: 0.852000 ms CreateObjectMapping: 0.405600 ms MarkObjects: 5.416300 ms  DeleteObjects: 0.279500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/NavMeshSurface.cs: bae6a604140e0a250291b1e16f121d39 -> 1cd02bcdec9d22fff74c99422329f637
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/NavMeshModifierVolumeEditor.cs: 7e6bbc17cd7e779c3d06fc75f9f2b39b -> 9ff23c1c3f57fe2d5f4522b7b3750d5d
+  custom:scripting/monoscript/fileName/NavMeshExtension.cs: e94d5e8039b3059958b75f580b01d92d -> f2880cc340f13915f85c8de1a56c5b36
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/CollectSourcesCache2d.cs: ef9ad2377268615344096e75083c8362 -> 25a2fc54d6daa18dc264d5d4cee75246
+  custom:scripting/monoscript/fileName/AgentOverride2dEditor.cs: 7b85b8c8ae9e924b8a510b0d6b3daf11 -> 6de205457008ed0fb4e3092b0c3c5865
+  custom:scripting/monoscript/fileName/NavMeshSurfaceEditor.cs: d5a0843d2312cde0b1c28f0080a4ffce -> 2129d1e3360abae92b79358f48c31e11
+  custom:scripting/monoscript/fileName/NavMeshModifierVolume.cs: c8686175e50db42ddb3dadad334fb8b8 -> 0ce026f1094606c8a54952ab73721471
+  custom:scripting/monoscript/fileName/NavMeshModifierEditor.cs: 6a838d6e9a382004fdd4a198d570d3d5 -> 07f56655059b4b41c3dd29ef40cb7f73
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/NavMeshLinkEditor.cs: 3e28cb06a4458bea05fc23807cbea86a -> 27a612e605519f2563b5eebb8ecf2c15
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/RotateAgentInstantly.cs: 05117f7ed360a6cb94be5b626b2a83e3 -> ad87b628ef97add4b69a6c7ee7f415df
+  custom:scripting/monoscript/fileName/CollectSources2d.cs: bb9f7096d86c26999605ddd07da0513c -> c3bca549cfe734d766ea29e1c1865842
+  custom:scripting/monoscript/fileName/NavMeshBuilder2d.cs: a49d48d3da4f389d3d1a63af99f44908 -> d3b8c2725a9cd9e98a701a88e05c8b47
+  custom:scripting/monoscript/fileName/NavMeshLink.cs: 3f17e74c0294932c496e8f34e2c56725 -> e14e05ace48bbb07a523202228054a2d
+  custom:scripting/monoscript/fileName/RootSources2dEditor.cs: 8f23ce79429f9bec6963e6c627dfe8ca -> 73a24493fd3383cfe13e4b704142b0a3
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/NavMeshExtensionsProvider.cs: baa1efe47e0876ea2ac481e48403c86c -> 69e6f55ea01b350798a9a6877d8f1980
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/AgentRotate2d.cs: eb1e8c53a7e9fa9677eadf6a2b0d0a06 -> 4fc9bf049e642c22bb70a10bd6141854
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/NavMeshComponentsGUIUtility.cs: 858095d4f43c046839d52d1184fe9aa9 -> c36fbfafc49fa17941fd91bcea1fc8aa
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:scripting/monoscript/fileName/NavMeshAssetManager.cs: 6a40bbc79f60886673a78caf6d85873e -> 520a1130381647e06575ec6ac4473f2b
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/CollectSources2dEditor.cs: 01a1d5eec2b6a89241393965f03694a9 -> b7e0ba2599756384eb5c465d845f955e
+  custom:scripting/monoscript/fileName/RotateAgentSmoothly.cs: 865173d6911e851991cb5b638a3589e6 -> 862431bad16f34c4c67f6b9b39eb0ef7
+  custom:scripting/monoscript/fileName/NavMeshModifier.cs: ad03a8a61dfc41a66a94a2031b0902b1 -> 08c148f5182ce13ca868880b0ccc03b9
+  custom:scripting/monoscript/fileName/NavMeshBuilderState.cs: 10105a06fe75ca7e8c402c767365445e -> 6d7f164db587b9d55ca8274fbe918c8a
+  custom:scripting/monoscript/fileName/RootSources2d.cs: 1d25637805cceca39c048fed8663e586 -> b5ed6c198f25e32663e8eb90cc749880
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/AgentOverride2d.cs: da2d6722b2568d4ce7ce71915ecf589b -> 866bbdb2fb2e2b9168f317739e51c882
+  custom:scripting/monoscript/fileName/AgentRotateSmooth2d.cs: 12b2423c8d5c77669ffc7dc24bbe64b0 -> 5bf90977ac15dd6e18f747d1f81e4170
+  custom:scripting/monoscript/fileName/CollectSourcesCache2dEditor.cs: 55deae6ec0f16ac740f943eff9452dbd -> 7923a05fa1d7bc1f80ceaccaa5f228e0
+========================================================================
+Received Import Request.
+  Time since last request: 14412.955628 seconds.
+  path: Assets/prefabs/Enemies/SnakeBoss_Cadaver.prefab
+  artifactKey: Guid(b3c030ef5002b094d98a4f8011ff75cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Enemies/SnakeBoss_Cadaver.prefab using Guid(b3c030ef5002b094d98a4f8011ff75cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Sprite menu_de_carga3 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga1 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga2 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga4 matches more than one built-in atlases. Default to use the first available atlas.
+ -> (artifact id: '37263fb507d1f1b7a1a463b1c87b7a54') in 0.513639 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1421
+========================================================================
+Received Import Request.
+  Time since last request: 1.733786 seconds.
+  path: Assets/prefabs/Enemies/EsqueletoGris.prefab
+  artifactKey: Guid(fd53cb5afa3400f4889036f13c95342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Enemies/EsqueletoGris.prefab using Guid(fd53cb5afa3400f4889036f13c95342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Sprite menu_de_carga3 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga1 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga2 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga4 matches more than one built-in atlases. Default to use the first available atlas.
+ -> (artifact id: '62d1b8058b5c30f7a0a6793db29b4e56') in 0.196773 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1428
+========================================================================
+Received Import Request.
+  Time since last request: 17.154523 seconds.
+  path: Assets/prefabs/Enemies/EsqueletoGris_Cadaver.prefab
+  artifactKey: Guid(5ee59f687f86d5f42a9d1cc5237cc3f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Enemies/EsqueletoGris_Cadaver.prefab using Guid(5ee59f687f86d5f42a9d1cc5237cc3f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Sprite menu_de_carga3 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga1 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga2 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga4 matches more than one built-in atlases. Default to use the first available atlas.
+ -> (artifact id: '12462f59f742fe646c74a1e0a65a6388') in 0.188395 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1403
+========================================================================
+Received Import Request.
+  Time since last request: 8.211019 seconds.
+  path: Assets/prefabs/Enemies/EsqueletoGris.prefab
+  artifactKey: Guid(fd53cb5afa3400f4889036f13c95342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Enemies/EsqueletoGris.prefab using Guid(fd53cb5afa3400f4889036f13c95342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Sprite menu_de_carga3 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga1 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga2 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga4 matches more than one built-in atlases. Default to use the first available atlas.
+ -> (artifact id: 'aa80d1503d6efe75ac3c24b34c6b0f70') in 0.217842 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1428
+========================================================================
+Received Import Request.
+  Time since last request: 6.886487 seconds.
+  path: Assets/prefabs/Enemies/EsqueletoGris.prefab
+  artifactKey: Guid(fd53cb5afa3400f4889036f13c95342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Enemies/EsqueletoGris.prefab using Guid(fd53cb5afa3400f4889036f13c95342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Sprite menu_de_carga3 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga1 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga2 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga4 matches more than one built-in atlases. Default to use the first available atlas.
+ -> (artifact id: 'fb5cc44bd3d825a3ea16109ac0f37cdf') in 0.208001 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1428
+========================================================================
+Received Import Request.
+  Time since last request: 1009.105567 seconds.
+  path: Assets/prefabs/Enemies/Boss.prefab
+  artifactKey: Guid(effa6e65f735b3a43968c969e929933c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Enemies/Boss.prefab using Guid(effa6e65f735b3a43968c969e929933c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Sprite menu_de_carga3 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga1 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga2 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga4 matches more than one built-in atlases. Default to use the first available atlas.
+Refreshing native plugins compatible for Editor in 17.22 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+ -> (artifact id: 'ec30a08dc0507f23d31c1aa3aaaded94') in 0.349193 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1575
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/prefabs/Enemies/GhostDarkKnight_Cadaver.prefab
+  artifactKey: Guid(4b18a564748270c47934eded1a6504a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Enemies/GhostDarkKnight_Cadaver.prefab using Guid(4b18a564748270c47934eded1a6504a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Sprite menu_de_carga3 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga1 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga2 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga4 matches more than one built-in atlases. Default to use the first available atlas.
+ -> (artifact id: 'fad54a9371e53a1d2adae3df9cd67863') in 0.209098 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1405
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/prefabs/Enemies/EsqueletoDoradoRango_Cadaver.prefab
+  artifactKey: Guid(a0f40fda154647d42b716aaf778bba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Enemies/EsqueletoDoradoRango_Cadaver.prefab using Guid(a0f40fda154647d42b716aaf778bba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Sprite menu_de_carga3 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga1 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga2 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga4 matches more than one built-in atlases. Default to use the first available atlas.
+ -> (artifact id: '47378ae13e733e3b3ccbaff8caf885f3') in 0.194004 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1405
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/prefabs/Enemies/red_Dron_Cadaver.prefab
+  artifactKey: Guid(fb25d87919d4b7d4ab3f25c3a058a31a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Enemies/red_Dron_Cadaver.prefab using Guid(fb25d87919d4b7d4ab3f25c3a058a31a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Sprite menu_de_carga3 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga1 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga2 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga4 matches more than one built-in atlases. Default to use the first available atlas.
+ -> (artifact id: '3ec0bafef8e6ddc0099a39c77f648490') in 0.192164 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1406
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/prefabs/Enemies/SlimeVerde.prefab
+  artifactKey: Guid(64f0690361acbb842a598a70b2306ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Enemies/SlimeVerde.prefab using Guid(64f0690361acbb842a598a70b2306ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Sprite menu_de_carga3 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga1 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga2 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga4 matches more than one built-in atlases. Default to use the first available atlas.
+ -> (artifact id: 'b9e46b90e0ec462e120026b58fc8a3eb') in 0.219539 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1443
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/prefabs/Enemies/BossKnight.prefab
+  artifactKey: Guid(272ded75afd7081449c6e9bc4ce6f6cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Enemies/BossKnight.prefab using Guid(272ded75afd7081449c6e9bc4ce6f6cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Sprite menu_de_carga3 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga1 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga2 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga4 matches more than one built-in atlases. Default to use the first available atlas.
+Refreshing native plugins compatible for Editor in 17.00 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+ -> (artifact id: 'f96d7124a8fa3ce8afdd79c0f03046ab') in 0.241654 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1551
+========================================================================
+Received Import Request.
+  Time since last request: 0.944183 seconds.
+  path: Assets/prefabs/Items/Stand/Item1.prefab
+  artifactKey: Guid(6f00a1cacd818d64b9edf33899d9d40c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Items/Stand/Item1.prefab using Guid(6f00a1cacd818d64b9edf33899d9d40c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Sprite menu_de_carga3 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga1 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga2 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga4 matches more than one built-in atlases. Default to use the first available atlas.
+ -> (artifact id: '8bade89ba2da31f0ca64cc16bee3cd8c') in 0.209840 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1447
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/prefabs/Items/Stand/Item25.prefab
+  artifactKey: Guid(42ee425c0fc2a7c4eb0b608d7d36abba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Items/Stand/Item25.prefab using Guid(42ee425c0fc2a7c4eb0b608d7d36abba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Sprite menu_de_carga3 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga1 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga2 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga4 matches more than one built-in atlases. Default to use the first available atlas.
+ -> (artifact id: '701becf3a318cf0853aa7bd19c647124') in 0.200696 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1431
+========================================================================
+Received Import Request.
+  Time since last request: 234.605783 seconds.
+  path: Assets/prefabs/Items/Stand/Item1.prefab
+  artifactKey: Guid(6f00a1cacd818d64b9edf33899d9d40c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Items/Stand/Item1.prefab using Guid(6f00a1cacd818d64b9edf33899d9d40c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Sprite menu_de_carga3 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga1 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga2 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga4 matches more than one built-in atlases. Default to use the first available atlas.
+ -> (artifact id: '34806e7c2be4a61dbdef71b2ca941e3a') in 0.303593 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1447
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/prefabs/Items/Stand/Item23.prefab
+  artifactKey: Guid(ff8069382d1519a498e1e5306e8902ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Items/Stand/Item23.prefab using Guid(ff8069382d1519a498e1e5306e8902ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Sprite menu_de_carga3 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga1 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga2 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga4 matches more than one built-in atlases. Default to use the first available atlas.
+ -> (artifact id: 'f16e2d5d16e0c2551fe908897c82bf28') in 0.237316 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1436
+========================================================================
+Received Import Request.
+  Time since last request: 147.080596 seconds.
+  path: Assets/prefabs/Items/Stand/Item0.prefab
+  artifactKey: Guid(cc0f539c1f07fde49afd9f6199c18954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Items/Stand/Item0.prefab using Guid(cc0f539c1f07fde49afd9f6199c18954) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Sprite menu_de_carga3 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga1 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga2 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga4 matches more than one built-in atlases. Default to use the first available atlas.
+ -> (artifact id: '1cde932632273262bee653e5d1864baa') in 0.279720 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1431
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/prefabs/Items/Stand/Item36.prefab
+  artifactKey: Guid(aa980fbd4a5013848b5cf799cd3f6fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Items/Stand/Item36.prefab using Guid(aa980fbd4a5013848b5cf799cd3f6fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Sprite menu_de_carga3 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga1 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga2 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga4 matches more than one built-in atlases. Default to use the first available atlas.
+ -> (artifact id: 'ade582697d251c36dccc13b9fccf7aa7') in 0.270480 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1409
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/prefabs/Items/Stand/Item2.prefab
+  artifactKey: Guid(50bb06f87da69dc42b45d7a477f215c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Items/Stand/Item2.prefab using Guid(50bb06f87da69dc42b45d7a477f215c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Sprite menu_de_carga3 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga1 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga2 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga4 matches more than one built-in atlases. Default to use the first available atlas.
+ -> (artifact id: '5908b9f822c5c7e3220316d6ee73a147') in 0.226430 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1440
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/prefabs/Items/Stand/item17.prefab
+  artifactKey: Guid(5e262149b314e1243a00a1a2728f4090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Items/Stand/item17.prefab using Guid(5e262149b314e1243a00a1a2728f4090) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Sprite menu_de_carga3 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga1 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga2 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga4 matches more than one built-in atlases. Default to use the first available atlas.
+ -> (artifact id: 'f2c1198858e2b0e6b95243ee42158e39') in 0.239265 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1432
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/prefabs/Items/Stand/Item22.prefab
+  artifactKey: Guid(b431ccf6a0a8d8a45b77a18120de25eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Items/Stand/Item22.prefab using Guid(b431ccf6a0a8d8a45b77a18120de25eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Sprite menu_de_carga3 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga1 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga2 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga4 matches more than one built-in atlases. Default to use the first available atlas.
+ -> (artifact id: 'f90ed1687dd86dca8463f80be86cee90') in 0.222434 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1477
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/prefabs/Items/Stand/Item33.prefab
+  artifactKey: Guid(6f01cb8f886c4eb4a9cd89a9c187d54c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Items/Stand/Item33.prefab using Guid(6f01cb8f886c4eb4a9cd89a9c187d54c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Sprite menu_de_carga3 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga1 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga2 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga4 matches more than one built-in atlases. Default to use the first available atlas.
+ -> (artifact id: 'a52558b73b8aef08128b253a5c8f3fcd') in 0.228784 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1422
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/prefabs/Items/Stand/Item11.prefab
+  artifactKey: Guid(68cd3307ad9ed9448b5ef0d989faced9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Items/Stand/Item11.prefab using Guid(68cd3307ad9ed9448b5ef0d989faced9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Sprite menu_de_carga3 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga1 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga2 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga4 matches more than one built-in atlases. Default to use the first available atlas.
+ -> (artifact id: '1516aa8b61a14684dde306967ce5cc18') in 0.232970 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1440
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/prefabs/Items/Stand/Item15.prefab
+  artifactKey: Guid(4ac6b7f39bbd7cc4a83d6d4380881df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Items/Stand/Item15.prefab using Guid(4ac6b7f39bbd7cc4a83d6d4380881df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Sprite menu_de_carga3 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga1 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga2 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga4 matches more than one built-in atlases. Default to use the first available atlas.
+ -> (artifact id: 'abe3c26f9bb7c2ab0c2615df81d75e7f') in 0.323392 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1441
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/prefabs/Items/Stand/Item8.prefab
+  artifactKey: Guid(ce5fd704c2764ea489597186e180729f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Items/Stand/Item8.prefab using Guid(ce5fd704c2764ea489597186e180729f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Sprite menu_de_carga3 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga1 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga2 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga4 matches more than one built-in atlases. Default to use the first available atlas.
+ -> (artifact id: '00e364a7929a27f342a722c92a841a03') in 0.233929 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1431
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/prefabs/Items/Stand/Item12.prefab
+  artifactKey: Guid(e28fd13b3f9006c4ca704fd331d7f756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Items/Stand/Item12.prefab using Guid(e28fd13b3f9006c4ca704fd331d7f756) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Sprite menu_de_carga3 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga1 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga2 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga4 matches more than one built-in atlases. Default to use the first available atlas.
+ -> (artifact id: 'e7324275e28235ab3309e3b5547d50ea') in 0.222009 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1440
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/prefabs/Items/Stand/Item25.prefab
+  artifactKey: Guid(42ee425c0fc2a7c4eb0b608d7d36abba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Items/Stand/Item25.prefab using Guid(42ee425c0fc2a7c4eb0b608d7d36abba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Sprite menu_de_carga3 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga1 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga2 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga4 matches more than one built-in atlases. Default to use the first available atlas.
+ -> (artifact id: '48294e1e4ae87f926b1fd6e0195afe4c') in 0.199315 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1431
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/prefabs/Items/Stand/Item23.prefab
+  artifactKey: Guid(ff8069382d1519a498e1e5306e8902ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Items/Stand/Item23.prefab using Guid(ff8069382d1519a498e1e5306e8902ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Sprite menu_de_carga3 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga1 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga2 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga4 matches more than one built-in atlases. Default to use the first available atlas.
+ -> (artifact id: '844eafe5fb1ab38341de0cae20da1160') in 0.209965 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1436
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/prefabs/Items/Stand/item6.prefab
+  artifactKey: Guid(bfef195322367e243b87445e7f8f4986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Items/Stand/item6.prefab using Guid(bfef195322367e243b87445e7f8f4986) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Sprite menu_de_carga3 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga1 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga2 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga4 matches more than one built-in atlases. Default to use the first available atlas.
+ -> (artifact id: '2069d58167b8d760182512a454a02a17') in 0.234641 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1431
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/prefabs/Items/Stand/Item29.prefab
+  artifactKey: Guid(54d4f284a11f0b640b47e3711806eaf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Items/Stand/Item29.prefab using Guid(54d4f284a11f0b640b47e3711806eaf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Sprite menu_de_carga3 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga1 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga2 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga4 matches more than one built-in atlases. Default to use the first available atlas.
+ -> (artifact id: 'df7169a6cb9776d9053aac9fa9458458') in 0.215498 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1409
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/prefabs/Items/Stand/Item31.prefab
+  artifactKey: Guid(087434539941aeb47969fe5d3434d8a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Items/Stand/Item31.prefab using Guid(087434539941aeb47969fe5d3434d8a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Sprite menu_de_carga3 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga1 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga2 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga4 matches more than one built-in atlases. Default to use the first available atlas.
+ -> (artifact id: '437c82c6f0ab709677ee9d136e8525dd') in 0.207874 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1443
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/prefabs/Items/Stand/Item16.prefab
+  artifactKey: Guid(fbbad8e1529301e40b16d57ff1dc019d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Items/Stand/Item16.prefab using Guid(fbbad8e1529301e40b16d57ff1dc019d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Sprite menu_de_carga3 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga1 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga2 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga4 matches more than one built-in atlases. Default to use the first available atlas.
+ -> (artifact id: 'a6c9e47669bfe6fbf69f1bdbd9e32b54') in 0.346554 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1420
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/prefabs/Items/Stand/Item19.prefab
+  artifactKey: Guid(1ec1667cadacb2a429557a37e1162c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Items/Stand/Item19.prefab using Guid(1ec1667cadacb2a429557a37e1162c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Sprite menu_de_carga3 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga1 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga2 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga4 matches more than one built-in atlases. Default to use the first available atlas.
+ -> (artifact id: 'd35555a883923a8c48e7a5e35f271375') in 0.220896 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1409
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/prefabs/Items/Stand/item5.prefab
+  artifactKey: Guid(d6157ba7816fd0148b6502c3335cd8de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Items/Stand/item5.prefab using Guid(d6157ba7816fd0148b6502c3335cd8de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Sprite menu_de_carga3 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga1 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga2 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga4 matches more than one built-in atlases. Default to use the first available atlas.
+ -> (artifact id: '3b41874bf6839170d3932d61166150fe') in 0.281990 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1431
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/prefabs/Items/Stand/Item27.prefab
+  artifactKey: Guid(68d8013c2729cd54187c10eac049c1af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Items/Stand/Item27.prefab using Guid(68d8013c2729cd54187c10eac049c1af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Sprite menu_de_carga3 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga1 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga2 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga4 matches more than one built-in atlases. Default to use the first available atlas.
+ -> (artifact id: '94d099713def7694b032f3a094e21ccc') in 0.206032 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1423
+========================================================================
+Received Import Request.
+  Time since last request: 13889.521284 seconds.
+  path: Assets/prefabs/Items/Stand/Item37.prefab
+  artifactKey: Guid(75fcec7b303ce564a9a552039e5a6e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Items/Stand/Item37.prefab using Guid(75fcec7b303ce564a9a552039e5a6e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Sprite menu_de_carga3 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga1 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga2 matches more than one built-in atlases. Default to use the first available atlas.
+Sprite menu_de_carga4 matches more than one built-in atlases. Default to use the first available atlas.
+ -> (artifact id: '5d07876d25d2334c8f40d58eab65d1d2') in 10.093134 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1409
