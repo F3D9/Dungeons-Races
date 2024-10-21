@@ -1,7 +1,5 @@
 # Dungeons-Races
 
-2D game about "the binding of isaac" adapted to mobile and with changes so that it is not a copy. 
-
 ![image](https://github.com/user-attachments/assets/14d10531-ffea-4035-93f1-5ae8d4bd2fb8)
 ![image](https://github.com/user-attachments/assets/dc7fa177-b573-415b-90f7-445266f03e8f)
 
