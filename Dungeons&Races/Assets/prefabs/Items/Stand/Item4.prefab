@@ -48,7 +48,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   item: 1
-  precio: 7
+  precio: 6
   municion: {fileID: 0}
   apariencia: {fileID: 7564834119387525550, guid: 05762a0a61c03f342b0df97adf7dd12b, type: 3}
   aumentoVelocidad: 1.1
@@ -59,6 +59,8 @@ MonoBehaviour:
   dron: {fileID: 0}
   multiplicador: 0
   slimePiso: {fileID: 0}
+  size: 0
+  randomSize: 0
   pickup: {fileID: 8300000, guid: 94f45b3cb8d5c294faff6e32360ff619, type: 3}
   Nombre: Gray
   info_mejora: + Velocity

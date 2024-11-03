@@ -82,7 +82,7 @@ public class movDistancia : MonoBehaviour
                 }
                 else
                 {
-                    Debug.DrawRay(transform.position, jugador.position - transform.position, Color.blue);
+                    Debug.DrawRay(transform.position, jugador.position - transform.position, Color.green);
                     enemigo.enabled = true;
                     enemigo.SetDestination(jugador.position);
                     GetComponent<Animator>().enabled = true;

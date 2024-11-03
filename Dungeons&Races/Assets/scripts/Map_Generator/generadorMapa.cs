@@ -72,9 +72,9 @@ public class generadorMapa : MonoBehaviour
         Invoke("seleccionar_habitaciones_sin_salida", 0.12f);
         Invoke("seleccionarHabitacionesEspeciales", 0.15f);
         Invoke("reemplazar_habitaciones_especiales", 0.17f);
-        Invoke("borrarPuertas", 0.2f);
-        Invoke("generarObstaculos", 0.22f);
-        Invoke("generar_enemigos", 0.24f);
+        Invoke("generarObstaculos", 0.2f);
+        Invoke("generar_enemigos", 0.23f);
+        Invoke("borrarPuertas", 0.27f);
         Invoke("sacarPantalladeCarga", 0.3f);
         
     }

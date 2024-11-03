@@ -29,22 +29,34 @@ public class Fuego : MonoBehaviour
         if(transform.parent.parent.parent.parent.GetChild(0).GetChild(0).GetComponentInChildren<colliderPiso>().estaElJugador == true)
         {
             ani.enabled = true;
+            
+
             switch (modo)
             {
                 case 1:
                     ani.runtimeAnimatorController = modo1;
+                    transform.GetChild(2).gameObject.SetActive(true);
                     break;
                 case 2:
                     ani.runtimeAnimatorController = modo2;
+                    transform.GetChild(2).gameObject.SetActive(true);
                     break;
                 case 3:
                     ani.runtimeAnimatorController = modo3;
+                    transform.GetChild(2).gameObject.SetActive(true);
                     break;
                 case 4:
                     ani.enabled = false;
                     ani.runtimeAnimatorController = null;
                     GetComponentInChildren<SpriteRenderer>().sprite = piedras;
+
+                    //Off the light
                     transform.GetChild(1).gameObject.SetActive(false);
+
+                    //Stop loop in particle system
+                    var main = transform.GetChild(2).GetComponent<ParticleSystem>().main;
+                    main.loop = false;
+
                     GetComponent<BoxCollider2D>().enabled = false;
                     GameObject.FindGameObjectWithTag("Admin").transform.GetComponent<soltarObjetos>().soltarObjeto(transform.position);
                     modo++;
@@ -54,6 +66,7 @@ public class Fuego : MonoBehaviour
         else
         {
             ani.enabled=false;
+            transform.GetChild(2).gameObject.SetActive(false);
         }
         
     }

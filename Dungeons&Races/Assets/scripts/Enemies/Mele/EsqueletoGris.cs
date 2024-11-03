@@ -1,14 +1,19 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.AI;
+using Random = UnityEngine.Random;
 
 public class EsqueletoGris : MonoBehaviour
 {
 
     [SerializeField] int aparenciaFreeze;
+    [SerializeField] Animator ani;
 
     NavMeshAgent enemigo;
+    Rigidbody2D rb;
     Transform jugador;
 
     // Start is called before the first frame update
@@ -18,6 +23,7 @@ public class EsqueletoGris : MonoBehaviour
         enemigo.updateRotation = false;
         enemigo.updateUpAxis = false;
         jugador = GameObject.FindGameObjectWithTag("Player").transform;
+        rb = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
@@ -34,17 +40,17 @@ public class EsqueletoGris : MonoBehaviour
                     Physics2D.IgnoreCollision(GetComponent<BoxCollider2D>(), listaEnemigos[i].GetComponent<BoxCollider2D>());
                 }
 
-
                 enemigo.enabled = true;
                 enemigo.SetDestination(jugador.position);
-                GetComponent<Animator>().enabled = true;
+                ani.enabled = true;
+                
                 if (transform.position.x > jugador.position.x)
                 {
-                    GetComponent<Animator>().SetFloat("horizontal", 1);
+                   ani.SetFloat("horizontal", 1);
                 }
                 if (transform.position.x < jugador.position.x)
                 {
-                    GetComponent<Animator>().SetFloat("horizontal", -1);
+                    ani.SetFloat("horizontal", -1);
                 }
                 
 
@@ -52,13 +58,15 @@ public class EsqueletoGris : MonoBehaviour
             else
             {
                 enemigo.enabled = false;
-                GetComponent<Animator>().enabled = false;
+                ani.enabled = false;
             }
              
 
         }
 
     }
+
+    
 
 
 }

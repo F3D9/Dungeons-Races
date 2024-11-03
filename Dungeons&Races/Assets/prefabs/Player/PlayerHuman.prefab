@@ -3981,11 +3981,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eca831be58b78a849813ed786ca68bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pc: 0
   animator: {fileID: 0}
   horizontal: 0
   vertical: 0
   movimiento: {fileID: 7667618459446876272}
   apuntado: {fileID: 7667618459204476815}
+  keyboardHorizontal: 0
+  keyboardVertical: 0
   puedeMoverse: 1
 --- !u!114 &4813803964921021616
 MonoBehaviour:
@@ -4002,7 +4005,7 @@ MonoBehaviour:
   mira: {fileID: 7667618459204476815}
   condicion: 0.8
   bala: {fileID: 4462192981552296716, guid: 351b11931d2e144489a1365afe934952, type: 3}
-  Hueso: {fileID: 4462192981552296716, guid: 351b11931d2e144489a1365afe934952, type: 3}
+  StartAmmo: {fileID: 4462192981552296716, guid: 351b11931d2e144489a1365afe934952, type: 3}
 --- !u!114 &4813803964921021617
 MonoBehaviour:
   m_ObjectHideFlags: 0

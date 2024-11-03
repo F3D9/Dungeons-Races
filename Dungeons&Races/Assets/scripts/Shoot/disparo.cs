@@ -12,12 +12,12 @@ public class disparo : MonoBehaviour
 
     [Header("Municion")]
     public GameObject bala;
-    public GameObject Hueso;
+    public GameObject StartAmmo;
 
     // Start is called before the first frame update
     void Start()
     {
-        bala = Hueso;
+        bala = StartAmmo;
         puntaArma = transform.GetChild(0);
         
     }
@@ -26,16 +26,32 @@ public class disparo : MonoBehaviour
     void Update()
     {
         timer += Time.deltaTime;
-
-        if(mira.Horizontal < 0 || mira.Horizontal > 0  || mira.Vertical < 0 || mira.Vertical > 0)     
+        if (!GetComponent<playerMoves>().pc)
         {
-            
-            if (timer >= condicion)
+            if(mira.Horizontal != 0  || mira.Vertical != 0)     
             {
-                Instantiate(bala, puntaArma.position, puntaArma.rotation);
-                timer = 0;
-            }
             
+                if (timer >= condicion)
+                {
+                    Instantiate(bala, puntaArma.position, puntaArma.rotation);
+                    timer = 0;
+                }
+            
+            }
         }
+        else
+        {
+            if (GetComponent<playerMoves>().keyboardHorizontal != 0.01f || GetComponent<playerMoves>().keyboardVertical != 0.01f)
+            {
+
+                if (timer >= condicion)
+                {
+                    Instantiate(bala, puntaArma.position, puntaArma.rotation);
+                    timer = 0;
+                }
+
+            }
+        }
+        
     }
 }

@@ -86,7 +86,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rango: 5
   tiempo_para_disparar: 1.5
-  distancia: 0.4
+  distancia: 0.3
   misil: {fileID: 5206544608578509926, guid: 78b7dc5f5aaa774428cdc9116ee918f2, type: 3}
 --- !u!114 &7830108212873243070
 MonoBehaviour:

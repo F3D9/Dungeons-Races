@@ -3812,9 +3812,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   jefe1: {fileID: 6303060361908416915}
   jefe2: {fileID: 4391811178432510956}
-  altar: {fileID: 6984466076405086595}
   tp: {fileID: 0}
   spawn: {fileID: 8300000, guid: ca7915f08d1fb6943b794e370fb65c68, type: 3}
+  altar: {fileID: 6984466076405086595}
+  particles: {fileID: 3613316129875165610, guid: 5daeb0aa1b79c1c4581b39898d50ad33, type: 3}
+  horn: {fileID: 8300000, guid: 398dd928b012d9945952c776b0e659eb, type: 3}
 --- !u!1 &7166609680758066089
 GameObject:
   m_ObjectHideFlags: 0

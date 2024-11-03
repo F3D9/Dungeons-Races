@@ -170,7 +170,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rango: 8
   tiempo_para_disparar: 1.5
-  distancia: 0.4
+  distancia: 0.3
   misil: {fileID: 2482989053829026482, guid: ed08416f3062f4b4087887ca534eddf7, type: 3}
 --- !u!114 &6149124087774793471
 MonoBehaviour:

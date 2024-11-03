@@ -5,9 +5,14 @@ using UnityEngine;
 public class RecompensaJefe : MonoBehaviour
 {
     public GameObject jefe1, jefe2;
-    [SerializeField] GameObject altar;
+   
     [SerializeField] GameObject tp;
     [SerializeField] AudioClip spawn;
+
+    [Header("Reward")]
+    [SerializeField] GameObject altar;
+    [SerializeField] GameObject particles;
+    [SerializeField] AudioClip horn;
     bool unaVez = false;
     
 
@@ -19,6 +24,9 @@ public class RecompensaJefe : MonoBehaviour
             if(jefe1 == null && jefe2 == null)
             {
                 altar.SetActive(true);
+                Instantiate(particles,transform.position,Quaternion.Euler(0, 0, 0));
+                SonidoControler.Instance.ejecutarSonido(horn);
+
                 if(tp!= null)
                 {
                     tp.SetActive(true);

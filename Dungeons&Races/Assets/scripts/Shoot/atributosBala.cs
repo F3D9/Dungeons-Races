@@ -38,8 +38,9 @@ public class atributosBala : MonoBehaviour
 
         if(timer >= rango)
         {
-            GetComponent<Animator>().SetBool("Caida", true);
-            
+            Instantiate(vfx, transform.position, transform.rotation);
+            destruir();
+            //GetComponent<Animator>().SetBool("Caida", true);
         }
         
 
