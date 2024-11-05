@@ -33,7 +33,7 @@ public class colliderPiso : MonoBehaviour
         
         if(estaElJugador == true)
         {
-            Camera.main.transform.position = new Vector3(transform.position.x, transform.position.y,Camera.main.transform.position.z);
+            GameObject.FindGameObjectWithTag("MainCamera").transform.position = new Vector3(transform.position.x, transform.position.y, GameObject.FindGameObjectWithTag("MainCamera").transform.position.z);
             
         }
         if (!mejora && spawns != null)

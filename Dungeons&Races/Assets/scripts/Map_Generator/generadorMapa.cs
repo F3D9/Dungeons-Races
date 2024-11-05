@@ -75,7 +75,7 @@ public class generadorMapa : MonoBehaviour
         Invoke("generarObstaculos", 0.2f);
         Invoke("generar_enemigos", 0.23f);
         Invoke("borrarPuertas", 0.27f);
-        Invoke("sacarPantalladeCarga", 0.3f);
+        Invoke("sacarPantalladeCarga", 0.5f);
         
     }
 

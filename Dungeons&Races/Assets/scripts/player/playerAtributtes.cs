@@ -1,4 +1,5 @@
 
+using MilkShake;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -18,6 +19,10 @@ public class playerAtributtes : MonoBehaviour
     bool cargarAnuncio = false;
 
     public float vidaTotal = 3f;
+
+
+    [Header("Shake Camera")]
+    [SerializeField] ShakePreset shakePresets;
 
     // Start is called before the first frame update
     void Start()
@@ -95,6 +100,8 @@ public class playerAtributtes : MonoBehaviour
             inmunidad = true;
             GetComponentInChildren<Animator>().SetBool("damage", true);
             SonidoControler.Instance.ejecutarSonido(recibirdaño);
+            GameObject.FindGameObjectWithTag("MainCamera").GetComponentInChildren<Shaker>().Shake(shakePresets);
+            //Handheld.Vibrate();
         }
         
     }

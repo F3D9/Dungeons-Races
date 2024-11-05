@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -36,7 +37,7 @@ public class playerMoves : MonoBehaviour
 
     private void Awake()
     {
-
+        PlayerPrefs.SetInt("PcControls", 1);
 
         if (PlayerPrefs.GetInt("PcControls") == 1)
         {
@@ -187,8 +188,23 @@ public class playerMoves : MonoBehaviour
             else
             {
                 puntaArma.rotation = Quaternion.Euler(0, 0, 0);
-            } 
+            }
 
+            //Menu Button
+
+            if (Input.GetKeyDown(KeyCode.Escape))
+            {
+                GetComponentInChildren<menuButtons>().Pausa();
+            }
+
+            if (Input.GetKeyDown(KeyCode.M))
+            {
+                if (GameObject.FindGameObjectWithTag("BotonMapa").transform.GetChild(0).gameObject.activeInHierarchy) 
+                {
+                    GetComponentInChildren<menuButtons>().MiniMapa();
+                }
+                
+            }
 
         }
 

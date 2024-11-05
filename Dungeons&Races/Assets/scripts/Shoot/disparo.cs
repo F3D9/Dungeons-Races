@@ -1,6 +1,8 @@
+using MilkShake;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+//using CandyCoded.HapticFeedback;
 
 public class disparo : MonoBehaviour
 {
@@ -13,6 +15,9 @@ public class disparo : MonoBehaviour
     [Header("Municion")]
     public GameObject bala;
     public GameObject StartAmmo;
+
+    [Header("Shake Camera")]
+    [SerializeField] ShakePreset shakePresets;
 
     // Start is called before the first frame update
     void Start()
@@ -35,6 +40,9 @@ public class disparo : MonoBehaviour
                 {
                     Instantiate(bala, puntaArma.position, puntaArma.rotation);
                     timer = 0;
+                    GameObject.FindGameObjectWithTag("MainCamera").GetComponentInChildren<Shaker>().Shake(shakePresets);
+                    //HapticFeedback.HeavyFeedback();
+                    
                 }
             
             }
@@ -48,6 +56,10 @@ public class disparo : MonoBehaviour
                 {
                     Instantiate(bala, puntaArma.position, puntaArma.rotation);
                     timer = 0;
+                    GameObject.FindGameObjectWithTag("MainCamera").GetComponentInChildren<Shaker>().Shake(shakePresets);
+                    
+                    
+                    
                 }
 
             }

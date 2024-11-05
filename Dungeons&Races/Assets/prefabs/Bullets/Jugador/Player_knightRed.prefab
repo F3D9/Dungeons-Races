@@ -279,7 +279,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8b0a837e67efde4c837337bbf901683, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sonido: {fileID: 8300000, guid: 33bb30b902185954b8beb673ea45c4fe, type: 3}
+  sonido: {fileID: 8300000, guid: 8cd788760096cb04f9a9b5e0d6ca89eb, type: 3}
   sombra: {fileID: 272724226355083120, guid: ce6a28945520bc4498153ccef52cadd3, type: 3}
   velocidad: 6
   "da\xF1o": 50

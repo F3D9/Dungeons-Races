@@ -132,7 +132,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   item: 9
-  precio: 5
+  precio: 3
   municion: {fileID: 0}
   apariencia: {fileID: 0}
   aumentoVelocidad: 0
