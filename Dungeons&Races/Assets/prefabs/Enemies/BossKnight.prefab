@@ -169,7 +169,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4782249467259503658}
   - component: {fileID: 4782249467259503657}
-  - component: {fileID: 4477594103338766889}
   m_Layer: 2
   m_Name: Dark_Knight_Boss_0
   m_TagString: Boss
@@ -244,57 +243,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!60 &4477594103338766889
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4782249467259503659}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.1333334, y: 2.1333334}
-    newSize: {x: 1.5333333, y: 2.1333334}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.73328996, y: 1.0394243}
-      - {x: -0.73816615, y: 0.67960435}
-      - {x: -0.43008846, y: 0.3185147}
-      - {x: 0.37489474, y: 0.32639977}
-      - {x: 0.6360383, y: 0.5967787}
-      - {x: 0.64354753, y: 1.0423071}
-  m_UseDelaunayMesh: 0
 --- !u!1 &4782249467303672425
 GameObject:
   m_ObjectHideFlags: 0
@@ -305,6 +253,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4782249467303672431}
   - component: {fileID: 4403337055491339795}
+  - component: {fileID: 6825433426415827070}
   - component: {fileID: 4782249467303672429}
   - component: {fileID: 4782249467303672418}
   - component: {fileID: 4782249467303672419}
@@ -367,7 +316,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.04, y: -0.36}
+  m_Offset: {x: -0.02499795, y: -0.41866088}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -378,8 +327,68 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.51, y: 1.37}
+  m_Size: {x: 1.4124866, y: 1.170167}
   m_EdgeRadius: 0
+--- !u!60 &6825433426415827070
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4782249467303672425}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.1333334, y: 2.1333334}
+    newSize: {x: 1.5333333, y: 2.1333334}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.37559676, y: 0.79745805}
+      - {x: 0.26130557, y: 0.87612617}
+      - {x: -0.31348085, y: 0.87955225}
+      - {x: -0.4223317, y: 0.8095297}
+      - {x: -0.6533655, y: 1.0067279}
+      - {x: -0.68003935, y: 0.6832373}
+      - {x: -0.59402347, y: 0.54243404}
+      - {x: -0.46776903, y: 0.52802974}
+      - {x: -0.45385396, y: 0.27262908}
+      - {x: -0.73372597, y: 0.17331508}
+      - {x: 0.6866213, y: 0.17018375}
+      - {x: 0.39294124, y: 0.27571455}
+      - {x: 0.411721, y: 0.56335354}
+      - {x: 0.5997088, y: 0.66943735}
+      - {x: 0.6108513, y: 1.0168767}
+  m_UseDelaunayMesh: 0
 --- !u!50 &4782249467303672429
 Rigidbody2D:
   serializedVersion: 4

@@ -17,8 +17,17 @@ public class dronMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (!GameObject.FindGameObjectWithTag("Player").GetComponent<playerMoves>().pc)
+        {
+            ani.SetFloat("horizontal", GameObject.FindGameObjectWithTag("Player").GetComponent<playerMoves>().apuntado.Horizontal);
+            ani.SetFloat("vertical", GameObject.FindGameObjectWithTag("Player").GetComponent<playerMoves>().apuntado.Vertical);
+        }
+        else
+        {
+            ani.SetFloat("horizontal", GameObject.FindGameObjectWithTag("Player").GetComponent<playerMoves>().keyboardHorizontal);
+            ani.SetFloat("vertical", GameObject.FindGameObjectWithTag("Player").GetComponent<playerMoves>().keyboardVertical);
+        }
         transform.Translate((refencia.position - transform.position) * Time.deltaTime,Space.World);
-        ani.SetFloat("horizontal", GameObject.FindGameObjectWithTag("Player").GetComponent<playerMoves>().apuntado.Horizontal);
-        ani.SetFloat("vertical", GameObject.FindGameObjectWithTag("Player").GetComponent<playerMoves>().apuntado.Vertical);
+        
     }
 }

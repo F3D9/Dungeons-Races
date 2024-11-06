@@ -32,7 +32,7 @@ public class snakeMoves : MonoBehaviour
     Animator ani;
     int nroLugar;
     float timer;
-
+    float condition = 5;
 
     Rigidbody2D rigid;
     NavMeshAgent enemigo;
@@ -50,6 +50,8 @@ public class snakeMoves : MonoBehaviour
         enemigo = GetComponent<NavMeshAgent>();
         enemigo.updateRotation = false;
         enemigo.updateUpAxis = false;
+
+        condition = 5f;
     }
 
     // Update is called once per frame
@@ -80,7 +82,7 @@ public class snakeMoves : MonoBehaviour
 
                 case States.move:
                     //If is already in the spot
-                    if (transform.position == lugares[nroLugar].position)
+                    if (transform.position == lugares[nroLugar].position || Vector2.Distance(transform.position, lugares[nroLugar].position) <= 1)
                     {
                         int ac = Random.Range(1, 3);
                         switch (ac) 
@@ -100,6 +102,8 @@ public class snakeMoves : MonoBehaviour
                         //move to the defined spot
                         enemigo.enabled = true;
                         enemigo.SetDestination(lugares[nroLugar].position);
+                        //transform.Translate(new Vector3(lugares[nroLugar].position.x - transform.position.x, lugares[nroLugar].position.y - transform.position.y,0) * velocidad * Time.deltaTime);
+
                         if (lugares[nroLugar].transform.position.x >= transform.position.x)
                         {
                             ani.SetFloat("mov", 1);
@@ -113,7 +117,7 @@ public class snakeMoves : MonoBehaviour
 
                 case States.shoot:
                     timer += Time.deltaTime;
-                    if( timer > 5)
+                    if( timer > condition)
                     {
                         actualState = States.quiet;
                         timer = 0;
@@ -146,6 +150,17 @@ public class snakeMoves : MonoBehaviour
         {
             ani.enabled = false;
             enemigo.enabled = false;
+        }
+
+        if(GetComponent<vidaJefe>().vida < GetComponent<vidaJefe>().vidaTotal / 2)
+        {
+            enemigo.speed *= 1.5f;
+            condition %= 2;
+        }
+        else
+        {
+            enemigo.speed = 7f;
+            condition = 5;
         }
 
     }

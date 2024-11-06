@@ -34,6 +34,10 @@ public class MenuInicio : MonoBehaviour
     [SerializeField] TextMeshProUGUI botonLado;
     [SerializeField] bool right = true;
 
+    [Header("Tipo de Controles")]
+    [SerializeField] bool pc = true;
+    [SerializeField] TextMeshProUGUI botonTipoDeControl;
+
     [Header("Sprites Personajes")]
     [SerializeField] Image panel2;
     [SerializeField] Image panel1;
@@ -55,10 +59,29 @@ public class MenuInicio : MonoBehaviour
         controlVolumen.SetFloat("VolFX", PlayerPrefs.GetFloat("Effects"));
         
         //CARGA EL TAMAÑO DE LOS CONTROLLES
+        if(PlayerPrefs.GetFloat("TamañoJoysticks") == 0)
+        {
+            PlayerPrefs.SetFloat("TamañoJoysticks", 1);
+        }
+        
         slide.value = PlayerPrefs.GetFloat("TamañoJoysticks");
 
         //RESETEA EL SCORE
         PlayerPrefs.SetInt("Score", 0);
+
+        //Tipo de Control
+        if (PlayerPrefs.GetInt("PcControls")==1) 
+        {
+            pc = true;
+            botonTipoDeControl.text = "PC";
+        }
+        else
+        {
+            pc =false;
+            botonTipoDeControl.text = "MOBILE";
+        }
+
+
         
 
         //CARGA EL LADO DE LOS CONTROLES
@@ -185,6 +208,26 @@ public class MenuInicio : MonoBehaviour
             botonLado.text = "Right";
             PlayerPrefs.SetInt("LadoControles", 1);
             right = true;
+        }
+    }
+
+
+    //Platform
+
+    public void typeControls()
+    {
+        if (pc)
+        {
+            botonTipoDeControl.text = "MOBILE";
+            PlayerPrefs.SetInt("PcControls", 0);
+            pc = false;
+        }
+        else
+        {
+            PlayerPrefs.SetInt("PcControls", 1);
+            botonTipoDeControl.text = "PC";
+            pc = true;
+            
         }
     }
 

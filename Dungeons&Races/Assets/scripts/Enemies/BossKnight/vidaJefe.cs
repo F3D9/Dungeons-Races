@@ -7,7 +7,7 @@ public class vidaJefe : MonoBehaviour
 {
     [Header("Valores")]
     public float vida = 4000;
-    [SerializeField] float vidaTotal;
+    public float vidaTotal;
     [SerializeField] float daño = 0.5f;
     [SerializeField] float distancia = 2f;
     [SerializeField] GameObject cadaver;
@@ -56,4 +56,6 @@ public class vidaJefe : MonoBehaviour
             collision.transform.GetComponent<playerAtributtes>().tomarDaño(daño);
         }
     }
+
+    
 }

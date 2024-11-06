@@ -55,12 +55,12 @@ public class DatosMuerte : MonoBehaviour
         {
             switch (SceneManager.GetActiveScene().buildIndex) 
             {
-            case 1:
-                ganancia_monedaAzul = 5;
-                break;
-            case 2:
-                ganancia_monedaAzul = 10;
-                break;
+                case 1:
+                    ganancia_monedaAzul = 5;
+                    break;
+                case 2:
+                    ganancia_monedaAzul = 10;
+                    break;
 
             }
         }

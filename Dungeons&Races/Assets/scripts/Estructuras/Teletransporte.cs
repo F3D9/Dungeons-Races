@@ -16,10 +16,12 @@ public class Teletransporte : MonoBehaviour
         {
             if(escena == 0)
             {
-                Time.timeScale = 0;
+                
                 GameObject.FindGameObjectWithTag("Admin").GetComponent<menuButtons>().victoria.gameObject.SetActive(true);
-                GameObject.FindGameObjectWithTag("Generador").gameObject.SetActive(false);
                 GameObject.FindGameObjectWithTag("Admin").GetComponent<DatosMuerte>().ganaste = true;
+                GameObject.FindGameObjectWithTag("Generador").gameObject.SetActive(false);
+                
+                Time.timeScale = 0;
             }
             else
             {

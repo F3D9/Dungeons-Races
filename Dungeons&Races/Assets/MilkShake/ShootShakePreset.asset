@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: ShootShakePreset
   m_EditorClassIdentifier: 
   shakeType: 0
-  strength: 0.015
-  roughness: 20
-  fadeIn: 0.05
-  fadeOut: 0.5
-  positionInfluence: {x: 0.001, y: 0.001, z: 0.003}
+  strength: 0
+  roughness: 0
+  fadeIn: 0
+  fadeOut: 0
+  positionInfluence: {x: 0, y: 0, z: 0}
   rotationInfluence: {x: 0, y: 0, z: 0}

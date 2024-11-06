@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1993119129046336207}
   - component: {fileID: 7487378962285860262}
   m_Layer: 0
-  m_Name: Cadaver
+  m_Name: BossKnight_Cadaver
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
