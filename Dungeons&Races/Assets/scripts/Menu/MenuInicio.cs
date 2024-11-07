@@ -69,6 +69,8 @@ public class MenuInicio : MonoBehaviour
         //RESETEA EL SCORE
         PlayerPrefs.SetInt("Score", 0);
 
+        PlayerPrefs.SetInt("PcControls", 1);
+
         //Tipo de Control
         if (PlayerPrefs.GetInt("PcControls")==1) 
         {

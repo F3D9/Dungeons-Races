@@ -251,6 +251,14 @@ BlendTree:
   m_Name: Blend Tree
   m_Childs:
   - serializedVersion: 2
+    m_Motion: {fileID: 7400000, guid: 2d0d2e13438959a4f9c9942fb912fdc0, type: 2}
+    m_Threshold: -3
+    m_Position: {x: 0, y: 0}
+    m_TimeScale: 1
+    m_CycleOffset: 0
+    m_DirectBlendParameter: move
+    m_Mirror: 0
+  - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: 237518e7bbcd3314e94491adf7bba9af, type: 2}
     m_Threshold: -1
     m_Position: {x: 0, y: 0}
@@ -274,13 +282,47 @@ BlendTree:
     m_CycleOffset: 0
     m_DirectBlendParameter: move
     m_Mirror: 0
+  - serializedVersion: 2
+    m_Motion: {fileID: 7400000, guid: 4f3dbd3e34f9e75459c202480bb1973e, type: 2}
+    m_Threshold: 3
+    m_Position: {x: 0, y: 0}
+    m_TimeScale: 1
+    m_CycleOffset: 0
+    m_DirectBlendParameter: move
+    m_Mirror: 0
   m_BlendParameter: move
   m_BlendParameterY: Blend
-  m_MinThreshold: -1
-  m_MaxThreshold: 2
+  m_MinThreshold: -3
+  m_MaxThreshold: 3
   m_UseAutomaticThresholds: 0
   m_NormalizedBlendValues: 0
   m_BlendType: 0
+--- !u!1102 &-234938674223089885
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Lshoot_bossKnight
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: 2d0d2e13438959a4f9c9942fb912fdc0, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
 --- !u!91 &9100000
 AnimatorController:
   m_ObjectHideFlags: 0
@@ -369,10 +411,13 @@ AnimatorStateMachine:
     m_Position: {x: 140, y: -50, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -6908333847004247270}
-    m_Position: {x: 450, y: -50, z: 0}
+    m_Position: {x: 460, y: -50, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -1273652103787560947}
-    m_Position: {x: 590, y: 130, z: 0}
+    m_Position: {x: 610, y: 120, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: -234938674223089885}
+    m_Position: {x: 370, y: -170, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []

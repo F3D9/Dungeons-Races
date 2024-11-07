@@ -15,7 +15,7 @@ F:/Github/Dungeons-Races/Dungeons&Races
 -logFile
 Logs/AssetImportWorker5.log
 -srvPort
-63347
+57662
 Successfully changed project path to: F:/Github/Dungeons-Races/Dungeons&Races
 F:/Github/Dungeons-Races/Dungeons&Races
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,14 +49,14 @@ F:/Github/Dungeons-Races/Dungeons&Races
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [14084]  Target information:
+Player connection [22880]  Target information:
 
-Player connection [14084]  * "[IP] 10.10.100.95 [Port] 0 [Flags] 2 [Guid] 4276904057 [EditorId] 4276904057 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-KSFICS1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [22880]  * "[IP] 10.10.100.95 [Port] 0 [Flags] 2 [Guid] 566784039 [EditorId] 566784039 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-KSFICS1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [14084] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [14084] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [22880] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [22880] Host joined alternative multi-casting on [225.0.0.222:34997]...
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-Refreshing native plugins compatible for Editor in 43.95 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 2760.54 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.40f1 (cbdda657d2f0)
 [Subsystems] Discovering subsystems at path F:/Unity/archivos/2022.3.40f1/Editor/Data/Resources/UnitySubsystems
@@ -73,49 +73,49 @@ Initialize mono
 Mono path[0] = 'F:/Unity/archivos/2022.3.40f1/Editor/Data/Managed'
 Mono path[1] = 'F:/Unity/archivos/2022.3.40f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'F:/Unity/archivos/2022.3.40f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56936
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56024
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: F:/Unity/archivos/2022.3.40f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: F:/Unity/archivos/2022.3.40f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: F:/Unity/archivos/2022.3.40f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.010424 seconds.
-- Loaded All Assemblies, in  0.580 seconds
+Registered in 0.193123 seconds.
+- Loaded All Assemblies, in  1.772 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 443 ms
+Android Extension - Scanning For ADB Devices 593 ms
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.965 seconds
-Domain Reload Profiling: 1544ms
-	BeginReloadAssembly (177ms)
+- Finished resetting the current domain, in  1.322 seconds
+Domain Reload Profiling: 3093ms
+	BeginReloadAssembly (937ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (62ms)
+	RebuildCommonClasses (48ms)
 	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (81ms)
-	LoadAllAssembliesAndSetupDomain (245ms)
-		LoadAssemblies (179ms)
+	initialDomainReloadingComplete (260ms)
+	LoadAllAssembliesAndSetupDomain (512ms)
+		LoadAssemblies (938ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (240ms)
-			TypeCache.Refresh (238ms)
-				TypeCache.ScanAssembly (216ms)
+		AnalyzeDomain (507ms)
+			TypeCache.Refresh (505ms)
+				TypeCache.ScanAssembly (490ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (965ms)
+	FinalizeReload (1322ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (892ms)
+		SetupLoadedEditorAssemblies (1253ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (600ms)
-			SetLoadedEditorAssemblies (7ms)
+			InitializePlatformSupportModulesInManaged (933ms)
+			SetLoadedEditorAssemblies (8ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (4ms)
-			ProcessInitializeOnLoadAttributes (199ms)
-			ProcessInitializeOnLoadMethodAttributes (83ms)
+			ProcessInitializeOnLoadAttributes (215ms)
+			ProcessInitializeOnLoadMethodAttributes (92ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -125,7 +125,7 @@ Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.206 seconds
+- Loaded All Assemblies, in  5.409 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
@@ -134,49 +134,49 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.607 seconds
-Domain Reload Profiling: 2812ms
-	BeginReloadAssembly (220ms)
+- Finished resetting the current domain, in  2.180 seconds
+Domain Reload Profiling: 7588ms
+	BeginReloadAssembly (252ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
+		DisableScriptedObjects (11ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (26ms)
-	RebuildCommonClasses (46ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (54ms)
-	LoadAllAssembliesAndSetupDomain (870ms)
-		LoadAssemblies (663ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (57ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (69ms)
+	LoadAllAssembliesAndSetupDomain (5013ms)
+		LoadAssemblies (4809ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (355ms)
-			TypeCache.Refresh (286ms)
-				TypeCache.ScanAssembly (259ms)
-			ScanForSourceGeneratedMonoScriptInfo (50ms)
+		AnalyzeDomain (360ms)
+			TypeCache.Refresh (290ms)
+				TypeCache.ScanAssembly (262ms)
+			ScanForSourceGeneratedMonoScriptInfo (51ms)
 			ResolveRequiredComponents (17ms)
-	FinalizeReload (1608ms)
+	FinalizeReload (2181ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1366ms)
+		SetupLoadedEditorAssemblies (1940ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (34ms)
-			SetLoadedEditorAssemblies (12ms)
+			InitializePlatformSupportModulesInManaged (33ms)
+			SetLoadedEditorAssemblies (8ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (297ms)
-			ProcessInitializeOnLoadAttributes (899ms)
-			ProcessInitializeOnLoadMethodAttributes (120ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (0ms)
+			BeforeProcessingInitializeOnLoad (284ms)
+			ProcessInitializeOnLoadAttributes (1434ms)
+			ProcessInitializeOnLoadMethodAttributes (174ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
 Switching render pipeline e23abffd4ca40a840b370f99035147df -> 681886c5eb7344803b6206f758bf0b1c
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
-Refreshing native plugins compatible for Editor in 17.58 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.31 seconds
+Refreshing native plugins compatible for Editor in 122.27 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 7261 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 46 unused Assets / (386.8 KB). Loaded Objects now: 7743.
-Memory consumption went from 266.1 MB to 265.7 MB.
-Total: 6.964500 ms (FindLiveObjects: 1.341900 ms CreateObjectMapping: 0.832400 ms MarkObjects: 4.559400 ms  DeleteObjects: 0.229400 ms)
+Unloading 46 unused Assets / (388.4 KB). Loaded Objects now: 7743.
+Memory consumption went from 265.9 MB to 265.5 MB.
+Total: 5.183900 ms (FindLiveObjects: 0.637900 ms CreateObjectMapping: 0.194400 ms MarkObjects: 4.122800 ms  DeleteObjects: 0.227600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -192,6 +192,584 @@ AssetImportParameters requested are different than current active one (requested
   custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 16.20 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2 unused Assets / (329.1 KB). Loaded Objects now: 7743.
+Memory consumption went from 125.4 MB to 125.1 MB.
+Total: 5.176700 ms (FindLiveObjects: 0.628700 ms CreateObjectMapping: 0.191200 ms MarkObjects: 4.262600 ms  DeleteObjects: 0.093000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in 66.259 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.916 seconds
+Domain Reload Profiling: 68176ms
+	BeginReloadAssembly (62944ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (62680ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (65ms)
+	RebuildCommonClasses (54ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (3194ms)
+		LoadAssemblies (3312ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (34ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (22ms)
+	FinalizeReload (1917ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1494ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (45ms)
+			SetLoadedEditorAssemblies (12ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (343ms)
+			ProcessInitializeOnLoadAttributes (963ms)
+			ProcessInitializeOnLoadMethodAttributes (125ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (30ms)
+Switching render pipeline e23abffd4ca40a840b370f99035147df -> 681886c5eb7344803b6206f758bf0b1c
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 22.92 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7093 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (358.6 KB). Loaded Objects now: 7749.
+Memory consumption went from 234.8 MB to 234.4 MB.
+Total: 8.030500 ms (FindLiveObjects: 0.885500 ms CreateObjectMapping: 0.501800 ms MarkObjects: 6.428600 ms  DeleteObjects: 0.213200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:srp/default-pipeline: 8681685cbe374408b326607f85fbb0c1 -> 2ea3fbdfc44aa048b073f099301574fd
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 20578.769891 seconds.
+  path: Assets/prefabs/Items/Stand/Item10.prefab
+  artifactKey: Guid(728ffebfcc863c84f8888b45e91f58a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Items/Stand/Item10.prefab using Guid(728ffebfcc863c84f8888b45e91f58a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '92c644d8f79dca9e7678f9c7564b49ce') in 0.002489 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/prefabs/Items/Stand/Item45.prefab
+  artifactKey: Guid(646c0424e37f7e94ba7a1e4b4ecd8d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Items/Stand/Item45.prefab using Guid(646c0424e37f7e94ba7a1e4b4ecd8d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b474ea9e208b5228142e641bf2d04fdd') in 0.000656 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/prefabs/Items/Sueltos/MonedaVerde.prefab
+  artifactKey: Guid(c4bc156379ad2184881742bee41be0b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Items/Sueltos/MonedaVerde.prefab using Guid(c4bc156379ad2184881742bee41be0b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f155f2c36f472176c9be8dc3d0d4c383') in 0.000665 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/prefabs/Items/Stand/Item11.prefab
+  artifactKey: Guid(68cd3307ad9ed9448b5ef0d989faced9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Items/Stand/Item11.prefab using Guid(68cd3307ad9ed9448b5ef0d989faced9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2182d6650b0d9ce254b0270733c1a343') in 0.000597 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/prefabs/Items/Stand/Item42.prefab
+  artifactKey: Guid(3ab064514a3d0154e82c10b09e149688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Items/Stand/Item42.prefab using Guid(3ab064514a3d0154e82c10b09e149688) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e35e835ccca06ad4bb0d202874c7a71c') in 0.000834 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/prefabs/Items/Stand/Item9.prefab
+  artifactKey: Guid(56659c24e4de76a4a97d96e46b3a6729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Items/Stand/Item9.prefab using Guid(56659c24e4de76a4a97d96e46b3a6729) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '11c3fe67577e0786de408e61e4db29bf') in 0.000605 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/prefabs/Items/Stand/Item24.prefab
+  artifactKey: Guid(34c4400c85cd74c42913585092822128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Items/Stand/Item24.prefab using Guid(34c4400c85cd74c42913585092822128) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ab8a247f2be7b7b49075075aceb26437') in 0.000734 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/prefabs/Items/Stand/Item30.prefab
+  artifactKey: Guid(d63e512c807702c448a4c74084486fa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Items/Stand/Item30.prefab using Guid(d63e512c807702c448a4c74084486fa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2e8377a7059864d28d2939b412cf6b89') in 0.000735 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/prefabs/Items/Stand/Item29.prefab
+  artifactKey: Guid(54d4f284a11f0b640b47e3711806eaf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Items/Stand/Item29.prefab using Guid(54d4f284a11f0b640b47e3711806eaf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a3ea9b7a7fbf16761d789d4d596d23fd') in 0.000692 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/prefabs/Items/Stand/Item7.prefab
+  artifactKey: Guid(f461090913edcd64782e4331d1401a97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Items/Stand/Item7.prefab using Guid(f461090913edcd64782e4331d1401a97) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '66e9b08d9d4f40c22bb8f8fa0e723651') in 0.000578 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/prefabs/Items/Stand/Item26.prefab
+  artifactKey: Guid(2d4dff9062e4f004681031efd5b9a446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Items/Stand/Item26.prefab using Guid(2d4dff9062e4f004681031efd5b9a446) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'bac3bba938af5cf0e4accc63cd001b66') in 0.000880 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/prefabs/Items/Stand/Item34.prefab
+  artifactKey: Guid(4c65c5498b7eed440800b43b808599eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Items/Stand/Item34.prefab using Guid(4c65c5498b7eed440800b43b808599eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a82afd3b2a0c5d2506357b2eb0235fa4') in 0.000857 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/prefabs/Items/Stand/Item21.prefab
+  artifactKey: Guid(fa1cd11966b88c94e9c5be7d972cb7a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Items/Stand/Item21.prefab using Guid(fa1cd11966b88c94e9c5be7d972cb7a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b3bbf6a4259fabfd2f3396f9153d2531') in 0.000644 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/prefabs/Items/Stand/Item27.prefab
+  artifactKey: Guid(68d8013c2729cd54187c10eac049c1af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Items/Stand/Item27.prefab using Guid(68d8013c2729cd54187c10eac049c1af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0d6e5d2d6a58f58e89db37d0b7686c2f') in 0.000650 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/prefabs/Items/Sueltos/CorazonBlanco Variant.prefab
+  artifactKey: Guid(6021e5d83027b4a4ea8f760a7b939624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Items/Sueltos/CorazonBlanco Variant.prefab using Guid(6021e5d83027b4a4ea8f760a7b939624) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '17ff30d87fbba55bed92597cb967da54') in 0.000693 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/prefabs/Items/Stand/Item22.prefab
+  artifactKey: Guid(b431ccf6a0a8d8a45b77a18120de25eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Items/Stand/Item22.prefab using Guid(b431ccf6a0a8d8a45b77a18120de25eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0df7f803b1a93cbae3cb46fabc7b716e') in 0.000617 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/prefabs/Items/Stand/Item33.prefab
+  artifactKey: Guid(6f01cb8f886c4eb4a9cd89a9c187d54c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Items/Stand/Item33.prefab using Guid(6f01cb8f886c4eb4a9cd89a9c187d54c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '039a799fadff91ea3cd6194ecdeee391') in 0.000657 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/prefabs/Items/Stand/Item32.prefab
+  artifactKey: Guid(2f6d7aebc8b351243b301053236aa213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Items/Stand/Item32.prefab using Guid(2f6d7aebc8b351243b301053236aa213) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cbc66ff5d104e3fed97bffe58e4b8f07') in 0.000664 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002047 seconds.
+  path: Assets/prefabs/Items/Stand/Item8.prefab
+  artifactKey: Guid(ce5fd704c2764ea489597186e180729f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Items/Stand/Item8.prefab using Guid(ce5fd704c2764ea489597186e180729f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5eaac201fdaae7daf1499407d5d70ae1') in 0.002399 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/prefabs/Items/Stand/Item4.prefab
+  artifactKey: Guid(bd355ae3f20d5d54c99c130b32393a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Items/Stand/Item4.prefab using Guid(bd355ae3f20d5d54c99c130b32393a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd2e394ef93d179ffcbde80bd02f1772c') in 0.000600 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/prefabs/Items/Stand/Item31.prefab
+  artifactKey: Guid(087434539941aeb47969fe5d3434d8a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Items/Stand/Item31.prefab using Guid(087434539941aeb47969fe5d3434d8a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c314529d55394ecc18f36a1fa07f690b') in 0.000644 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/prefabs/Items/Stand/Item19.prefab
+  artifactKey: Guid(1ec1667cadacb2a429557a37e1162c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Items/Stand/Item19.prefab using Guid(1ec1667cadacb2a429557a37e1162c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a7d81a471356b299dfd984975225cd2a') in 0.000627 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/prefabs/Items/Stand/Item36.prefab
+  artifactKey: Guid(aa980fbd4a5013848b5cf799cd3f6fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Items/Stand/Item36.prefab using Guid(aa980fbd4a5013848b5cf799cd3f6fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5c4ff7a661ba049a41b5238e00de0c9f') in 0.000545 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 19.26 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2 unused Assets / (329.2 KB). Loaded Objects now: 7749.
+Memory consumption went from 124.1 MB to 123.8 MB.
+Total: 7.138700 ms (FindLiveObjects: 0.698600 ms CreateObjectMapping: 0.353900 ms MarkObjects: 5.919300 ms  DeleteObjects: 0.165700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 35.062156 seconds.
+  path: Assets/prefabs/Items/Stand/Item45.prefab
+  artifactKey: Guid(646c0424e37f7e94ba7a1e4b4ecd8d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Items/Stand/Item45.prefab using Guid(646c0424e37f7e94ba7a1e4b4ecd8d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a895a5db2f026900452d0e9ef87b793c') in 0.000701 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/prefabs/Items/Stand/Item42.prefab
+  artifactKey: Guid(3ab064514a3d0154e82c10b09e149688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Items/Stand/Item42.prefab using Guid(3ab064514a3d0154e82c10b09e149688) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'fddf11d66c2440e93bd5da902b4f08d5') in 0.000653 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/prefabs/Items/Stand/Item24.prefab
+  artifactKey: Guid(34c4400c85cd74c42913585092822128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Items/Stand/Item24.prefab using Guid(34c4400c85cd74c42913585092822128) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cde87576f986850c93480468b14b6cc4') in 0.000527 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/prefabs/Items/Stand/Item29.prefab
+  artifactKey: Guid(54d4f284a11f0b640b47e3711806eaf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Items/Stand/Item29.prefab using Guid(54d4f284a11f0b640b47e3711806eaf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3a49a97a8acbbfbe8b53bb2382b019cb') in 0.000643 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/prefabs/Items/Stand/Item26.prefab
+  artifactKey: Guid(2d4dff9062e4f004681031efd5b9a446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Items/Stand/Item26.prefab using Guid(2d4dff9062e4f004681031efd5b9a446) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1baa8b9161c9b1d8cec55824eb50ca50') in 0.000740 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/prefabs/Items/Stand/Item34.prefab
+  artifactKey: Guid(4c65c5498b7eed440800b43b808599eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Items/Stand/Item34.prefab using Guid(4c65c5498b7eed440800b43b808599eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'bf341b25bd44b7873351cc2b52300d13') in 0.000598 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/prefabs/Items/Stand/Item39.prefab
+  artifactKey: Guid(f9ad5ce79830fab4e8154c48dfb3dd6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Items/Stand/Item39.prefab using Guid(f9ad5ce79830fab4e8154c48dfb3dd6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cc6f8ec1b05bc0877ebca417611e20a1') in 0.000528 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/prefabs/Items/Stand/Item33.prefab
+  artifactKey: Guid(6f01cb8f886c4eb4a9cd89a9c187d54c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Items/Stand/Item33.prefab using Guid(6f01cb8f886c4eb4a9cd89a9c187d54c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a8c9c152e2411fcc57621196f7fa0fe1') in 0.000594 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/prefabs/Items/Stand/Item43.prefab
+  artifactKey: Guid(aa38aa71a56420942b56d9ec20abbcf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Items/Stand/Item43.prefab using Guid(aa38aa71a56420942b56d9ec20abbcf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2a2f5a433f7f8cc0b9eb97fac1762706') in 0.000508 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/prefabs/Items/Stand/Item31.prefab
+  artifactKey: Guid(087434539941aeb47969fe5d3434d8a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Items/Stand/Item31.prefab using Guid(087434539941aeb47969fe5d3434d8a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e835aec7ca61d3502e59c865502f8b49') in 0.000642 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/prefabs/Items/Stand/Item36.prefab
+  artifactKey: Guid(aa980fbd4a5013848b5cf799cd3f6fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Items/Stand/Item36.prefab using Guid(aa980fbd4a5013848b5cf799cd3f6fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b617a9b288d39e3b3fb4e7dbe60e1295') in 0.000542 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 19.879942 seconds.
+  path: Assets/prefabs/Items/Stand/Item38.prefab
+  artifactKey: Guid(ac28d39ec51ca2a4ab5b84833d1eb263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Items/Stand/Item38.prefab using Guid(ac28d39ec51ca2a4ab5b84833d1eb263) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ab45e6233a9c30fcbdf258d9beac91c7') in 0.000694 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/prefabs/Items/Stand/Item41.prefab
+  artifactKey: Guid(549b10bf3a0af464a8cdec88bd995488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Items/Stand/Item41.prefab using Guid(549b10bf3a0af464a8cdec88bd995488) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a8afc68853f19d82da7c71c3ea6c2c49') in 0.000617 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.288574 seconds.
+  path: Assets/prefabs/Items/Stand/Item41.prefab
+  artifactKey: Guid(549b10bf3a0af464a8cdec88bd995488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Items/Stand/Item41.prefab using Guid(549b10bf3a0af464a8cdec88bd995488) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a8afc68853f19d82da7c71c3ea6c2c49') in 0.000563 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/prefabs/Items/Stand/Item43.prefab
+  artifactKey: Guid(aa38aa71a56420942b56d9ec20abbcf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Items/Stand/Item43.prefab using Guid(aa38aa71a56420942b56d9ec20abbcf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2a2f5a433f7f8cc0b9eb97fac1762706') in 0.000555 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.031123 seconds.
+  path: Assets/prefabs/Items/Stand/Item41.prefab
+  artifactKey: Guid(549b10bf3a0af464a8cdec88bd995488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Items/Stand/Item41.prefab using Guid(549b10bf3a0af464a8cdec88bd995488) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a8afc68853f19d82da7c71c3ea6c2c49') in 0.000692 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/prefabs/Items/Stand/Item43.prefab
+  artifactKey: Guid(aa38aa71a56420942b56d9ec20abbcf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Items/Stand/Item43.prefab using Guid(aa38aa71a56420942b56d9ec20abbcf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2a2f5a433f7f8cc0b9eb97fac1762706') in 0.000789 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 12.612674 seconds.
+  path: Assets/prefabs/Items/Stand/Item41.prefab
+  artifactKey: Guid(549b10bf3a0af464a8cdec88bd995488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Items/Stand/Item41.prefab using Guid(549b10bf3a0af464a8cdec88bd995488) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a8afc68853f19d82da7c71c3ea6c2c49') in 0.000683 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/prefabs/Items/Stand/Item43.prefab
+  artifactKey: Guid(aa38aa71a56420942b56d9ec20abbcf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Items/Stand/Item43.prefab using Guid(aa38aa71a56420942b56d9ec20abbcf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2a2f5a433f7f8cc0b9eb97fac1762706') in 0.000950 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 26.238380 seconds.
+  path: Assets/prefabs/Items/Stand/Item21.prefab
+  artifactKey: Guid(fa1cd11966b88c94e9c5be7d972cb7a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Items/Stand/Item21.prefab using Guid(fa1cd11966b88c94e9c5be7d972cb7a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '39d19dd22893f23f4884194a0caa682a') in 0.000651 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/prefabs/Items/Stand/Item10.prefab
+  artifactKey: Guid(728ffebfcc863c84f8888b45e91f58a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Items/Stand/Item10.prefab using Guid(728ffebfcc863c84f8888b45e91f58a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e326cb985ca4d87f791b7e51e67df5cc') in 0.000516 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/prefabs/Items/Stand/Item9.prefab
+  artifactKey: Guid(56659c24e4de76a4a97d96e46b3a6729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Items/Stand/Item9.prefab using Guid(56659c24e4de76a4a97d96e46b3a6729) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8a029f0464aef9b2905a5b88a89d321e') in 0.000633 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/prefabs/Items/Stand/Item0.prefab
+  artifactKey: Guid(cc0f539c1f07fde49afd9f6199c18954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Items/Stand/Item0.prefab using Guid(cc0f539c1f07fde49afd9f6199c18954) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9f4317e9a6d9bd3f55ecace23460716e') in 0.031941 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/prefabs/Items/Stand/item3.prefab
+  artifactKey: Guid(1b236bb3d81ea004590b41bf8ed2a505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Items/Stand/item3.prefab using Guid(1b236bb3d81ea004590b41bf8ed2a505) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5749902c2203884c8796ff712be13457') in 0.000901 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/prefabs/Items/Stand/Item7.prefab
+  artifactKey: Guid(f461090913edcd64782e4331d1401a97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Items/Stand/Item7.prefab using Guid(f461090913edcd64782e4331d1401a97) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7d5b040c9d5d636c81285394bfca8726') in 0.000576 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/prefabs/Items/Stand/Item14.prefab
+  artifactKey: Guid(deae2fea708d3c040844b6b8e88f07e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Items/Stand/Item14.prefab using Guid(deae2fea708d3c040844b6b8e88f07e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd0f3310f431c01df77871c08480cd1e6') in 0.005309 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/prefabs/Items/Stand/Item8.prefab
+  artifactKey: Guid(ce5fd704c2764ea489597186e180729f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Items/Stand/Item8.prefab using Guid(ce5fd704c2764ea489597186e180729f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '02ee2a3596d08883adc5c3bd62c78a9e') in 0.000745 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/prefabs/Items/Stand/Item4.prefab
+  artifactKey: Guid(bd355ae3f20d5d54c99c130b32393a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Items/Stand/Item4.prefab using Guid(bd355ae3f20d5d54c99c130b32393a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a7d68b846d03b7c09548ea2bf74c2997') in 0.000588 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: La operación de E/S se anuló por una salida de subproceso o por una solicitud de aplicación.
 AssetImportWorker is now disconnected from the server

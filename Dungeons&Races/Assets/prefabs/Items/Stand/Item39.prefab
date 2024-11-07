@@ -146,7 +146,7 @@ MonoBehaviour:
   size: 0
   randomSize: 0
   pickup: {fileID: 8300000, guid: 94f45b3cb8d5c294faff6e32360ff619, type: 3}
-  Nombre: A Normal Ogre
+  Nombre: Dark Knight
   info_mejora: + Velocity
 --- !u!61 &5312081639949963462
 BoxCollider2D:

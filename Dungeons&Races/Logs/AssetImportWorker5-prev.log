@@ -15,7 +15,7 @@ F:/Github/Dungeons-Races/Dungeons&Races
 -logFile
 Logs/AssetImportWorker5.log
 -srvPort
-50364
+63347
 Successfully changed project path to: F:/Github/Dungeons-Races/Dungeons&Races
 F:/Github/Dungeons-Races/Dungeons&Races
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,14 +49,14 @@ F:/Github/Dungeons-Races/Dungeons&Races
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8372]  Target information:
+Player connection [14084]  Target information:
 
-Player connection [8372]  * "[IP] 10.10.100.95 [Port] 0 [Flags] 2 [Guid] 685565759 [EditorId] 685565759 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-KSFICS1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [14084]  * "[IP] 10.10.100.95 [Port] 0 [Flags] 2 [Guid] 4276904057 [EditorId] 4276904057 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-KSFICS1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [8372] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [8372] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [14084] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [14084] Host joined alternative multi-casting on [225.0.0.222:34997]...
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-Refreshing native plugins compatible for Editor in 39.95 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 43.95 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.40f1 (cbdda657d2f0)
 [Subsystems] Discovering subsystems at path F:/Unity/archivos/2022.3.40f1/Editor/Data/Resources/UnitySubsystems
@@ -73,49 +73,49 @@ Initialize mono
 Mono path[0] = 'F:/Unity/archivos/2022.3.40f1/Editor/Data/Managed'
 Mono path[1] = 'F:/Unity/archivos/2022.3.40f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'F:/Unity/archivos/2022.3.40f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56720
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56936
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: F:/Unity/archivos/2022.3.40f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: F:/Unity/archivos/2022.3.40f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: F:/Unity/archivos/2022.3.40f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.009115 seconds.
-- Loaded All Assemblies, in  0.485 seconds
+Registered in 0.010424 seconds.
+- Loaded All Assemblies, in  0.580 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 336 ms
+Android Extension - Scanning For ADB Devices 443 ms
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.753 seconds
-Domain Reload Profiling: 1238ms
-	BeginReloadAssembly (165ms)
+- Finished resetting the current domain, in  0.965 seconds
+Domain Reload Profiling: 1544ms
+	BeginReloadAssembly (177ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (51ms)
+	RebuildCommonClasses (62ms)
 	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (66ms)
-	LoadAllAssembliesAndSetupDomain (189ms)
-		LoadAssemblies (166ms)
+	initialDomainReloadingComplete (81ms)
+	LoadAllAssembliesAndSetupDomain (245ms)
+		LoadAssemblies (179ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (185ms)
-			TypeCache.Refresh (183ms)
-				TypeCache.ScanAssembly (166ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
+		AnalyzeDomain (240ms)
+			TypeCache.Refresh (238ms)
+				TypeCache.ScanAssembly (216ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (753ms)
+	FinalizeReload (965ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (692ms)
+		SetupLoadedEditorAssemblies (892ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (470ms)
-			SetLoadedEditorAssemblies (6ms)
+			InitializePlatformSupportModulesInManaged (600ms)
+			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (153ms)
-			ProcessInitializeOnLoadMethodAttributes (60ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (199ms)
+			ProcessInitializeOnLoadMethodAttributes (83ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -125,7 +125,7 @@ Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.205 seconds
+- Loaded All Assemblies, in  1.206 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
@@ -134,48 +134,49 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.535 seconds
-Domain Reload Profiling: 2739ms
-	BeginReloadAssembly (214ms)
+- Finished resetting the current domain, in  1.607 seconds
+Domain Reload Profiling: 2812ms
+	BeginReloadAssembly (220ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
+		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (27ms)
-	RebuildCommonClasses (44ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (55ms)
-	LoadAllAssembliesAndSetupDomain (874ms)
-		LoadAssemblies (647ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (870ms)
+		LoadAssemblies (663ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (358ms)
-			TypeCache.Refresh (290ms)
-				TypeCache.ScanAssembly (262ms)
-			ScanForSourceGeneratedMonoScriptInfo (51ms)
-			ResolveRequiredComponents (16ms)
-	FinalizeReload (1536ms)
+		AnalyzeDomain (355ms)
+			TypeCache.Refresh (286ms)
+				TypeCache.ScanAssembly (259ms)
+			ScanForSourceGeneratedMonoScriptInfo (50ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (1608ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1301ms)
+		SetupLoadedEditorAssemblies (1366ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (33ms)
-			SetLoadedEditorAssemblies (9ms)
+			InitializePlatformSupportModulesInManaged (34ms)
+			SetLoadedEditorAssemblies (12ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (268ms)
-			ProcessInitializeOnLoadAttributes (872ms)
-			ProcessInitializeOnLoadMethodAttributes (115ms)
+			BeforeProcessingInitializeOnLoad (297ms)
+			ProcessInitializeOnLoadAttributes (899ms)
+			ProcessInitializeOnLoadMethodAttributes (120ms)
 			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (8ms)
+Switching render pipeline e23abffd4ca40a840b370f99035147df -> 681886c5eb7344803b6206f758bf0b1c
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
-Refreshing native plugins compatible for Editor in 16.34 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 17.58 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 7261 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 46 unused Assets / (387.4 KB). Loaded Objects now: 7743.
-Memory consumption went from 265.9 MB to 265.6 MB.
-Total: 5.786900 ms (FindLiveObjects: 0.669500 ms CreateObjectMapping: 0.257200 ms MarkObjects: 4.630700 ms  DeleteObjects: 0.227100 ms)
+Unloading 46 unused Assets / (386.8 KB). Loaded Objects now: 7743.
+Memory consumption went from 266.1 MB to 265.7 MB.
+Total: 6.964500 ms (FindLiveObjects: 1.341900 ms CreateObjectMapping: 0.832400 ms MarkObjects: 4.559400 ms  DeleteObjects: 0.229400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -186,66 +187,11 @@ AssetImportParameters requested are different than current active one (requested
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:srp/default-pipeline: 8681685cbe374408b326607f85fbb0c1 -> 2ea3fbdfc44aa048b073f099301574fd
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 3947.624547 seconds.
-  path: Assets/prefabs/Items/Sueltos/CorazonBlanco Variant.prefab
-  artifactKey: Guid(6021e5d83027b4a4ea8f760a7b939624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefabs/Items/Sueltos/CorazonBlanco Variant.prefab using Guid(6021e5d83027b4a4ea8f760a7b939624) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-Sprite menu_de_carga3 matches more than one built-in atlases. Default to use the first available atlas.
-Sprite menu_de_carga1 matches more than one built-in atlases. Default to use the first available atlas.
-Sprite menu_de_carga2 matches more than one built-in atlases. Default to use the first available atlas.
-Sprite menu_de_carga4 matches more than one built-in atlases. Default to use the first available atlas.
- -> (artifact id: 'adda0334e53216dc8a9dc059702e2706') in 0.610564 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1588
-========================================================================
-Received Import Request.
-  Time since last request: 9.373870 seconds.
-  path: Assets/prefabs/Items/Sueltos/CorazonVioleta.prefab
-  artifactKey: Guid(ba263bd7b54a26f48af270f814339b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefabs/Items/Sueltos/CorazonVioleta.prefab using Guid(ba263bd7b54a26f48af270f814339b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-Sprite menu_de_carga3 matches more than one built-in atlases. Default to use the first available atlas.
-Sprite menu_de_carga1 matches more than one built-in atlases. Default to use the first available atlas.
-Sprite menu_de_carga2 matches more than one built-in atlases. Default to use the first available atlas.
-Sprite menu_de_carga4 matches more than one built-in atlases. Default to use the first available atlas.
- -> (artifact id: '7730ce37bb7f24ad4e6ab2b1e37f7d36') in 0.263464 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1579
-========================================================================
-Received Import Request.
-  Time since last request: 1.247013 seconds.
-  path: Assets/prefabs/Items/Sueltos/MonedaGris.prefab
-  artifactKey: Guid(5bdd65f038a13e249ba43d2c7ac61012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefabs/Items/Sueltos/MonedaGris.prefab using Guid(5bdd65f038a13e249ba43d2c7ac61012) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-Sprite menu_de_carga3 matches more than one built-in atlases. Default to use the first available atlas.
-Sprite menu_de_carga1 matches more than one built-in atlases. Default to use the first available atlas.
-Sprite menu_de_carga2 matches more than one built-in atlases. Default to use the first available atlas.
-Sprite menu_de_carga4 matches more than one built-in atlases. Default to use the first available atlas.
- -> (artifact id: 'b0cf8329371cdb877bb125c0787e132c') in 0.264970 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1566
-========================================================================
-Received Import Request.
-  Time since last request: 4.075323 seconds.
-  path: Assets/prefabs/Items/Sueltos/MonedaVerde.prefab
-  artifactKey: Guid(c4bc156379ad2184881742bee41be0b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefabs/Items/Sueltos/MonedaVerde.prefab using Guid(c4bc156379ad2184881742bee41be0b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-Sprite menu_de_carga3 matches more than one built-in atlases. Default to use the first available atlas.
-Sprite menu_de_carga1 matches more than one built-in atlases. Default to use the first available atlas.
-Sprite menu_de_carga2 matches more than one built-in atlases. Default to use the first available atlas.
-Sprite menu_de_carga4 matches more than one built-in atlases. Default to use the first available atlas.
- -> (artifact id: '0fb28bd5eecb254a6bba1ab7c33acc5f') in 0.247663 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1566
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: La operación de E/S se anuló por una salida de subproceso o por una solicitud de aplicación.
 AssetImportWorker is now disconnected from the server

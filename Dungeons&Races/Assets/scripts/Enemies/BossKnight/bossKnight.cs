@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Net.Http;
 
 using UnityEngine;
+using UnityEngine.AI;
 using UnityEngine.UI;
 
 public class bossKnight : MonoBehaviour
@@ -50,6 +51,7 @@ public class bossKnight : MonoBehaviour
             {
                 barra_vida.gameObject.SetActive(true);
                 barra_vida.transform.GetChild(0).GetChild(0).GetComponent<Image>().color = Color.green;
+                GetComponent<NavMeshAgent>().speed = velocidad;
 
                 switch (nro)
                 {
@@ -65,18 +67,21 @@ public class bossKnight : MonoBehaviour
                         }
                         else
                         {
+                            
                             if (jugador.position.x >= transform.position.x)
                             {
                                 
                                 ani.SetFloat("move", 1);
-                                transform.Translate(new Vector3(jugador.position.x - transform.position.x, jugador.position.y - transform.position.y, 0) * Time.deltaTime * velocidad);
+                                
                             }
                             else
                             {
                                 
                                 ani.SetFloat("move", -1);
-                                transform.Translate(new Vector3(jugador.position.x - transform.position.x, jugador.position.y - transform.position.y, 0) * Time.deltaTime * velocidad);
+                                
                             }
+                            GetComponent<NavMeshAgent>().enabled = true;
+                            GetComponent<NavMeshAgent>().SetDestination(jugador.position);
                         }
                         break;
 
@@ -84,7 +89,7 @@ public class bossKnight : MonoBehaviour
                         ani.SetBool("Shoot", false);
                         ani.SetFloat("move", 0);
                         ani.SetBool("Jump", true);
-                        
+                        GetComponent<NavMeshAgent>().enabled = false;
                         break;
                         
                         
@@ -93,10 +98,21 @@ public class bossKnight : MonoBehaviour
                         timer += Time.deltaTime;
                         if (timer < 4)
                         {
-                            ani.SetFloat("move", 0);
                             ani.SetBool("Jump", false);
-                            ani.SetBool("Shoot", true);
-                            
+                            ani.SetBool("Shoot", false);
+                            if (jugador.position.x >= transform.position.x)
+                            {
+
+                                ani.SetFloat("move", 3);
+
+                            }
+                            else
+                            {
+
+                                ani.SetFloat("move", -3);
+
+                            }
+                            GetComponent<NavMeshAgent>().enabled = false;
                         }
                         else
                         {
@@ -116,13 +132,13 @@ public class bossKnight : MonoBehaviour
                     ani.SetBool("Jump", false);
                     ani.SetBool("Shoot", false);
                     ani.SetBool("Transform", true);
-                    velocidad = 0;
+                    GetComponent<NavMeshAgent>().enabled = false;
                 }
                 else
                 {
                     barra_vida.gameObject.SetActive(true);
                     barra_vida.transform.GetChild(0).GetChild(0).GetComponent<Image>().color = Color.red;
-                    velocidad = velocidadEnojado;
+                    GetComponent<NavMeshAgent>().speed = velocidadEnojado;
 
                     switch (nro)
                     {
@@ -136,13 +152,15 @@ public class bossKnight : MonoBehaviour
                                 if (jugador.position.x >= transform.position.x)
                                 {
                                     ani.SetFloat("move", 1);
-                                    transform.Translate(new Vector3(jugador.position.x - transform.position.x, jugador.position.y - transform.position.y, 0) * velocidad * Time.deltaTime);
+                                    
                                 }
                                 else
                                 {
                                     ani.SetFloat("move", -1);
-                                    transform.Translate(new Vector3(jugador.position.x - transform.position.x, jugador.position.y - transform.position.y, 0) * velocidad * Time.deltaTime);
+                                    
                                 }
+                                GetComponent<NavMeshAgent>().enabled = true;
+                                GetComponent<NavMeshAgent>().SetDestination(jugador.position);
                             }
                             else
                             {
@@ -160,7 +178,7 @@ public class bossKnight : MonoBehaviour
                                 ani.SetFloat("move", 0);
                                 ani.SetBool("Shoot", false);
                                 ani.SetBool("Jump", true);
-                            
+                                GetComponent<NavMeshAgent>().enabled = false;
                             }
                             else
                             {
@@ -172,9 +190,21 @@ public class bossKnight : MonoBehaviour
                             timer += Time.deltaTime;
                             if(timer < 3)
                             {
-                                ani.SetFloat("move", 0);
                                 ani.SetBool("Jump", false);
-                                ani.SetBool("Shoot", true);
+                                ani.SetBool("Shoot", false);
+                                if (jugador.position.x >= transform.position.x)
+                                {
+
+                                    ani.SetFloat("move", 3);
+
+                                }
+                                else
+                                {
+
+                                    ani.SetFloat("move", -3);
+
+                                }
+                                GetComponent<NavMeshAgent>().enabled = false;
                             }
                             else
                             {
@@ -239,9 +269,10 @@ public class bossKnight : MonoBehaviour
 
     void resetTime()
     {
-        nro = Random.Range(0, 3);
         timer = 0;
         timer2 = 0;
+        nro = Random.Range(0, 3);
+        
     }
 
 

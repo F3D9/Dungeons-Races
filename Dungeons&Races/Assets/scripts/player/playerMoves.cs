@@ -37,6 +37,7 @@ public class playerMoves : MonoBehaviour
 
     private void Awake()
     {
+        PlayerPrefs.SetInt("PcControls", 1);
 
         if (PlayerPrefs.GetInt("PcControls") == 1)
         {
